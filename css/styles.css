@@ -1,0 +1,32 @@
+.jumbotron {
+  float: left;
+  background-image: url(https://66.media.tumblr.com/22441b8b0c045b928d90b0a184c0725b/tumblr_pgi4q522wX1s72wwgo1_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 60%;
+  color: white;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 64px;
+  color: white;
+}
+
+.top-right {
+  float: right;
+  width: 40%;
+}
+
+#icons {
+  border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 28%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#icons:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
