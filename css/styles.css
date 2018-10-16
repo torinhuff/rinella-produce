@@ -1,7 +1,8 @@
 .jumbotron {
+  margin-top: 3%;
   background-color: #821716;
   background-size: 100%;
-  text-shadow: 2px 2px #4e9199;
+  text-shadow: 3px 3px #4e9199;
   text-align: center;
   font-family: 'Pacifico', cursive;
   font-size: 72px;
@@ -22,16 +23,32 @@
   margin-top: 1%;
 }
 
-.top-right {
+#top-right {
+  margin-top: 2%;
+  border: 4px solid black;
+  border-radius: 8px;
   float: right;
-  width: 40%;
+  padding-bottom: 12px;
 }
 
-.header-info {
-  margin-top: 1%;
+/* #top-search {
   display: inline-block;
+  margin-top: 2%;
+  margin-bottom: 3%;
+} */
+
+.header-info {
+  margin: auto;
+  display: block;
   font-family: 'Patua One', cursive;
+  font-size: 16px;
   text-align: center;
+  line-height: 8px;
+}
+
+.header-info h6 {
+  font-size: 20px;
+  font-family: 'Righteous', cursive;
 }
 
 /* .header-info p {
@@ -40,21 +57,40 @@
   text-align: center;
 } */
 
-#icons {
-  border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 28%;
-    margin-left: 2%;
-    margin-right: 2%;
+.icons {
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  padding: 4px;
+  width: 14%;
 }
 
-#icons:hover {
+.icons:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#twitter-icon {
+  margin-left: 20%;
+}
+
+#yelp-icon {
+  margin-right: 15%;
+}
+
+.navbar {
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 5%;
+  background-color: #4e9199;
+  font-family: 'Ranga', cursive;
+  font-size: 24px;
+}
+
+.navbar-brand {
+  font-family: 'Ranga', cursive;
+  font-size: 24px;
 }
 
 #map {
   width: 100%;
-  height: 400px;
-  background-color: grey;
+  height: 600px;
 }

@@ -5,7 +5,7 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Patua+One|Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Patua+One|Ranga|Righteous" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Rinella Produce</title>
@@ -22,37 +22,39 @@
             </div>
           </div>
         </div>
-      <div class="col-sm-4">
-        <form class="navbar-form navbar-left" role="search">
+      <div class="col-sm-4" id="top-right">
+        <!-- <form class="navbar-form navbar-left" role="search"  id="top-search">
           <div class="form-group">
             <input type="text" class="form-control" placeholder="Search">
           </div>
           <button type="submit" class="btn btn-default">Submit</button>
-        </form>
+        </form> -->
         <div class="header-info">
-          <p><i class="fa fa-truck"></i> 231 SE Alder St Portland, OR 97214</p>
+          <h6>Contact Info:</h6>
+          <p><i class="fa fa-truck" style="margin-top: 12px"></i> 231 SE Alder St Portland, OR 97214</p>
           <p><i  class="fa fa-phone-square"></i> (503)238-1360</p>
           <h6>Business Hours:</h6>
-            <ul>
-              <li>Mon-Fri: 6AM - 10PM</li>
-              <li>Sat: 6AM - 1PM</li>
-              <li>Sun: 2PM - 10PM</li>
-            </ul>
+              <p>Mon-Fri: 6AM - 10PM</p>
+              <p>Sat: 6AM - 1PM</p>
+              <p>Sun: 2PM - 10PM</p>
         </div>
         <div class="top-follow">
-          <h5 id="follow-us">Follow Us Online!</h5>
           <a target="_blank" href="https://twitter.com/torinhuff">
-              <img id="icons" src="https://cdn2.iconfinder.com/data/icons/minimalism/512/twitter.png" alt="Twitter icon">
+              <img class="icons" id="twitter-icon" src="https://cdn2.iconfinder.com/data/icons/minimalism/512/twitter.png" alt="Twitter icon">
           </a>
-          <a target="_blank" href="https://www.linkedin.com/in/torin-huff-339978138/">
-            <img id="icons" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png" alt="LinkedIn icon">
+          <a target="_blank" href="https://www.instagram.com/rinellaproduce/">
+            <img class="icons" src="https://instagram-brand.com/wp-content/uploads/2016/11/app-icon2.png" alt="Instagram icon">
           </a>
-          <a target="_blank" href="https://github.com/torinhuff">
-            <img id="icons" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub icon">
+          <a target="_blank" href="https://www.facebook.com/RinellaProduce/">
+            <img class="icons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/1000px-F_icon.svg.png" alt="Facebook icon">
+          </a>
+          <a target="_blank" href="https://www.yelp.com/biz/rinella-produce-portland">
+            <img class="icons" id="yelp-icon" src="https://image.freepik.com/free-icon/yelp-logo_318-50287.jpg" alt="Yelp icon">
           </a>
         </div>
       </div>
     </div>
+  </div>
       <nav class="navbar navbar-default">
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
@@ -63,20 +65,28 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Home</a>
+            <a class="navbar-brand" href="#" style="color:white">Home</a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Products <span class="sr-only">(current)</span></a></li>
-              <li><a href="#">Employment</a></li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <a style="color:white" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us<span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
+                  <li><a style="color:white" href="#">Our Story</a></li>
+                  <li><a style="color:white" href="#">Departments</a></li>
+                </ul>
+              </li>
+              <li><a style="color:white" href="#">Employment</a></li>
+              <li><a style="color:white" href="#">Deliveries</a></li>
+              <li><a style="color:white" href="#">Contact Us</a></li>
+              <li class="dropdown">
+                <a style="color:white" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products/Specials <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a style="color:white" href="#">Action</a></li>
+                  <li><a style="color:white" href="#">Another action</a></li>
+                  <li><a style="color:white" href="#">Something else here</a></li>
                   <li role="separator" class="divider"></li>
                   <li><a href="#">Separated link</a></li>
                   <li role="separator" class="divider"></li>
@@ -86,46 +96,28 @@
             </ul>
             <form class="navbar-form navbar-left">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search">
+                <input style="font-size:16px" type="text" class="form-control" placeholder="Search...">
               </div>
               <button type="submit" class="btn btn-default">Submit</button>
             </form>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Link</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                </ul>
-              </li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
       </nav>
-      <h3>Check Out Our Instagram for News and Special Deals!</h3>
-      <iframe src="https://snapwidget.com/embed/609917" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:800px; height:160px"></iframe>
-      <h3>My Google Maps Demo</h3>
-    <!--The div element for the map -->
-    <div id="map"></div>
-    <script>
-// Initialize and add the map
-function initMap() {
-  // The location of Uluru
-  var uluru = {lat: -25.344, lng: 131.036};
-  // The map, centered at Uluru
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 4, center: uluru});
-  // The marker, positioned at Uluru
-  var marker = new google.maps.Marker({position: uluru, map: map});
-}
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAt4lh1cnxLpF2NRH83Yhj6sfhFRd2qjlE&callback=initMap">
-    </script>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <h3>Check Out Our Instagram for News and Special Deals!</h3>
+          <!-- SnapWidget -->
+          <script src="https://snapwidget.com/js/snapwidget.js"></script>
+          <iframe src="https://snapwidget.com/embed/611396" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
+        </div>
+        <div class="col-sm-6">
+          <h3 id="map-header">Take a Look At Where We Deliver!</h3>
+          <iframe id="map" src="https://snazzymaps.com/embed/106274" width="100%" height="600px" style="border:none;"></iframe>
+        </div>
+      </div>
+
     </div>
   </body>
 </html>
