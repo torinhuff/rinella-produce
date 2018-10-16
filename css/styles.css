@@ -1,22 +1,44 @@
 .jumbotron {
-  float: left;
-  background-image: url(https://66.media.tumblr.com/22441b8b0c045b928d90b0a184c0725b/tumblr_pgi4q522wX1s72wwgo1_1280.jpg);
-  background-repeat: no-repeat;
+  background-color: #821716;
   background-size: 100%;
-  width: 60%;
+  text-shadow: 2px 2px #4e9199;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 72px;
   color: white;
+  padding: 25px;
 }
 
-h1 {
-  font-family: 'Pacifico', cursive;
-  font-size: 64px;
-  color: white;
+.jumbotron p {
+  font-family: 'Righteous', cursive;
+  text-shadow: none;
+  font-size: 16px;
+}
+
+.lead {
+  text-shadow: none;
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+  margin-top: 1%;
 }
 
 .top-right {
   float: right;
   width: 40%;
 }
+
+.header-info {
+  margin-top: 1%;
+  display: inline-block;
+  font-family: 'Patua One', cursive;
+  text-align: center;
+}
+
+/* .header-info p {
+  font-size: 14px;
+  font-family: 'Patua One', cursive;
+  text-align: center;
+} */
 
 #icons {
   border: 1px solid #ddd;
