@@ -47,7 +47,7 @@
 }
 
 #header-left {
-  margin-top: 3%;
+  margin-top: 39px;
 }
 
 .header-info {
@@ -65,14 +65,14 @@
   font-family: 'Righteous', cursive;
 }
 
-.icons {
+.icons-top {
   border: 2px solid #ddd;
   border-radius: 4px;
   padding: 4px;
   width: 14%;
 }
 
-.icons:hover {
+.icons-top:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
@@ -120,4 +120,81 @@
 #map {
   width: 100%;
   height: 600px;
+}
+
+#footer-block {
+  display: block;
+  width: 80%;
+  margin: auto;
+  padding-left: 3%;
+  margin-top: 36px;
+  border-top: 3px solid black;
+}
+
+.footer-links h5 {
+  font-size: 18px;
+}
+
+.footer-links {
+  font-size: 14px;
+  float: left;
+  display: block;
+  margin-top: 36px;
+}
+
+#footer-image {
+  display: block;
+  width: 110%;
+  margin-top: 36px;
+  border-radius: 6px;
+  margin-left: 24px;
+}
+
+.footer-info {
+  margin: auto;
+  display: block;
+  font-family: 'Patua One', cursive;
+  font-size: 16px;
+  text-align: center;
+  line-height: 8px;
+  color: black;
+}
+
+.footer-info h6 {
+  font-size: 20px;
+  font-family: 'Righteous', cursive;
+}
+
+.bottom-follow {
+  display: block;
+  padding-right: 10%;;
+  float: right;
+  text-align: center;
+}
+
+.icons-bottom {
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  padding: 4px;
+  width: 10%;
+}
+
+.icons-bottom:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#countup {
+    text-align: center;
+}
+#countup p {
+    display: inline-block;
+    padding: 10px;
+    background: white;
+    margin: 0 0 20px;
+    border: 1px solid #932322;
+    border-radius: 3px;
+    color: #932322;
+    font-family:  'Ranga', cursive;
+    font-size: 24px;
+    min-width: 2.6rem;
 }
