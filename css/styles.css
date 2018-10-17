@@ -1,41 +1,49 @@
-.jumbotron {
-  margin-top: 3%;
-  background-color: #821716;
+#header-content {
+  background-color: #932322;
+  width: 100%;
+  height: 320px;
   background-size: 100%;
+  padding-bottom: 2%;
+  margin-bottom: 0%;
+}
+
+#title {
   text-shadow: 3px 3px #4e9199;
   text-align: center;
   font-family: 'Pacifico', cursive;
-  font-size: 72px;
+  font-size: 96px;
   color: white;
-  padding: 25px;
+  padding-left: 12px;
 }
 
-.jumbotron p {
+#established {
   font-family: 'Righteous', cursive;
   text-shadow: none;
-  font-size: 16px;
+  font-size: 24px;
+  color: white;
+  text-align: center;
 }
 
-.lead {
+#slogan {
   text-shadow: none;
   font-family: 'Great Vibes', cursive;
-  font-size: 30px;
-  margin-top: 1%;
+  font-size: 40px;
+  color: white;
+  text-align: center;
 }
 
 #top-right {
-  margin-top: 2%;
-  border: 4px solid black;
+  margin-bottom: 1%;
+  margin-right: 2%;
+  border: 4px solid white;
   border-radius: 8px;
   float: right;
   padding-bottom: 12px;
 }
 
-/* #top-search {
-  display: inline-block;
-  margin-top: 2%;
-  margin-bottom: 3%;
-} */
+#header-left {
+  margin-top: 3%;
+}
 
 .header-info {
   margin: auto;
@@ -44,18 +52,13 @@
   font-size: 16px;
   text-align: center;
   line-height: 8px;
+  color: white;
 }
 
 .header-info h6 {
   font-size: 20px;
   font-family: 'Righteous', cursive;
 }
-
-/* .header-info p {
-  font-size: 14px;
-  font-family: 'Patua One', cursive;
-  text-align: center;
-} */
 
 .icons {
   border: 2px solid #ddd;
@@ -77,12 +80,31 @@
 }
 
 .navbar {
+  display: block;
+  overflow: hidden;
   width: 100%;
-  padding-left: 10%;
-  padding-right: 5%;
   background-color: #4e9199;
   font-family: 'Ranga', cursive;
   font-size: 24px;
+  border: 1px solid #4e9199;
+  border-radius: 0px;
+  padding-left: 8%;
+}
+
+.navbar a {
+  display: block;
+  float: center;
+  text-align: center;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
 }
 
 .navbar-brand {
