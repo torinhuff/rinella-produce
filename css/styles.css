@@ -18,7 +18,9 @@
   font-family: 'Pacifico', cursive;
   font-size: 96px;
   color: white;
-  padding-left: 12px;
+  padding-left: 16px;
+  margin-top:0px;
+  margin-left: 4px;
 }
 
 #established {
@@ -37,10 +39,12 @@
   color: white;
   text-shadow: 1px 1px #3d8eba;
   text-align: center;
+  padding-left: 16px;
 }
 
 #top-right {
   background-color: 	rgb(0,0,0,0.6);
+  margin-top: -8px;
   margin-bottom: 1%;
   margin-right: 2%;
   border-radius: 8px;
@@ -120,6 +124,115 @@
   font-size: 24px;
 }
 
+#mango-image {
+  float: right;
+  width: 40%;
+  border-radius: 6px;
+  margin-left: 24px;
+  margin-top: 18px;
+  margin-bottom: 12px;
+
+}
+
+.page-content {
+  flex-wrap: wrap;
+}
+
+#content-header {
+  font-size: 72px;
+  text-align: center;
+  font-family: 'Fugaz One', cursive;
+}
+
+#block-quote {
+  border-top: 0.5px solid black;
+  border-bottom: 0.5px solid black;
+  width: 50%;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+#block-quote p {
+  font-size: 14;
+  font-weight: bold;
+}
+
+#quote {
+  font-size: 20px;
+  font-family: 'Oleo Script', cursive;
+  text-align: left;
+}
+
+.col-sm-4 img {
+  margin: auto;
+  margin-left: 1%;
+}
+
+#content-image-boxes {
+  display: inline-block;
+  width: 100%;
+  margin: auto;
+}
+
+/* row col-sm-4 {
+  margin-left: 1%;
+  margin-right: 1%;
+} */
+
+.col-sm-4 h6 {
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Oleo Script', cursive;
+}
+
+.col-sm-4 p {
+  font-size: 15px;
+  text-align: center;
+  margin-top: -4px;
+}
+
+#prep-items {
+  margin-top: 24px;
+  margin-left: 8%;
+  display: block;
+  width: 90%;
+  border-radius: 4px;
+}
+
+#public-image {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  margin-left: 0;
+}
+
+#walk-in-object {
+  margin-top: -12px;
+}
+
+#mailing-list {
+  margin-top: 24px;
+  display: block;
+  width: 90%;
+  border-radius: 4px;
+}
+
+.row col-sm-6 {
+  display: inline-block;
+  margin: auto;
+  width: 100%;
+}
+
+.col-sm-6 {
+  display: block;
+  width: 45%;
+  margin-left: 3%;
+  margin-right: 1%;
+  margin-top: 2%;
+}
+
 #map {
   width: 100%;
   height: 600px;
@@ -127,11 +240,12 @@
 
 #footer-block {
   display: block;
-  width: 80%;
-  margin: auto;
+  width: 100%;
   padding-left: 3%;
+  margin: auto;
   margin-top: 36px;
-  border-top: 3px solid black;
+  margin-left: 3%;
+  border-top: 0.5px solid black;
 }
 
 .footer-links h5 {
@@ -147,14 +261,14 @@
 
 #footer-image {
   display: block;
-  width: 110%;
+  width: 100%;
   margin-top: 36px;
   border-radius: 6px;
-  margin-left: 24px;
 }
 
 .footer-info {
   margin: auto;
+  margin-top: -36px;
   display: block;
   font-family: 'Patua One', cursive;
   font-size: 16px;
