@@ -1,3 +1,6 @@
+body {
+  background-color: #fff9f7;
+}
 
 #header-content {
   background-image: url(https://66.media.tumblr.com/ad84dd4ece788c7e725aa521925663f5/tumblr_pgrgd3Yp6P1s72wwgo1_1280.jpg);
@@ -13,7 +16,7 @@
 }
 
 #title {
-  text-shadow: 3px 3px #3d8eba;
+  text-shadow: 3px 3px black;
   text-align: center;
   font-family: 'Pacifico', cursive;
   font-size: 96px;
@@ -24,7 +27,7 @@
 }
 
 #established {
-  font-family: 'Fugaz One', cursive;
+  font-family: 'Passion One', cursive;
   text-shadow: none;
   font-size: 28px;
   color: white;
@@ -34,10 +37,10 @@
 #slogan {
   margin-top:-8px;
   text-shadow: none;
-  font-family: 'Pattaya', sans-serif;
+  font-family: 'Pacifico', cursive;
   font-size: 40px;
   color: white;
-  text-shadow: 1px 1px #3d8eba;
+  text-shadow: 1px 1px black;
   text-align: center;
   padding-left: 16px;
 }
@@ -73,14 +76,14 @@
 }
 
 .icons-top {
-  border: 2px solid #ddd;
+  border: 0.5px solid #ddd;
   border-radius: 4px;
   padding: 4px;
   width: 14%;
 }
 
 .icons-top:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  box-shadow: 0 0 5px 4px rgba(0, 140, 186, 0.5);
 }
 
 #twitter-icon {
@@ -91,37 +94,59 @@
   margin-right: 15%;
 }
 
-.navbar {
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background: #e3e3e3;
+  position: relative;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  color: #292929;
+  text-decoration: none;
   display: block;
-  overflow: hidden;
-  width: 100%;
-  background-color: #2c2c2d;
-  font-family: 'Barlow', sans-serif;
-  font-size: 18px;
-  border: 1px solid #2c2c2d;
-  border-radius: 0px;
-  padding-left: 8%;
+  padding: 15px;
 }
 
-.navbar a {
+ul li:hover {
+  background: lightgrey;
+  text-decoration: none;
+}
+
+ul ul {
+  position: absolute;
+  min-width: 200px;
+  background: lightgrey;
+  display: none;
+}
+
+ul ul li {
   display: block;
-  float: center;
-  text-align: center;
+  background: #e3e3e3;
 }
 
-.affix {
-    top: 0;
-    width: 100%;
-    z-index: 9999;
+ul li:hover ul {
+  display: block;
 }
 
-.affix + .container-fluid {
-    padding-top: 70px;
+ul li i {
+  color: #292929;
+  float: right;
+  padding-left: 20px;
 }
 
-.navbar-brand {
-  font-family: 'Barlow', sans-serif;
-  font-size: 18px;
+nav div {
+  background: lightgrey;
+  color: #292929;
+  font-size: 24px;
+  padding: 0.6em;
+  cursor: pointer;
+  display: none;
 }
 
 #mango-image {
@@ -139,9 +164,9 @@
 }
 
 #content-header {
-  font-size: 72px;
+  font-size: 84px;
   text-align: center;
-  font-family: 'Fugaz One', cursive;
+  font-family: 'Passion One', cursive;
 }
 
 #block-quote {
@@ -243,6 +268,13 @@
   height: 600px;
 }
 
+#border {
+  display: block;
+  width: 80%;
+  margin: auto;
+  border-top: 0.4px solid black;
+}
+
 #footer-block {
   display: block;
   width: 100%;
@@ -250,14 +282,15 @@
   margin: auto;
   margin-top: 36px;
   margin-left: 3%;
-  border-top: 0.5px solid black;
 }
 
 .footer-links h5 {
-  font-size: 18px;
+  font-family: 'Barlow', sans-serif;
+  font-size: 24px;
 }
 
 .footer-links {
+  font-family: 'Barlow', sans-serif;
   font-size: 14px;
   float: left;
   display: block;
@@ -320,3 +353,23 @@
     font-size: 24px;
     min-width: 2.6rem;
 }
+
+@media(max-width: 768px) {
+  nav div {
+    display: block;
+  }
+
+  ul {
+    display: none;
+    position: static;
+    background: #e3e3e3;
+  }
+
+  ul li {
+    display: block;
+  }
+  ul ul {
+    position: static;
+    background: #e3e3e3;
+  }
+};
