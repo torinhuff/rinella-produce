@@ -1,5 +1,6 @@
 body {
   background-color: #fff9f7;
+  margin-bottom: 5%;
 }
 
 #header-content {
@@ -94,9 +95,18 @@ body {
   margin-right: 15%;
 }
 
-ul {
+a:hover {
+  text-decoration: none;
+}
+
+.navbar {
+  width: 100%;
+  display: inline-block;
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;
   margin: 0;
   padding: 0;
+  padding-left: 24px;
   list-style-type: none;
   background: #e3e3e3;
   position: relative;
@@ -118,11 +128,26 @@ ul li:hover {
   text-decoration: none;
 }
 
-ul ul {
+.dropdown {
   position: absolute;
-  min-width: 200px;
-  background: lightgrey;
+  margin-left: 0;
+  padding: 0;
+  text-align: right;
+  background: #e3e3e3;
   display: none;
+}
+
+#about-dropdown {
+  margin-left: 1px;
+  text-align: right;
+}
+
+#products-dropdown {
+  margin-left: 7px;
+}
+
+#delivery-dropdown {
+  margin-left: 88px;
 }
 
 ul ul li {
@@ -140,13 +165,19 @@ ul li i {
   padding-left: 20px;
 }
 
-nav div {
+.bars-cell {
   background: lightgrey;
   color: #292929;
   font-size: 24px;
   padding: 0.6em;
   cursor: pointer;
   display: none;
+}
+
+.search-top {
+  display: block;
+  float: right;
+  padding-right: 24px;
 }
 
 #mango-image {
@@ -263,6 +294,12 @@ nav div {
   margin-top: 2%;
 }
 
+.headers-maps-insta {
+  color: black;
+  font-size: 32px;
+  font-family: 'Passion One', cursive;
+}
+
 #map {
   width: 100%;
   height: 600px;
@@ -306,9 +343,8 @@ nav div {
 
 .footer-info {
   margin: auto;
-  margin-top: -36px;
   display: block;
-  font-family: 'Patua One', cursive;
+  font-family: 'Timmana', sans-serif;
   font-size: 16px;
   text-align: center;
   line-height: 8px;
@@ -316,8 +352,10 @@ nav div {
 }
 
 .footer-info h6 {
-  font-size: 20px;
-  font-family: 'Righteous', cursive;
+  color: black;
+  margin-top: 14px;
+  font-size: 28px;
+  font-family: 'Timmana', sans-serif;
 }
 
 .bottom-follow {
@@ -325,6 +363,8 @@ nav div {
   padding-right: 10%;;
   float: right;
   text-align: center;
+  font-family: 'Passion One', cursive;
+  font-size: 32px;
 }
 
 .icons-bottom {
@@ -340,18 +380,25 @@ nav div {
 
 #countup {
     text-align: center;
+    margin-top: 24px;
+}
+
+#countup h3 {
+  font-family: 'Passion One', cursive;
+  font-size: 32px;
+  color: black;
 }
 #countup p {
     display: inline-block;
-    padding: 10px;
-    background: white;
+    padding: 3px;
+    background: #fff9f7;
     margin: 0 0 20px;
-    border: 1px solid #932322;
+    /* border: 1px solid #932322; */
     border-radius: 3px;
     color: #932322;
-    font-family:  'Ranga', cursive;
-    font-size: 24px;
-    min-width: 2.6rem;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    /* min-width: 2.6rem; */
 }
 
 @media(max-width: 768px) {

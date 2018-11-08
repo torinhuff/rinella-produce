@@ -13,6 +13,7 @@
   </head>
   <body>
     <div class="container" id="header-content">
+      <a href="index.html">
       <div class="row">
         <div id="header-left">
             <div class ="col-sm-8">
@@ -20,6 +21,7 @@
               <p id="established"><em>Since 1914</em></p>
               <h3 id="slogan"><em>Family-owned Service at Wholesale Prices!</em></h3>
             </div>
+      </a>
             <div class="col-sm-3" id="top-right">
               <div class="header-info">
                 <h6>Contact Info:</h6>
@@ -43,29 +45,38 @@
         </div>
       </div>
       <nav>
-        <div>
+        <div class="bars-cell">
           <i class="fa fa-bars"></i>
         </div>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Drop<i class="fa fa-sort-desc"></i></a>
-            <ul>
-              <li><a href="#">Product 1</a></li>
-              <li><a href="#">Product 2</a></li>
-              <li><a href="#">Product 3</a></li>
-              <li><a href="#">Product 4</a></li>
+        <ul class="navbar">
+          <li><a href="#">About Us<i class="fa fa-sort-desc"></i></a>
+            <ul class="dropdown" id="about-dropdown">
+              <li><a href="#">Our Story</a></li>
+              <li><a href="#">Departments</a></li>
             </ul>
           </li>
-          <li><a href="#">Drop 2<i class="fa fa-sort-desc"></i></a>
-            <ul>
-              <li><a href="#">Product 1</a></li>
-              <li><a href="#">Product 2</a></li>
-              <li><a href="#">Product 3</a></li>
-              <li><a href="#">Product 4</a></li>
+          <li><a href="#">Products<i class="fa fa-sort-desc"></i></a>
+            <ul class="dropdown" id="products-dropdown">
+              <li><a href="#">Product List</a></li>
+              <li><a href="#">Specials</a></li>
             </ul>
           </li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Deliveries/New Customers<i class="fa fa-sort-desc"></i></a>
+            <ul class="dropdown" id="delivery-dropdown">
+              <li><a href="#">Delivery Schedule </a></li>
+              <li><a href="#">Credit Application</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Employment</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <div class="search-top">
+            <form id="search" class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+          </div>
         </ul>
       </nav>
     <div class="container page-content">
@@ -107,12 +118,29 @@
       </div>
       <div class="row">
         <div class="col-sm-6">
-          <h3>Check Out Our Instagram for News and Special Deals!</h3>
+          <h3 class="headers-maps-insta">Check Out Our Instagram for News and Special Deals!</h3>
+          <br>
           <script src="https://snapwidget.com/js/snapwidget.js"></script>
           <iframe src="https://snapwidget.com/embed/611396" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
+          <br>
+          <br>
+        <div id="countup">
+          <h3>Thank you for supporting us!</h3>
+          <p id="years">00</p>
+          <p class="timeRefYears">years</p>
+          <p id="days">00</p>
+          <p class="timeRefDays">days</p>
+          <p id="hours">00</p>
+          <p class="timeRefHours">hours</p>
+          <p id="minutes">00</p>
+          <p class="timeRefMinutes">minutes</p>
+          <p id="seconds">00</p>
+          <p class="timeRefSeconds">seconds</p>
+          <br>
         </div>
+      </div>
         <div class="col-sm-6">
-          <h3 id="map-header">Take a Look At Where We Deliver!</h3>
+          <h3 class="headers-maps-insta">Take a Look At Where We Deliver!</h3>
           <p>We deliver to the Portland Metro area six (6) days a week. We also have a delivery schedule for as far North as Longview, Washington; as far South as Eugene, Oregon; as far West as Seaside; as far East as Hood River. You can place your orders the night before- until midnight- for a next day delivery.</p>
           <iframe id="map" src="https://snazzymaps.com/embed/106274" width="100%" height="600px" style="border:none;"></iframe>
         </div>
@@ -148,8 +176,9 @@
     </div>
     <div class="row">
       <div class="col-sm-6 footer-info">
-        <p><i class="fa fa-truck"></i> 231 SE Alder St Portland, OR 97214</p>
-        <p><i  class="fa fa-phone-square"></i> (503)238-1360</p>
+        <h6>Contact Info:</h6>
+          <p><i class="fa fa-truck"></i> 231 SE Alder St Portland, OR 97214</p>
+          <p><i class="fa fa-phone-square"></i> (503)238-1360</p>
         <h6>Business Hours:</h6>
             <p>Mon-Fri: 6AM - 10PM</p>
             <p>Sat: 6AM - 1PM</p>
@@ -171,7 +200,7 @@
         </a>
       </div>
     </div>
-      <div id="countup">
+      <!-- <div id="countup">
         <h3>We appreciate your support!</h3>
         <p id="years">00</p>
         <p class="timeRefYears">years</p>
@@ -183,7 +212,7 @@
         <p class="timeRefMinutes">minutes</p>
         <p id="seconds">00</p>
         <p class="timeRefSeconds">seconds</p>
-      </div>
+      </div> -->
 
 
 
