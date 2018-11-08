@@ -190,6 +190,14 @@ ul li i {
 
 }
 
+.opening-slide-up {
+  display: none;
+}
+
+/* .opening-reveal {
+  display: none;
+} */
+
 .page-content {
   flex-wrap: wrap;
   font-size: 16px;

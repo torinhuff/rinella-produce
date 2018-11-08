@@ -1,7 +1,8 @@
-window.onload=function() {
-  // Month,Day,Year,Hour,Minute,Second
-  upTime('jan,01,1914,00:00:00'); // ****** Change this line!
-};
+// window.onload=function() {
+//   // Month,Day,Year,Hour,Minute,Second
+//   upTime('jan,01,1914,00:00:00');
+// };
+
 function upTime(countTo) {
   now = new Date();
   countTo = new Date(countTo);
@@ -20,11 +21,11 @@ function upTime(countTo) {
 
   clearTimeout(upTime.to);
   upTime.to=setTimeout(function(){ upTime(countTo); },1000);
-}
+};
 
-$("nav div").click(function(){
-  $("ul").slideToggle();
-  $("ul ul").css("display", "none");
+$(".bars-cell").click(function(){
+  $(".navbar").slideToggle();
+  $(".dropdown").css("display", "none");
 
 });
 
@@ -40,3 +41,25 @@ $(window).resize(function(){
   }
 
 });
+
+window.onload=function() {
+    $("#prep-items").slideUp(3000);
+    $("#walk-in-object").slideUp(3300);
+    $("#mailing-list").slideUp(3600);
+    // $(".opening-reveal").show();
+    $(".opening-slide-up").slideDown(4300);
+    $("#prep-items").slideDown();
+    $("#walk-in-object").slideDown();
+    $("#mailing-list").slideDown();
+    // $("#.opening-reveal").show().slideDown(4000);
+    // $(".opening-slide-up").show();
+
+    // Month,Day,Year,Hour,Minute,Second
+    upTime('jan,01,1914,00:00:00');
+  };
+
+
+  // window.onload=function() {
+  //   // Month,Day,Year,Hour,Minute,Second
+  //   upTime('jan,01,1914,00:00:00');
+  // };
