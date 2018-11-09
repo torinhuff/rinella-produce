@@ -76,6 +76,16 @@ body {
   font-family: 'Timmana', sans-serif;
 }
 
+.header-info a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-info a:hover {
+  text-decoration: none;
+  color: #77bfd2;
+}
+
 .icons-top {
   border: 0.5px solid #ddd;
   border-radius: 4px;
@@ -95,9 +105,9 @@ body {
   margin-right: 15%;
 }
 
-a:hover {
+nav a:hover {
   text-decoration: none;
-  color: #77bfd2
+  color: #77bfd2;
 }
 
 .navbar {
@@ -361,7 +371,7 @@ ul li i {
   width: 100%;
   padding-left: 3%;
   margin: auto;
-  margin-top: 36px;
+  margin-top: 18px;
   margin-left: 3%;
 }
 
@@ -376,6 +386,16 @@ ul li i {
   float: left;
   display: block;
   margin-top: 36px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-links a:hover {
+  text-decoration: none;
+  color: #77bfd2;
 }
 
 #footer-image {
@@ -399,6 +419,16 @@ ul li i {
   color: black;
   font-size: 28px;
   font-family: 'Barlow', sans-serif;
+}
+
+.footer-info a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-info a:hover {
+  text-decoration: none;
+  color: #77bfd2;
 }
 
 .bottom-follow {
