@@ -4,10 +4,10 @@ body {
 }
 
 #header-content {
-  background-image: url(https://66.media.tumblr.com/ad84dd4ece788c7e725aa521925663f5/tumblr_pgrgd3Yp6P1s72wwgo1_1280.jpg);
+  background-image: url(https://66.media.tumblr.com/6b5b9db79853359a5210767324d38339/tumblr_phy9yi82x21s72wwgo1_1280.jpg);
   background-size: 100%;
   background-repeat: none;
-  background-position: 0% 50%;
+  background-position: 0% 90%;
   opacity: 0.95;
   width: 100%;
   height: 320px;
@@ -16,37 +16,53 @@ body {
   margin-bottom: 0%;
 }
 
-#title {
-  text-shadow: 3px 3px black;
+/* #title {
+  text-shadow: -3px 3px black;
   text-align: center;
-  font-family: 'Pacifico', cursive;
-  font-size: 96px;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: bold;
+  /* transform: skewY(20deg); */
+  /* font-size: 72px;
   color: white;
   padding-left: 16px;
-  margin-top:0px;
-  margin-left: 4px;
-}
+  margin-top:18px;
+  margin-left: 8px;
+} */
+
+
+
 
 #established {
   font-family: 'Passion One', cursive;
   text-shadow: none;
+  margin-top: 176px;
   font-size: 28px;
-  color: white;
+  color: black;
   text-align: center;
 }
 
 #slogan {
-  margin-top:-8px;
+  margin-top:24px;
   text-shadow: none;
   font-family: 'Pacifico', cursive;
-  font-size: 40px;
-  color: white;
-  text-shadow: 1px 1px black;
+  font-size: 32px;
+  color: black;
+  /* text-shadow: 1px 1px white; */
   text-align: center;
   padding-left: 16px;
 }
 
-#top-right {
+.container a {
+  text-decoration: none;
+  color: black;
+}
+
+.container a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+/* #top-right {
   background-color: 	rgb(0,0,0,0.6);
   margin-top: -8px;
   margin-bottom: 1%;
@@ -54,9 +70,9 @@ body {
   border-radius: 8px;
   float: right;
   padding-bottom: 12px;
-}
+} */
 
-#header-left {
+/* #header-left {
   margin-top: 39px;
 }
 
@@ -103,7 +119,7 @@ body {
 
 #yelp-icon {
   margin-right: 15%;
-}
+} */
 
 nav a:hover {
   text-decoration: none;
@@ -177,14 +193,14 @@ ul li i {
   padding-left: 20px;
 }
 
-.bars-cell {
+/* .bars-cell {
   background: lightgrey;
   color: #292929;
   font-size: 24px;
   padding: 0.6em;
   cursor: pointer;
   display: none;
-}
+} */
 
 .search-top {
   display: block;
@@ -237,9 +253,15 @@ ul li i {
   padding-bottom: 12px;
 }
 
-#block-quote p {
+/* #block-quote p {
   font-size: 14;
   font-weight: bold;
+} */
+
+#yelp-author {
+  font-size: 14;
+  font-weight: bold;
+  font-family: 'Barlow', sans-serif;;
 }
 
 #quote {
