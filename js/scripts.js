@@ -43,11 +43,11 @@ $(window).resize(function(){
 });
 
 window.onload=function() {
-    $("#prep-items").slideUp(3000);
-    $("#walk-in-object").slideUp(3300);
-    $("#mailing-list").slideUp(3600);
+    $("#prep-items").slideUp(3300);
+    $("#walk-in-object").slideUp(3600);
+    $("#mailing-list").slideUp(3900);
     // $(".opening-reveal").show();
-    $(".opening-slide-up").slideDown(4300);
+    $(".opening-slide-up").slideDown(4600);
     $("#prep-items").slideDown();
     $("#walk-in-object").slideDown();
     $("#mailing-list").slideDown();
