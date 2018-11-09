@@ -238,6 +238,23 @@ ul li i {
   text-align: left;
 }
 
+.mango-caption p {
+  float: right;
+  text-align: right;
+  margin-right: 98px;
+  color: white;
+  text-decoration: none;
+  font-size: 32px;
+  font-family: 'Passion One', cursive;
+  margin-top: -112px;
+}
+
+.mango-object:hover {
+  text-decoration: none;
+  opacity: 0.4;
+  z-index: 9998;
+}
+
 .col-sm-4 img {
   margin: auto;
   margin-left: 1%;
@@ -292,7 +309,17 @@ ul li i {
   text-decoration: none;
 }
 
-.picture-links:hover {
+#prep-items:hover {
+  opacity: 0.4;
+  text-decoration: none;
+}
+
+#mailing-list:hover {
+  opacity: 0.4;
+  text-decoration: none;
+}
+
+#walk-in-object:hover {
   opacity: 0.4;
   text-decoration: none;
 }
