@@ -35,14 +35,14 @@ body {
 #established {
   font-family: 'Passion One', cursive;
   text-shadow: none;
-  margin-top: 176px;
+  margin-top: 164px;
   font-size: 32px;
   color: #aa5147;
   text-align: center;
 }
 
 #slogan {
-  margin-top:20px;
+  margin-top:8px;
   text-shadow: none;
   font-family: 'Pacifico', cursive;
   font-size: 36px;
@@ -61,6 +61,15 @@ body {
   text-decoration: none;
   color: black;
 }
+
+/* .top-icons {
+  width: 25%;
+  float: right;
+} */
+
+/* .top-icons #twitter-icon {
+  /* margin-left: 6px; */
+} */
 
 /* #top-right {
   background-color: 	rgb(0,0,0,0.6);
@@ -213,6 +222,32 @@ ul li i {
     color: white;
 }
 
+.welcome-info {
+  float: right;
+  display: block;
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  line-height: 8px;
+  color: black;
+  margin-top: -156px;
+}
+
+.welcome-info h6 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 28px;
+}
+
+.welcome-info a {
+  color: black;
+  text-decoration: none;
+}
+
+.welcome-info a:hover {
+  text-decoration: none;
+  color: #77bfd2;
+}
+
 
 #mango-image {
   float: right;
@@ -238,8 +273,10 @@ ul li i {
 }
 
 #content-header {
-  font-size: 84px;
-  text-align: center;
+  font-size: 104px;
+  margin-left: 148px;
+  margin-top: 48px;
+  text-align: left;
   font-family: 'Passion One', cursive;
 }
 
