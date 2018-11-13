@@ -58,7 +58,7 @@ nav a:hover {
   margin: 0;
   padding: 0;
   border-radius: 0;
-  padding-left: 24px;
+  padding-left: 56px;
   list-style-type: none;
   background: #2e2f30;
   position: relative;
@@ -101,6 +101,10 @@ ul li:hover {
   margin-left: 80px;
 }
 
+#contact-dropdown {
+  margin-left: -88px;
+}
+
 ul ul li {
   display: block;
   background: #2e2f30;
@@ -120,7 +124,7 @@ ul li i {
 .search-top {
   display: block;
   float: right;
-  padding-right: 24px;
+  padding-right: 56px;
 }
 
 .btn:hover {
