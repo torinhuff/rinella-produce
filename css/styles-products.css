@@ -214,7 +214,7 @@ body {
   font-family: 'Passion One', cursive;
 }
 
-.produce-pic {
+#produce-pic {
   width: 80%;
   display: block;
   border-radius: 4px;
@@ -234,7 +234,7 @@ body {
   font-family: 'Passion One', cursive;
 }
 
-.canned-goods-pic {
+#canned-goods-pic {
   width: 80%;
   display: block;
   border-radius: 4px;
@@ -254,7 +254,7 @@ body {
   font-family: 'Passion One', cursive;
 }
 
-.frozen-pic {
+#frozen-pic {
   width: 80%;
   display: block;
   border-radius: 4px;
@@ -287,7 +287,7 @@ body {
   font-family: 'Barlow', sans-serif;
 }
 
-.prices-pic {
+#prices-pic {
   width: 80%;
   display: block;
   border-radius: 4px;
@@ -313,7 +313,7 @@ body {
   font-family: 'Barlow', sans-serif;
 }
 
-.prep-pic {
+#prep-pic {
   width: 80%;
   display: block;
   border-radius: 4px;
@@ -353,7 +353,7 @@ body {
   margin-left: 24px;
 }
 
-.flyer-one-pic {
+#flyer-one-pic {
   display: block;
   width: 80%;
   border-radius: 4px;
@@ -368,7 +368,7 @@ body {
   margin-left: 24px;
 }
 
-.flyer-two-pic {
+#flyer-two-pic {
   display: block;
   width: 80%;
   border-radius: 4px;
@@ -383,7 +383,7 @@ body {
   margin-left: 24px;
 }
 
-.flyer-three-pic {
+#flyer-three-pic {
   display: block;
   width: 80%;
   border-radius: 4px;
@@ -391,6 +391,9 @@ body {
   margin-top: 24px;
 }
 
+.pics-hover:hover {
+  opacity: 0.4;
+}
 
 
 #border-bottom {
