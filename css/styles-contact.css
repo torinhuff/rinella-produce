@@ -362,6 +362,16 @@ body {
   width: 90%;
 }
 
+#subscribe-button {
+  border: solid 0.6px #a02c2c;
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;
+}
+
+#subscribe-button:hover {
+  border: solid 0.6px #12185b;
+}
+
 #border {
   display: block;
   width: 80%;
