@@ -46,7 +46,7 @@ body {
   color: #77bfd2;
 }
 
-nav a:hover {
+.navbar a:hover {
   text-decoration: none;
   color: #77bfd2;
 }
@@ -141,6 +141,7 @@ nav a:hover {
   line-height: 8px;
   color: black;
   margin-top: -156px;
+  margin-right: 96px;
 }
 
 .welcome-info h6 {
@@ -149,13 +150,13 @@ nav a:hover {
 }
 
 .welcome-info a {
-  color: black;
+  color: #77bfd2;
   text-decoration: none;
 }
 
 .welcome-info a:hover {
   text-decoration: none;
-  color: #77bfd2;
+  color: #a02c2c;
 }
 
 #content-header {
@@ -200,6 +201,7 @@ nav a:hover {
   text-decoration: none;
   color: #a02c2c;
 }
+
 .icons-top {
   border: 2px solid #ddd;
   border-radius: 4px;
@@ -215,6 +217,10 @@ nav a:hover {
   margin-left: 30px;
 }
 
+.below-contact {
+  margin-top: 48px;
+}
+
 .contact-image {
   width: 80%;
   display: block;
@@ -224,29 +230,137 @@ nav a:hover {
   margin-top: 24px;
 }
 
-.subscribe-form {
-  width: 75%;
-  margin-left: 24px;
+.credit-application {
+  display: block;
+  width: 40%;
+  margin-left: 72px;
+  margin-top: 24px;
+}
+
+.credit-application h3 {
+  font-size: 36px;
+  font-family: 'Passion One', cursive;
+}
+
+.credit-application p {
+  font-size: 16px;
+  font-family: 'Barlow', sans-serif;
+}
+
+.credit-application a {
+  text-decoration: none;
+  color: #77bfd2;
+}
+
+.credit-application a:hover {
+  text-decoration: none;
+  color: #a02c2c;
+}
+
+.order-block {
+  display: block;
+  width: 40%;
+  margin-left: 72px;
+  margin-top: 24px;
+}
+
+.order-block h3 {
+  font-size: 36px;
+  font-family: 'Passion One', cursive;
+}
+
+.order-block p {
+  font-size: 16px;
+  font-family: 'Barlow', sans-serif;
+}
+
+.order-block a {
+  text-decoration: none;
+  color: #77bfd2;
+}
+
+.order-block a:hover {
+  text-decoration: none;
+  color: #a02c2c;
+}
+
+.hiring-block {
+  display: block;
+  width: 40%;
+  margin-left: 72px;
+  margin-top: 24px;
+}
+
+.hiring-block h3 {
+  font-size: 36px;
+  font-family: 'Passion One', cursive;
+}
+
+.hiring-block p {
+  font-size: 16px;
+  font-family: 'Barlow', sans-serif;
+}
+
+.hiring-block a {
+  text-decoration: none;
+  color: #77bfd2;
+}
+
+.hiring-block a:hover {
+  text-decoration: none;
+  color: #a02c2c;
 }
 
 .credit-app-picture {
-  width: 60%;
+  width: 75%;
   display: block;
   border-radius: 6px;
-  margin-top: 72px;
-  margin-left: 48px;
-  margin-right: 24px;
+  margin-top: 24px;
+  margin-left: 24px;
 }
 
 .order-picture {
-  width: 60%;
+  width: 75%;
   display: block;
   border-radius: 6px;
-  margin-top: 72px;
-  margin-left: 48px;
-  margin-right: 24px;
+  margin-top: 24px;
+  margin-left: 24px;
 }
 
+.hiring-picture {
+  width: 75%;
+  display: block;
+  border-radius: 6px;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+.mailing-list-block {
+  display: block;
+  width: 40%;
+  margin-left: 72px;
+  margin-top: 24px;
+}
+
+.mailing-list-block h3 {
+  font-size: 36px;
+  font-family: 'Passion One', cursive;
+}
+
+.mailing-list-block p {
+  font-size: 16px;
+  font-family: 'Barlow', sans-serif;
+}
+
+.mailing-list-block label {
+  font-size: 16px;
+  font-family: 'Barlow', sans-serif;
+}
+
+.subscribe-form {
+  margin-top: 24px;
+  width: 90%;
+}
 
 #border {
   display: block;
@@ -254,6 +368,14 @@ nav a:hover {
   margin: auto;
   border-top: 0.4px solid black;
   margin-top: 24px;
+}
+
+#border-bottom {
+  display: block;
+  width: 80%;
+  margin: auto;
+  border-top: 0.4px solid black;
+  margin-top: 96px;
 }
 
 #footer-block {
@@ -312,18 +434,18 @@ nav a:hover {
 }
 
 .footer-info a {
-  color: black;
+  color: #77bfd2;
   text-decoration: none;
 }
 
 .footer-info a:hover {
   text-decoration: none;
-  color: #77bfd2;
+  color: #a02c2c;
 }
 
 .bottom-follow {
   display: block;
-  padding-right: 10%;;
+  padding-right: 10%;
   float: right;
 }
 
@@ -331,6 +453,7 @@ nav a:hover {
   text-align: center;
   font-family: 'Passion One', cursive;
   font-size: 32px;
+  margin-top: 24px;
 }
 
 .icons-bottom {
@@ -345,7 +468,7 @@ nav a:hover {
 }
 
 #icons-bottom-shift {
-  margin-left: 30px;
+  padding-left: 96px;
 }
 
 @media(max-width: 768px) {
