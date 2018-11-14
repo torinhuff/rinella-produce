@@ -166,8 +166,71 @@ nav a:hover {
   font-family: 'Passion One', cursive;
 }
 
+.top-paragraph {
+  width: 60%;
+  display: block;
+  margin-left: 128px;
+  font-size: 16px;
+  font-family: 'Barlow', sans-serif;
+}
+
+.top-contact-info {
+  display: block;
+  width: 40%;
+  margin-left: 72px;
+  margin-top: 24px;
+}
+
+.top-contact-info h3 {
+  font-size: 36px;
+  font-family: 'Passion One', cursive;
+}
+
+.top-contact-info li {
+  font-size: 16px;
+  font-family: 'Barlow', sans-serif;
+}
+
+.top-contact-info a {
+  text-decoration: none;
+  color: #77bfd2;
+}
+
+.top-contact-info a:hover {
+  text-decoration: none;
+  color: #a02c2c;
+}
+.icons-top {
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  padding: 4px;
+  width: 13%;
+}
+
+.icons-top:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#icons-top {
+  margin-left: 30px;
+}
+
 .contact-image {
   width: 80%;
+  display: block;
+  border-radius: 6px;
+  margin-left: 36px;
+  margin-right: 18px;
+  margin-top: 24px;
+}
+
+.subscribe-form {
+  width: 75%;
+  margin-left: 24px;
+}
+
+.credit-app-picture {
+  width: 60%;
   display: block;
   border-radius: 6px;
   margin-top: 72px;
@@ -175,16 +238,22 @@ nav a:hover {
   margin-right: 24px;
 }
 
-.subscribe-form {
-  width: 80%;
-  margin-left: 24px;
+.order-picture {
+  width: 60%;
+  display: block;
+  border-radius: 6px;
+  margin-top: 72px;
+  margin-left: 48px;
+  margin-right: 24px;
 }
+
 
 #border {
   display: block;
   width: 80%;
   margin: auto;
   border-top: 0.4px solid black;
+  margin-top: 24px;
 }
 
 #footer-block {
