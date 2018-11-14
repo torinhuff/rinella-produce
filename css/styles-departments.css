@@ -254,6 +254,7 @@ body {
 .other-department p {
   font-size: 16px;
   font-family: 'Barlow', sans-serif;
+  line-height: 80%;
 }
 
 .fourth-block {
@@ -264,7 +265,7 @@ body {
 .second-department-pic {
   width: 80%;
   border-radius: 4px;
-  margin-top: 56px;
+  margin-top: 36px;
   margin-left: 58px;
 }
 
