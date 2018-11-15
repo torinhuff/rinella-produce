@@ -242,6 +242,13 @@ body {
   text-align: left;
 }
 
+.meeting-pic {
+  width: 90%;
+  display: block;
+  margin-top: 24px;
+  border-radius: 4px;
+}
+
 .about-body-pics {
   width: 40%;
   display: block;
@@ -253,6 +260,10 @@ body {
   display: block;
   margin-top: 24px;
   border-radius: 4px;
+}
+
+#forced-to-grow {
+  margin-top: 96px;
 }
 
 
