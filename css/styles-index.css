@@ -174,6 +174,7 @@ ul li i {
 .page-content {
   flex-wrap: wrap;
   font-size: 16px;
+  font-family: 'Barlow', sans-serif;
 }
 
 #content-header {
@@ -182,6 +183,14 @@ ul li i {
   margin-top: 48px;
   text-align: left;
   font-family: 'Passion One', cursive;
+}
+
+#border-top {
+  display: block;
+  width: 80%;
+  margin: auto;
+  border-top: 0.4px solid black;
+  margin-top: 24px;
 }
 
 #block-quote {
@@ -195,13 +204,13 @@ ul li i {
 }
 
 #yelp-author {
-  font-size: 14;
+  font-size: 20px;
   font-weight: bold;
-  font-family: 'Barlow', sans-serif;;
+  font-family: 'Passion One', cursive;
 }
 
 #quote {
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Oleo Script', cursive;
   text-align: left;
 }
@@ -223,6 +232,14 @@ ul li i {
   z-index: 9998;
 }
 
+#border {
+  display: block;
+  width: 80%;
+  margin: auto;
+  border-top: 0.4px solid black;
+  margin-top: 24px;
+}
+
 .col-sm-4 img {
   margin: auto;
   margin-left: 1%;
@@ -241,33 +258,51 @@ ul li i {
 }
 
 .col-sm-4 p {
-  font-size: 15px;
+  font-size: 16px;
+  font-family: 'Barlow', sans-serif;
   text-align: center;
   margin-top: -4px;
 }
 
-#prep-items {
-  margin-top: 24px;
+#hiring-object {
+  margin-top: -12px;
+  display: block;
+  margin: auto;
+}
+
+#were-hiring {
+  margin-top: 12px;
   margin-left: 8%;
   display: block;
+  margin: auto;
   width: 90%;
   border-radius: 4px;
 }
 
 #public-image {
   display: block;
+  margin: auto;
   width: 100%;
   border-radius: 4px;
   margin-left: 0;
 }
 
 #walk-in-object {
+  display: block;
+  margin: auto;
+  margin-top: -12px;
+}
+
+#mailing-object {
+  display: block;
+  margin: auto;
   margin-top: -12px;
 }
 
 #mailing-list {
-  margin-top: 24px;
+  margin-top: 12px;
   display: block;
+  margin: auto;
   width: 90%;
   border-radius: 4px;
 }
@@ -277,12 +312,12 @@ ul li i {
   text-decoration: none;
 }
 
-#prep-items:hover {
+#hiring-object:hover {
   opacity: 0.4;
   text-decoration: none;
 }
 
-#mailing-list:hover {
+#mailing-object:hover {
   opacity: 0.4;
   text-decoration: none;
 }
@@ -290,6 +325,14 @@ ul li i {
 #walk-in-object:hover {
   opacity: 0.4;
   text-decoration: none;
+}
+
+#border-above-map {
+  display: block;
+  width: 80%;
+  margin: auto;
+  border-top: 0.4px solid black;
+  margin-top: 48px;
 }
 
 .row col-sm-6 {
@@ -303,7 +346,7 @@ ul li i {
   width: 45%;
   margin-left: 3%;
   margin-right: 1%;
-  margin-top: 2%;
+  margin-top: 24px;;
 }
 
 .headers-maps-insta {

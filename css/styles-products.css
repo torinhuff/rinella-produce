@@ -205,7 +205,7 @@ body {
 .produce-list {
   width: 30%;
   display: block;
-  margin-left: 24px;
+  margin-left: 40px;
 }
 
 .produce-list h6 {
@@ -225,7 +225,7 @@ body {
 .canned-goods-list {
   width: 30%;
   display: block;
-  margin-left: 24px;
+  margin-left: 12px;
 }
 
 .canned-goods-list h6 {
@@ -245,7 +245,7 @@ body {
 .frozen-list {
   width: 30%;
   display: block;
-  margin-left: 24px;
+  margin-left: 12px;
 }
 
 .frozen-list h6 {
@@ -273,7 +273,7 @@ body {
 .price-block {
   width: 40%;
   display: block;
-  margin-left: 48px;
+  margin-left: 96px;
 }
 
 .price-block h3 {
@@ -350,7 +350,7 @@ body {
   display: block;
   width: 30%;
   margin: auto;
-  margin-left: 40px;
+  margin-left: 56px;
 }
 
 #flyer-one-pic {
@@ -365,7 +365,6 @@ body {
   display: block;
   width: 30%;
   margin: auto;
-  margin-left: 12px;
 }
 
 #flyer-two-pic {
@@ -380,7 +379,6 @@ body {
   display: block;
   width: 30%;
   margin: auto;
-  margin-left: 12px;
 }
 
 #flyer-three-pic {

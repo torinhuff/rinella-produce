@@ -43,14 +43,14 @@ $(window).resize(function(){
 });
 
 window.onload=function() {
-    $("#prep-items").slideUp(3300);
+    $("#hiring-object").slideUp(3300);
     $("#walk-in-object").slideUp(3600);
-    $("#mailing-list").slideUp(3900);
+    $("#mailing-object").slideUp(3900);
     // $(".opening-reveal").show();
     $(".opening-slide-up").slideDown(4600);
-    $("#prep-items").slideDown();
+    $("#hiring-object").slideDown();
     $("#walk-in-object").slideDown();
-    $("#mailing-list").slideDown();
+    $("#mailing-object").slideDown();
     // $("#.opening-reveal").show().slideDown(4000);
     // $(".opening-slide-up").show();
 
