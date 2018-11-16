@@ -177,8 +177,8 @@ body {
 
 .top-contact-info {
   display: block;
-  width: 40%;
-  margin-left: 72px;
+  width: 35%;
+  margin-left: 136px;
   margin-top: 24px;
 }
 
@@ -222,11 +222,10 @@ body {
 }
 
 .contact-image {
-  width: 80%;
+  width: 70%;
   display: block;
   border-radius: 6px;
-  margin-left: 36px;
-  margin-right: 18px;
+  margin-left: 48px;
   margin-top: 24px;
 }
 
