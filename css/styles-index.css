@@ -3,6 +3,11 @@ body {
   margin-bottom: 5%;
 }
 
+p {
+  font-size: 16px;
+  font-family: 'Barlow', sans-serif;
+}
+
 #header-content {
   background-image: url(https://66.media.tumblr.com/6b5b9db79853359a5210767324d38339/tumblr_phy9yi82x21s72wwgo1_1280.jpg);
   background-size: 100%;
@@ -265,7 +270,7 @@ ul li i {
 }
 
 #hiring-object {
-  margin-top: -12px;
+  margin-top: 12px;
   display: block;
   margin: auto;
 }
@@ -415,8 +420,13 @@ ul li i {
   border-radius: 6px;
 }
 
+#footer-image:hover {
+  opacity: 0.4;
+}
+
 .footer-info {
   margin: auto;
+  margin-top: 24px;
   display: block;
   font-family: 'Barlow', sans-serif;
   font-size: 16px;
@@ -443,8 +453,8 @@ ul li i {
 
 .bottom-follow {
   display: block;
-  padding-right: 10%;;
-  float: right;
+  margin-top: -24px;
+  margin-left: 48px;
 }
 
 .bottom-follow h3 {
@@ -465,7 +475,7 @@ ul li i {
 }
 
 #icons-bottom-shift {
-  margin-left: 30px;
+  margin-left: 136px;
 }
 
 #countup {

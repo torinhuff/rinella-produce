@@ -419,10 +419,9 @@ body {
 .footer-links {
   font-family: 'Barlow', sans-serif;
   font-size: 16px;
-  line-height: 80%;
   float: left;
   display: block;
-  margin-top: 24px;
+  margin-top: 36px;
 }
 
 .footer-links a {
@@ -442,13 +441,18 @@ body {
   border-radius: 6px;
 }
 
+#footer-image:hover {
+  opacity: 0.4;
+}
+
 .footer-info {
   margin: auto;
+  margin-top: 24px;
   display: block;
   font-family: 'Barlow', sans-serif;
   font-size: 16px;
   text-align: center;
-  line-height: 80%;
+  line-height: 8px;
   color: black;
 }
 
@@ -459,26 +463,25 @@ body {
 }
 
 .footer-info a {
-  color: #77bfd2;
+  color: black;
   text-decoration: none;
 }
 
 .footer-info a:hover {
   text-decoration: none;
-  color: #a02c2c;
+  color: #77bfd2;
 }
 
 .bottom-follow {
   display: block;
-  padding-right: 10%;
-  float: right;
+  margin-top: -24px;
+  margin-left: 48px;
 }
 
 .bottom-follow h3 {
   text-align: center;
   font-family: 'Passion One', cursive;
   font-size: 32px;
-  margin-top: 24px;
 }
 
 .icons-bottom {
@@ -493,5 +496,5 @@ body {
 }
 
 #icons-bottom-shift {
-  padding-left: 96px;
+  margin-left: 136px;
 }
