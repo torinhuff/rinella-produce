@@ -223,9 +223,9 @@ body {
 }
 
 .canned-goods-list {
-  width: 30%;
+  width: 40%;
   display: block;
-  margin-left: 12px;
+  margin-left: 96px;
 }
 
 .canned-goods-list h6 {
@@ -243,9 +243,9 @@ body {
 }
 
 .frozen-list {
-  width: 30%;
+  width: 40%;
   display: block;
-  margin-left: 12px;
+  margin-left: 48px;
 }
 
 .frozen-list h6 {

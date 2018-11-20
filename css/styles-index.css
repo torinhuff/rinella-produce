@@ -156,7 +156,7 @@ ul li i {
 }
 
 .welcome-info a {
-  color: black;
+  color: #aa5147;
   text-decoration: none;
 }
 
@@ -261,7 +261,7 @@ ul li i {
 .col-sm-4 h6 {
   font-size: 24px;
   text-align: center;
-  font-family: 'Oleo Script', cursive;
+  font-family: 'Passion One', cursive;
 }
 
 .col-sm-4 p {
@@ -272,9 +272,9 @@ ul li i {
 }
 
 #hiring-object {
-  margin-top: 12px;
   display: block;
   margin: auto;
+  margin-top: -12px;
 }
 
 #were-hiring {
@@ -353,7 +353,7 @@ ul li i {
   width: 45%;
   margin-left: 3%;
   margin-right: 1%;
-  margin-top: 24px;;
+  margin-top: 24px;
 }
 
 .headers-maps-insta {
@@ -444,7 +444,7 @@ ul li i {
 }
 
 .footer-info a {
-  color: black;
+  color: #aa5147;
   text-decoration: none;
 }
 
