@@ -1,5 +1,5 @@
 body {
-  background-color: #fff9f7;
+  background-color: white;
   margin-bottom: 5%;
 }
 
@@ -140,12 +140,14 @@ ul li i {
 .welcome-info {
   float: right;
   display: block;
+  width: 35%;
   font-family: 'Barlow', sans-serif;
   font-size: 16px;
   text-align: center;
   line-height: 8px;
   color: black;
   margin-top: -156px;
+  margin-right: 36px;
 }
 
 .welcome-info h6 {
@@ -491,7 +493,7 @@ ul li i {
 #countup p {
   display: inline-block;
   padding: 3px;
-  background: #fff9f7;
+  background: white;
   margin: 0 0 20px;
   border-radius: 3px;
   color: #932322;
