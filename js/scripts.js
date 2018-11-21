@@ -43,24 +43,20 @@ $(window).resize(function(){
 });
 
 window.onload=function() {
-    $("#hiring-object").slideUp(3300);
-    $("#walk-in-object").slideUp(3600);
-    $("#mailing-object").slideUp(3900);
-    // $(".opening-reveal").show();
-    $(".opening-slide-up").slideDown(4600);
-    $("#hiring-object").slideDown();
-    $("#walk-in-object").slideDown();
-    $("#mailing-object").slideDown();
+    // $("#hiring-object").slideUp(3300);
+    // $("#walk-in-object").slideUp(3600);
+    // $("#mailing-object").slideUp(3900);
+    // // $(".opening-reveal").show();
+    // $(".opening-slide-up").slideDown(4600);
+    // $("#hiring-object").slideDown();
+    // $("#walk-in-object").slideDown();
+    // $("#mailing-object").slideDown();
     // $("#.opening-reveal").show().slideDown(4000);
     // $(".opening-slide-up").show();
 
     // Month,Day,Year,Hour,Minute,Second
     upTime('jan,01,1914,00:00:00');
   };
-
-  $(document).ready(function(){
-     $('.bodyContent').slideDown(2300);
-  });
 
 
   // window.onload=function() {
