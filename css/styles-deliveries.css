@@ -182,6 +182,7 @@ body {
 }
 
 .delivery-top-block p {
+  margin-top: 12px;
   font-size: 16px;
   font-family: 'Barlow', sans-serif;
 }
@@ -198,10 +199,25 @@ body {
   width: 100%;
   display: block;
   margin: auto;
-  margin-top: 12px;
+  margin-top: 84px;
   border-radius: 4px;
 }
 
+.major-cities {
+  margin-top: 24px;
+  font-size: 24px;
+  font-family: 'Passion One', cursive;
+}
+
+.cities-list li {
+  font-size: 16px;
+  font-family: 'Barlow', sans-serif;
+}
+
+.cities-list {
+  column-count: 3;
+  column-gap: 24px;
+}
 
 #border {
   display: block;
@@ -308,7 +324,15 @@ body {
   font-size: 16px;
   float: left;
   display: block;
-  margin-top: 36px;
+  margin-top: 12px;
+}
+
+#footer-links-left {
+  margin-left: 48px;
+}
+
+#footer-links-right {
+  margin-left: -24px;
 }
 
 .footer-links a {
@@ -350,13 +374,13 @@ body {
 }
 
 .footer-info a {
-  color: black;
+  color: #77bfd2;
   text-decoration: none;
 }
 
 .footer-info a:hover {
   text-decoration: none;
-  color: #77bfd2;
+  color: #aa5147;
 }
 
 .bottom-follow {
@@ -366,6 +390,7 @@ body {
 }
 
 .bottom-follow h3 {
+  color: #aa5147;
   text-align: center;
   font-family: 'Passion One', cursive;
   font-size: 32px;
@@ -383,5 +408,5 @@ body {
 }
 
 #icons-bottom-shift {
-  margin-left: 136px;
+  margin-left: 156px;
 }
