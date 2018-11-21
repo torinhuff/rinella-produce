@@ -394,7 +394,6 @@ ul li i {
   padding-left: 3%;
   margin: auto;
   margin-top: 18px;
-  margin-left: 3%;
 }
 
 .footer-links h5 {
@@ -484,7 +483,7 @@ ul li i {
   border: 2px solid #ddd;
   border-radius: 4px;
   padding: 4px;
-  width: 13%;
+  width: 15%;
 }
 
 .icons-bottom:hover {
@@ -492,7 +491,7 @@ ul li i {
 }
 
 #icons-bottom-shift {
-  margin-left: 156px;
+  margin-left: 96px;
 }
 
 #countup {
