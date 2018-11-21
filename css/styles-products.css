@@ -178,9 +178,10 @@ body {
 
 .products {
   display: block;
-  width: 60%;
+  width: 40%;
   margin: auto;
   margin-top: 24px;
+  margin-left: 96px;
 }
 
 .products h3 {
@@ -192,6 +193,15 @@ body {
 .products p {
   font-size: 16px;
   font-family: 'Barlow', sans-serif;
+}
+
+.tomatoes-pic {
+  width: 70%;
+  display: block;
+  margin: auto;
+  margin-left: 72px;
+  margin-top: 48px;
+  border-radius: 4px;
 }
 
 #border-above-lists {
@@ -308,7 +318,7 @@ body {
 }
 
 .prep-block p {
-  text-align: center;
+  text-align: left;
   font-size: 16px;
   font-family: 'Barlow', sans-serif;
 }
@@ -421,7 +431,7 @@ body {
   font-size: 16px;
   float: left;
   display: block;
-  margin-top: 36px;
+  margin-top: 12px;
 }
 
 .footer-links a {
@@ -432,6 +442,14 @@ body {
 .footer-links a:hover {
   text-decoration: none;
   color: #77bfd2;
+}
+
+#footer-links-left {
+  margin-left: 48px;
+}
+
+#footer-links-right {
+  margin-left: -24px;
 }
 
 #footer-image {
@@ -463,13 +481,13 @@ body {
 }
 
 .footer-info a {
-  color: black;
+  color: #77bfd2;
   text-decoration: none;
 }
 
 .footer-info a:hover {
   text-decoration: none;
-  color: #77bfd2;
+  color: #aa5147;
 }
 
 .bottom-follow {
@@ -480,6 +498,7 @@ body {
 
 .bottom-follow h3 {
   text-align: center;
+  color: #aa5147;
   font-family: 'Passion One', cursive;
   font-size: 32px;
 }
@@ -496,5 +515,5 @@ body {
 }
 
 #icons-bottom-shift {
-  margin-left: 136px;
+  margin-left: 156px;
 }

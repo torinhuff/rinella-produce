@@ -58,8 +58,17 @@ window.onload=function() {
     upTime('jan,01,1914,00:00:00');
   };
 
+  $(document).ready(function(){
+     $('.bodyContent').slideDown(2300);
+  });
+
 
   // window.onload=function() {
   //   // Month,Day,Year,Hour,Minute,Second
   //   upTime('jan,01,1914,00:00:00');
   // };
+
+  document.getElementById('search').onsubmit = function() {
+        window.location = 'http://www.google.com/search?q=site:rinellaproduce.com ' + document.getElementById('textSearch').value;
+        return false;
+    }

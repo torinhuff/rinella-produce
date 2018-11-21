@@ -1,8 +1,14 @@
+.bodyContent {
+  display: none;
+  height: 100%;
+}
+
 body {
   background-color: white;
   margin-bottom: 5%;
   width: 100%;
 }
+
 
 #header-content {
   background-image: url(https://66.media.tumblr.com/6b5b9db79853359a5210767324d38339/tumblr_phy9yi82x21s72wwgo1_1280.jpg);
