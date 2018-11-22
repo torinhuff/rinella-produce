@@ -9,6 +9,10 @@ body {
   width: 100%;
 }
 
+#whole-body {
+  width: 90%;
+  margin-left: 48px;
+}
 
 #header-content {
   background-image: url(https://66.media.tumblr.com/6b5b9db79853359a5210767324d38339/tumblr_phy9yi82x21s72wwgo1_1280.jpg);
@@ -139,6 +143,10 @@ body {
     color: white;
 }
 
+#header-both {
+  display: block;
+}
+
 .welcome-info {
   float: right;
   display: block;
@@ -168,7 +176,7 @@ body {
 
 #content-header {
   font-size: 104px;
-  margin-left: 148px;
+  margin-left: 48px;
   margin-top: 48px;
   text-align: left;
   font-family: 'Passion One', cursive;
@@ -271,31 +279,16 @@ body {
   color: #a02c2c;
 }
 
-.order-block {
+.credit-app-picture {
+  width: 75%;
   display: block;
-  width: 40%;
-  margin-left: 96px;
-  margin-top: -12px;
+  border-radius: 6px;
+  margin-top: 48px;
+  margin-left: 24px;
 }
 
-.order-block h3 {
-  font-size: 36px;
-  font-family: 'Passion One', cursive;
-}
-
-.order-block p {
-  font-size: 16px;
-  font-family: 'Barlow', sans-serif;
-}
-
-.order-block a {
-  text-decoration: none;
-  color: #77bfd2;
-}
-
-.order-block a:hover {
-  text-decoration: none;
-  color: #a02c2c;
+.credit-app-picture:hover {
+  opacity: 0.4;
 }
 
 .hiring-block {
@@ -325,30 +318,6 @@ body {
   color: #a02c2c;
 }
 
-.credit-app-picture {
-  width: 75%;
-  display: block;
-  border-radius: 6px;
-  margin-top: 48px;
-  margin-left: 24px;
-}
-
-.credit-app-picture:hover {
-  opacity: 0.4;
-}
-
-.order-picture {
-  width: 75%;
-  display: block;
-  border-radius: 6px;
-  margin-top: 24px;
-  margin-left: 24px;
-}
-
-.order-picture:hover {
-  opacity: 0.4;
-}
-
 .hiring-picture {
   width: 75%;
   display: block;
@@ -367,6 +336,45 @@ body {
   margin: auto;
   border-top: 0.4px solid black;
   margin-top: 48px;
+}
+
+.order-block {
+  display: block;
+  width: 40%;
+  margin-left: 96px;
+  margin-top: -12px;
+}
+
+.order-block h3 {
+  font-size: 36px;
+  font-family: 'Passion One', cursive;
+}
+
+.order-block p {
+  font-size: 16px;
+  font-family: 'Barlow', sans-serif;
+}
+
+.order-block a {
+  text-decoration: none;
+  color: #77bfd2;
+}
+
+.order-block a:hover {
+  text-decoration: none;
+  color: #a02c2c;
+}
+
+.order-picture {
+  width: 75%;
+  display: block;
+  border-radius: 6px;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+.order-picture:hover {
+  opacity: 0.4;
 }
 
 .mailing-list-block {
@@ -394,6 +402,7 @@ body {
 .subscribe-form {
   margin-top: 24px;
   width: 90%;
+  margin-left: 24px;
 }
 
 #subscribe-button {
@@ -428,7 +437,6 @@ body {
   padding-left: 3%;
   margin: auto;
   margin-top: 18px;
-  margin-left: 3%;
 }
 
 .footer-links h5 {
@@ -509,6 +517,7 @@ body {
 .bottom-follow h3 {
   color: #aa5147;
   text-align: center;
+  margin-top: 36px;
   font-family: 'Passion One', cursive;
   font-size: 32px;
 }
@@ -517,7 +526,7 @@ body {
   border: 2px solid #ddd;
   border-radius: 4px;
   padding: 4px;
-  width: 13%;
+  width: 12%;
 }
 
 .icons-bottom:hover {
@@ -525,25 +534,5 @@ body {
 }
 
 #icons-bottom-shift {
-  margin-left: 156px;
+  margin-left: 140px;
 }
-
-@media(max-width: 768px) {
-  nav div {
-    display: block;
-  }
-
-  ul {
-    display: none;
-    position: static;
-    background: #e3e3e3;
-  }
-
-  ul li {
-    display: block;
-  }
-  ul ul {
-    position: static;
-    background: #e3e3e3;
-  }
-};

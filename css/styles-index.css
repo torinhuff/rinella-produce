@@ -12,6 +12,7 @@ p {
   width: 90%;
   margin-left: 48px;
 }
+
 #header-both {
   display: block;
 }
@@ -520,12 +521,6 @@ ul li i {
     margin-left: 0px;
     float: left;
     margin-right: 48px;
-  }
-
-
-
-  #hiring-object {
-    margin-left: 48px;
   }
 
 };
