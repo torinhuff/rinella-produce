@@ -4,6 +4,11 @@ body {
   width: 100%;
 }
 
+#whole-body {
+  width: 90%;
+  margin-left: 48px;
+}
+
 #header-content {
   background-image: url(https://66.media.tumblr.com/6b5b9db79853359a5210767324d38339/tumblr_phy9yi82x21s72wwgo1_1280.jpg);
   background-size: 100%;
@@ -162,7 +167,7 @@ body {
 
 #content-header {
   font-size: 104px;
-  margin-left: 148px;
+  margin-left: 48px;
   margin-top: 48px;
   text-align: left;
   font-family: 'Passion One', cursive;
@@ -419,7 +424,6 @@ body {
   padding-left: 3%;
   margin: auto;
   margin-top: 18px;
-  margin-left: 3%;
 }
 
 .footer-links h5 {
@@ -498,8 +502,9 @@ body {
 }
 
 .bottom-follow h3 {
-  text-align: center;
   color: #aa5147;
+  text-align: center;
+  margin-top: 36px;
   font-family: 'Passion One', cursive;
   font-size: 32px;
 }
@@ -508,7 +513,7 @@ body {
   border: 2px solid #ddd;
   border-radius: 4px;
   padding: 4px;
-  width: 13%;
+  width: 12%;
 }
 
 .icons-bottom:hover {
@@ -516,5 +521,5 @@ body {
 }
 
 #icons-bottom-shift {
-  margin-left: 156px;
+  margin-left: 140px;
 }
