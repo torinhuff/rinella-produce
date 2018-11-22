@@ -210,7 +210,7 @@ body {
 
 .management {
   width: 40%;
-  margin-left: 116px;
+  margin-left: 96px;
 }
 
 .management h3 {
@@ -248,7 +248,7 @@ body {
   width: 40%;
   display: block;
   margin: auto;
-  margin-left: 116px;
+  margin-left: 96px;
   margin-top: 24px;
 }
 
@@ -378,7 +378,7 @@ body {
   border: 2px solid #ddd;
   border-radius: 4px;
   padding: 4px;
-  width: 15%;
+  width: 12%;
 }
 
 .icons-bottom:hover {
@@ -386,5 +386,5 @@ body {
 }
 
 #icons-bottom-shift {
-  margin-left: 96px;
+  margin-left: 140px;
 }
