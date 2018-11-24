@@ -377,7 +377,45 @@ body {
   opacity: 0.4;
 }
 
-.mailing-list-block {
+.mailing-list-send {
+  display: block;
+  width: 40%;
+  margin-left: 72px;
+  margin-top: -12px;
+}
+
+.mailing-list-send h3 {
+  font-size: 36px;
+  font-family: 'Passion One', cursive;
+}
+
+.mailing-list-send p {
+  font-size: 16px;
+  font-family: 'Barlow', sans-serif;
+}
+
+.mailing-list-send a {
+  text-decoration: none;
+  color: #77bfd2;
+}
+
+.mailing-list-send a:hover{
+  text-decoration: none;
+  color: #aa5147;
+}
+
+.mailing-picture {
+  width: 75%;
+  display: block;
+  border-radius: 6px;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+.mailing-picture:hover {
+  opacity: 0.4;
+}
+/* .mailing-list-block {
   display: block;
   width: 40%;
   margin-left: 72px;
@@ -413,7 +451,7 @@ body {
 
 #subscribe-button:hover {
   border: solid 0.6px #12185b;
-}
+} */
 
 #border {
   display: block;
