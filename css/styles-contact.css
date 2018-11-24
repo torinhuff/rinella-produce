@@ -313,6 +313,11 @@ body {
   color: #77bfd2;
 }
 
+.hiring-block li {
+  font-size: 16px;
+  font-family: 'Barlow', sans-serif;
+}
+
 .hiring-block a:hover {
   text-decoration: none;
   color: #a02c2c;
