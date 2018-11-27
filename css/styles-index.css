@@ -28,6 +28,7 @@ p {
   background-size: 100%;
   padding-bottom: 2%;
   margin-bottom: 0%;
+  padding-top: 2%;
 }
 
 #established {
@@ -515,4 +516,14 @@ ul li i {
   color: #932322;
   font-family: 'Barlow', sans-serif;
   font-size: 16px;
+}
+
+@media screen and (min-width: 1000px) {
+  #header-content {
+    background-position: center;
+  }
+
+  .search-top {
+    margin-right: 5%;
+  }
 }

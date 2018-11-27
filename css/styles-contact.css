@@ -579,3 +579,13 @@ body {
 #icons-bottom-shift {
   margin-left: 140px;
 }
+
+@media screen and (min-width: 1000px) {
+  #header-content {
+    background-position: center;
+  }
+
+  .search-top {
+    margin-right: 5%;
+  }
+}
