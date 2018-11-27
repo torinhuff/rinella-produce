@@ -457,13 +457,14 @@ ul li i {
 }
 
 .footer-info a {
-  color: #77bfd2;
+  color: #aa5147;
+  #aa5147;
   text-decoration: none;
 }
 
 .footer-info a:hover {
   text-decoration: none;
-  color: #aa5147;
+  color: #77bfd2;
 }
 
 .bottom-follow {
@@ -513,14 +514,5 @@ ul li i {
   border-radius: 3px;
   color: #932322;
   font-family: 'Barlow', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
-
-@media screen and (max-width: 768px) {
-  #content-header {
-    margin-left: 0px;
-    float: left;
-    margin-right: 48px;
-  }
-
-};
