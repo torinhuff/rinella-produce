@@ -9,36 +9,10 @@ body {
   margin-left: 5%;
 }
 
-#header-content {
-  background-image: url(https://66.media.tumblr.com/6b5b9db79853359a5210767324d38339/tumblr_phy9yi82x21s72wwgo1_1280.jpg);
-  background-size: 100%;
-  background-repeat: none;
-  background-position: 0% 90%;
-  opacity: 0.95;
-  width: 100%;
-  height: 320px;
-  background-size: 100%;
-  padding-bottom: 2%;
-  margin-bottom: 0%;
-}
-
-#established {
-  font-family: 'Passion One', cursive;
-  text-shadow: none;
-  margin-top: 164px;
-  font-size: 32px;
-  color: #aa5147;
-  text-align: center;
-}
-
-#slogan {
-  margin-top:8px;
-  text-shadow: none;
-  font-family: 'Pacifico', cursive;
-  font-size: 36px;
-  color: #77bfd2;
-  text-align: center;
-  padding-left: 16px;
+#header-image {
+  width: 90%;
+  display: block;
+  margin: auto;
 }
 
 .container a {
@@ -425,14 +399,4 @@ body {
 
 #icons-bottom-shift {
   margin-left: 140px;
-}
-
-@media screen and (min-width: 1000px) {
-  .search-top {
-    margin-right: 5%;
-  }
-
-  #established {
-    margin-top: 196px;
-  }
 }
