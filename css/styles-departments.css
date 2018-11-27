@@ -362,3 +362,43 @@ body {
 #icons-bottom-shift {
   margin-left: 140px;
 }
+
+@media screen and (min-width:1440px) {
+  .navbar {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  #header-content {
+    margin-left: 33%;
+  }
+  .bottom-follow {
+    margin-top: -7%;
+    margin-left: -2%;
+  }
+  .icons-bottom {
+    width: 7%;
+  }
+  #icons-bottom-shift {
+    margin-left: 40%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .navbar {
+    padding-left: 12%;
+    padding-right: 8%;
+  }
+  #header-content {
+    margin-left: 13%;
+  }
+  .bottom-follow {
+    margin-top: -5%;
+    margin-left: 2%;
+  }
+  .icons-bottom {
+    width: 11%;
+  }
+  #icons-bottom-shift {
+    margin-left: 32%;
+  }
+}
