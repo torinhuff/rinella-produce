@@ -389,18 +389,6 @@ body {
 }
 
 @media screen and (min-width: 1000px) {
-  #header-content {
-    background-position: center;
-  }
-
-  #established {
-    margin-top: 24px;
-  }
-
-  #slogan {
-    margin-top: 24px;
-  }
-
   .search-top {
     margin-right: 5%;
   }
