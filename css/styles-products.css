@@ -548,4 +548,8 @@ body {
   .search-top {
     margin-right: 5%;
   }
+
+  #established {
+    margin-top: 196px;
+  }
 }
