@@ -6,7 +6,7 @@ body {
 
 #whole-body {
   width: 90%;
-  margin-left: 48px;
+  margin-left: 5%;
 }
 
 #header-content {
@@ -230,7 +230,7 @@ body {
 
 .sales {
   width: 40%;
-  margin-left: 96px;
+  margin-left: 48px;
 }
 
 .sales h3 {

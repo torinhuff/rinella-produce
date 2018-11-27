@@ -6,7 +6,7 @@ body {
 
 #whole-body {
   width: 90%;
-  margin-left: 48px;
+  margin-left: 5%;
 }
 
 #header-content {
@@ -191,6 +191,16 @@ body {
   margin-top: 12px;
   font-size: 16px;
   font-family: 'Barlow', sans-serif;
+}
+
+.delivery-top-block a {
+  text-decoration: none;
+  color: #77bfd2;
+}
+
+.delivery-top-block a:hover {
+  text-decoration: none;
+  color: #a02c2c;
 }
 
 .deliveries-pic-block {

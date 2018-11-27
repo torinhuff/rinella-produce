@@ -6,7 +6,7 @@ body {
 
 #whole-body {
   width: 90%;
-  margin-left: 48px;
+  margin-left: 5%;
 }
 
 #header-content {
@@ -201,6 +201,16 @@ body {
   font-family: 'Barlow', sans-serif;
 }
 
+.products a {
+  text-decoration: none;
+  color: #77bfd2;
+}
+
+.products a:hover {
+  text-decoration: none;
+  color: #a02c2c;
+}
+
 .tomatoes-pic {
   width: 90%;
   display: block;
@@ -301,6 +311,16 @@ body {
 .price-block p {
   font-size: 16px;
   font-family: 'Barlow', sans-serif;
+}
+
+.price-block a {
+  text-decoration: none;
+  color: #77bfd2;
+}
+
+.price-block a:hover {
+  text-decoration: none;
+  color: #a02c2c;
 }
 
 #prices-pic {
