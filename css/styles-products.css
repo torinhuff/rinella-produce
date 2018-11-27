@@ -156,13 +156,13 @@ body {
 }
 
 .welcome-info a {
-  color: #77bfd2;
+  color: #aa5147;
   text-decoration: none;
 }
 
 .welcome-info a:hover {
   text-decoration: none;
-  color: #a02c2c;
+  color: #77bfd2;
 }
 
 #content-header {
@@ -203,12 +203,12 @@ body {
 
 .products a {
   text-decoration: none;
-  color: #77bfd2;
+  color: #aa5147;
 }
 
 .products a:hover {
   text-decoration: none;
-  color: #a02c2c;
+  color: #77bfd2;
 }
 
 .tomatoes-pic {
@@ -315,12 +315,12 @@ body {
 
 .price-block a {
   text-decoration: none;
-  color: #77bfd2;
+  color: #aa5147;
 }
 
 .price-block a:hover {
   text-decoration: none;
-  color: #a02c2c;
+  color: #77bfd2;
 }
 
 #prices-pic {
@@ -506,13 +506,13 @@ body {
 }
 
 .footer-info a {
-  color: #77bfd2;
+  color: #aa5147;
   text-decoration: none;
 }
 
 .footer-info a:hover {
   text-decoration: none;
-  color: #aa5147;
+  color: #77bfd2;
 }
 
 .bottom-follow {

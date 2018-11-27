@@ -271,12 +271,12 @@ body {
 
 .credit-application a {
   text-decoration: none;
-  color: #77bfd2;
+  color: #aa5147;
 }
 
 .credit-application a:hover {
   text-decoration: none;
-  color: #a02c2c;
+  color: #77bfd2;
 }
 
 .credit-app-picture {
@@ -310,7 +310,7 @@ body {
 
 .hiring-block a {
   text-decoration: none;
-  color: #77bfd2;
+  color: #aa5147;
 }
 
 .hiring-block li {
@@ -320,7 +320,7 @@ body {
 
 .hiring-block a:hover {
   text-decoration: none;
-  color: #a02c2c;
+  color: #77bfd2;
 }
 
 .hiring-picture {
@@ -362,12 +362,12 @@ body {
 
 .order-block a {
   text-decoration: none;
-  color: #77bfd2;
+  color: #aa5147;
 }
 
 .order-block a:hover {
   text-decoration: none;
-  color: #a02c2c;
+  color: #77bfd2;
 }
 
 .order-picture {
@@ -401,12 +401,12 @@ body {
 
 .mailing-list-send a {
   text-decoration: none;
-  color: #77bfd2;
+  color: #aa5147;
 }
 
 .mailing-list-send a:hover{
   text-decoration: none;
-  color: #aa5147;
+  color: #77bfd2;
 }
 
 .mailing-picture {
@@ -542,13 +542,13 @@ body {
 }
 
 .footer-info a {
-  color: #77bfd2;
+  color: #aa5147;
   text-decoration: none;
 }
 
 .footer-info a:hover {
   text-decoration: none;
-  color: #aa5147;
+  color: #77bfd2;
 }
 
 .bottom-follow {

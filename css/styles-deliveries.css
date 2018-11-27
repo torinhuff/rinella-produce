@@ -156,13 +156,13 @@ body {
 }
 
 .welcome-info a {
-  color: #77bfd2;
+  color: #aa5147;
   text-decoration: none;
 }
 
 .welcome-info a:hover {
   text-decoration: none;
-  color: #a02c2c;
+  color: #77bfd2;
 }
 
 #content-header {
@@ -195,12 +195,12 @@ body {
 
 .delivery-top-block a {
   text-decoration: none;
-  color: #77bfd2;
+  color: #aa5147;
 }
 
 .delivery-top-block a:hover {
   text-decoration: none;
-  color: #a02c2c;
+  color: #77bfd2;
 }
 
 .deliveries-pic-block {
@@ -293,12 +293,12 @@ body {
 
 .walk-in-block a {
   text-decoration: none;
-  color: #77bfd2;
+  color: #aa5147;
 }
 
 .walk-in-block a:hover {
   text-decoration: none;
-  color: #a02c2c;
+  color: #77bfd2;
 }
 
 .hours {
@@ -389,13 +389,13 @@ body {
 }
 
 .footer-info a {
-  color: #77bfd2;
+  color: #aa5147;
   text-decoration: none;
 }
 
 .footer-info a:hover {
   text-decoration: none;
-  color: #aa5147;
+  color: #77bfd2;
 }
 
 .bottom-follow {
