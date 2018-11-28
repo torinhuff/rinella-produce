@@ -571,6 +571,9 @@ ul li i {
     padding-left: 12%;
     padding-right: 8%;
   }
+  #header-content {
+    margin-left: 13%;
+  }
   .bottom-follow {
     margin-top: -5%;
     margin-left: 2%;
@@ -588,6 +591,9 @@ ul li i {
   .navbar {
     padding-left: 8%;
     padding-right: 0.5%;
+  }
+  #header-content {
+    margin-left: 8%;
   }
 
   .page-content {
