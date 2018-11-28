@@ -10,6 +10,7 @@ p {
 
 #whole-body {
   width: 90%;
+  margin-left: 2%;
 }
 
 #header-both {
@@ -25,6 +26,7 @@ p {
   display: block;
   width: 100%;
   margin: auto;
+  margin-left: 2%;
 }
 
 .container a {
