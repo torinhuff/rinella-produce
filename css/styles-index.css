@@ -594,7 +594,7 @@ ul li i {
 
 @media screen and (min-width:1025px) and (max-width:1440px) {
   #whole-body {
-    margin-left: 9%;
+    margin-left: 7%;
   }
   .navbar {
     padding-left: 12%;
@@ -604,7 +604,7 @@ ul li i {
     margin-left: 5%;
   }
   #header-content {
-    margin-left: 20%;
+    margin-left: 23%;
   }
   .bottom-follow {
     margin-top: -5%;
@@ -631,9 +631,9 @@ ul li i {
     margin-left: 24px;
   }
 
-.search-top {
-  margin-right: -18px;
-}
+  .search-top {
+    margin-right: -18px;
+  }
   #header-content {
     margin-left: 22%;
   }
