@@ -81,7 +81,7 @@ nav a:hover {
   margin: 0;
   padding: 0;
   border-radius: 0;
-  padding-left: 56px;
+  /* padding-left: 32px; */
   list-style-type: none;
   background: #2e2f30;
   position: relative;
@@ -95,10 +95,14 @@ nav a:hover {
   margin: 0;
   padding: 0;
   border-radius: 0;
-  padding-left: 56px;
+  /* padding-left: 56px; */
   list-style-type: none;
   background: #2e2f30;
   position: relative;
+}
+
+#about-us {
+  margin-left: -48px;
 }
 
 ul li {
@@ -128,18 +132,19 @@ ul li:hover {
 
 #about-dropdown {
   text-align: right;
+  margin-left: -12px;
 }
 
 #products-dropdown {
-  margin-left: 3px;
+  margin-left: -6px;
 }
 
 #delivery-dropdown {
-  margin-left: 80px;
+  margin-left: 70px;
 }
 
 #contact-dropdown {
-  margin-left: -88px;
+  margin-left: -94px;
 }
 
 ul ul li {
@@ -216,7 +221,7 @@ ul li i {
 
 #content-header {
   font-size: 104px;
-  margin-left: 48px;
+  margin-left: 172px;
   margin-top: 48px;
   text-align: left;
   font-family: 'Passion One', cursive;
