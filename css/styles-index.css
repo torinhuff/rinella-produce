@@ -10,7 +10,7 @@ p {
 
 #whole-body {
   width: 90%;
-  margin-left: 10%;
+  margin-left: 7%;
 }
 
 #header-both {
@@ -560,7 +560,7 @@ ul li i {
   /* #header-content {
     margin-left: 23%;
   } */
-  .bottom-follow {
+  /* .bottom-follow {
     margin-top: -5%;
     margin-left: 2%;
   }
@@ -570,10 +570,10 @@ ul li i {
   #icons-bottom-shift {
     margin-left: 32%;
   }
-}
+} */
 
 
-@media screen and (min-width:769px) and (max-width:1024px), (max-width: 768px) {
+/* @media screen and (min-width:769px) and (max-width:1024px), (max-width: 768px) {
   #whole-body {
     margin-left: 11%;
   }
@@ -637,4 +637,4 @@ ul li i {
   #icons-bottom-shift {
     margin-left: 25%;
   }
-} */
+} */ */
