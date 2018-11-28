@@ -1,19 +1,30 @@
 body {
   background-color: white;
   margin-bottom: 5%;
-  width: 100%;
+}
+
+p {
+  font-size: 16px;
+  font-family: 'Barlow', sans-serif;
 }
 
 #whole-body {
   width: 90%;
-  margin-left: 5%;
+}
+
+#header-both {
+  display: block;
 }
 
 #header-image {
   width: 100%;
   display: block;
+}
+
+#header-content {
+  display: block;
+  width: 100%;
   margin: auto;
-  margin-left: -5%;
 }
 
 .container a {
@@ -22,15 +33,13 @@ body {
 }
 
 .container a:hover {
-  text-decoration: none;
   color: #77bfd2;
 }
 
-.navbar a:hover {
+nav a:hover {
   text-decoration: none;
   color: #77bfd2;
 }
-
 .navbar {
   width: 110%;
   display: inline-block;
@@ -39,24 +48,27 @@ body {
   margin: 0;
   padding: 0;
   border-radius: 0;
-  padding-left: 56px;
   list-style-type: none;
   background: #2e2f30;
   position: relative;
 }
 
-.navbar li {
+#about-us {
+  margin-left: 24px;
+}
+
+ul li {
   display: inline-block;
 }
 
-.navbar li a {
+ul li a {
   color: white;
   text-decoration: none;
   display: block;
   padding: 15px;
 }
 
-.navbar li:hover {
+ul li:hover {
   background: #2e2f30;
   text-decoration: none;
 }
@@ -72,45 +84,55 @@ body {
 
 #about-dropdown {
   text-align: right;
+  margin-left: -12px;
 }
 
 #products-dropdown {
-  margin-left: 3px;
+  margin-left: -6px;
 }
 
 #delivery-dropdown {
-  margin-left: 80px;
+  margin-left: 70px;
 }
 
 #contact-dropdown {
-  margin-left: -88px;
+  margin-left: -94px;
 }
 
-.navbar ul li {
+ul ul li {
   display: block;
   background: #2e2f30;
   border-top: solid 0.4px white;
 }
 
-.navbar li:hover ul {
+ul li:hover ul {
   display: block;
 }
 
-.navbar li i {
+ul li i {
   color: white;
   float: right;
   padding-left: 20px;
 }
 
 .search-top {
+  display: block;
   float: right;
-  padding-right: 56px;
+  padding-right: 96px;
   margin-right: 48px;
 }
 
 .btn:hover {
     background: #77bfd2;
     color: white;
+}
+
+#content-header {
+  font-size: 104px;
+  margin-left: 172px;
+  margin-top: 48px;
+  text-align: left;
+  font-family: 'Passion One', cursive;
 }
 
 .welcome-info {
@@ -138,14 +160,6 @@ body {
 .welcome-info a:hover {
   text-decoration: none;
   color: #77bfd2;
-}
-
-#content-header {
-  font-size: 104px;
-  margin-left: 48px;
-  margin-top: 48px;
-  text-align: left;
-  font-family: 'Passion One', cursive;
 }
 
 
@@ -519,7 +533,7 @@ body {
   margin-left: 140px;
 }
 
-@media screen and (min-width:1440px) {
+/* @media screen and (min-width:1440px) {
   .navbar {
     padding-left: 20%;
     padding-right: 20%;
@@ -582,4 +596,4 @@ body {
   #icons-bottom-shift {
     margin-left: 25%;
   }
-}
+} */

@@ -127,6 +127,14 @@ ul li i {
     color: white;
 }
 
+#content-header {
+  font-size: 104px;
+  margin-left: 172px;
+  margin-top: 48px;
+  text-align: left;
+  font-family: 'Passion One', cursive;
+}
+
 .welcome-info {
   float: right;
   display: block;
@@ -169,14 +177,6 @@ ul li i {
   flex-wrap: wrap;
   font-size: 16px;
   font-family: 'Barlow', sans-serif;
-}
-
-#content-header {
-  font-size: 104px;
-  margin-left: 172px;
-  margin-top: 48px;
-  text-align: left;
-  font-family: 'Passion One', cursive;
 }
 
 #border-top {
