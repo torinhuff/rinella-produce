@@ -53,7 +53,8 @@ p {
   width: 100%;
   display: block;
   margin: auto;
-  margin-left: -12%;
+  margin-left: 10%;
+  margin-right: 40%;
 }
 
 
@@ -555,9 +556,9 @@ ul li i {
     padding-left: 20%;
     padding-right: 20%;
   }
-  #header-content {
+  /* #header-content {
     margin-left: 33%;
-  }
+  } */
   #header-both{
     width: 80%;
     margin-left: 12%;
@@ -604,8 +605,12 @@ ul li i {
     margin-left: 5%;
   }
   #header-content {
-    margin-left: 23%;
+    margin-left :5%;
+    margin-right: 40%;
   }
+  /* #header-content {
+    margin-left: 23%;
+  } */
   .bottom-follow {
     margin-top: -5%;
     margin-left: 2%;
@@ -619,13 +624,14 @@ ul li i {
 }
 
 
-@media screen and (min-width:769px) and (max-width:1024px) {
+@media screen and (min-width:769px) and (max-width:1024px), (max-width: 768px) {
   #whole-body {
-    margin-left: 9%;
+    margin-left: 11%;
   }
   .navbar {
-    padding-left: 2%;
-    padding-right: 0%;
+    padding-left: 4%;
+    padding-right: 2%;
+    width: 120%;
   }
   #about-us {
     margin-left: 24px;
@@ -634,9 +640,10 @@ ul li i {
   .search-top {
     margin-right: -18px;
   }
-  #header-content {
-    margin-left: 22%;
-  }
+  /* #header-content {
+    margin-left: 27%;
+    margin-right: 27%;
+  } */
   #content-header {
     margin-left: 96px;
   }
@@ -662,10 +669,10 @@ ul li i {
     padding-left: 0%;
     padding-right: 0.5%;
   }
-  #header-content {
+  /* #header-content {
     width: 5%;
-    margin-left: 12%;
-  }
+    margin-left: 20%;
+  } */
 
   .page-content {
     width: 90%;
