@@ -595,7 +595,7 @@ ul li i {
 
 @media screen and (min-width:1025px) and (max-width:1440px) {
   #whole-body {
-    margin-left: 7%;
+    margin-left: 5%;
   }
   .navbar {
     padding-left: 12%;
@@ -605,8 +605,8 @@ ul li i {
     margin-left: 5%;
   }
   #header-content {
-    margin-left :5%;
-    margin-right: 40%;
+    margin-left :3%;
+    margin-right: 50%;
   }
   /* #header-content {
     margin-left: 23%;
