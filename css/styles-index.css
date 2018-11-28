@@ -564,12 +564,12 @@ ul li i {
 
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
+  #whole-body {
+    margin-left: 3%;
+  }
   .navbar {
     padding-left: 12%;
     padding-right: 8%;
-  }
-  #header-content {
-    margin-left: 13%;
   }
   .bottom-follow {
     margin-top: -5%;
@@ -588,9 +588,6 @@ ul li i {
   .navbar {
     padding-left: 8%;
     padding-right: 0.5%;
-  }
-  #header-content {
-    margin-left: 8%;
   }
 
   .page-content {

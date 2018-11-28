@@ -426,9 +426,6 @@ body {
     padding-left: 12%;
     padding-right: 8%;
   }
-  #header-content {
-    margin-left: 13%;
-  }
   .bottom-follow {
     margin-top: -5%;
     margin-left: 2%;
@@ -446,10 +443,6 @@ body {
     padding-left: 8%;
     padding-right: 0.5%;
   }
-  #header-content {
-    margin-left: 8%;
-  }
-
   .page-content {
     width: 90%;
     margin-left: 5%;
