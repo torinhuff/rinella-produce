@@ -50,9 +50,10 @@ p {
 } */
 
 #header-image {
-  width: 90%;
+  width: 100%;
   display: block;
   margin: auto;
+  margin-left: -5%;
 }
 
 
@@ -160,7 +161,7 @@ ul li i {
 .search-top {
   display: block;
   float: right;
-  padding-right: 56px;
+  padding-right: 96px;
   /* margin-right: 48px; */
 }
 
@@ -172,14 +173,13 @@ ul li i {
 .welcome-info {
   float: right;
   display: block;
-  width: 35%;
   font-family: 'Barlow', sans-serif;
   font-size: 16px;
   text-align: center;
   line-height: 8px;
   color: black;
   margin-top: -156px;
-  margin-right: 36px;
+  margin-right: 96px;
 }
 
 .welcome-info h6 {
@@ -207,6 +207,8 @@ ul li i {
 }
 
 .page-content {
+  width: 80%;
+  margin-left: 10%;
   flex-wrap: wrap;
   font-size: 16px;
   font-family: 'Barlow', sans-serif;

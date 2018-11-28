@@ -10,9 +10,10 @@ body {
 }
 
 #header-image {
-  width: 90%;
+  width: 100%;
   display: block;
   margin: auto;
+  margin-left: -5%;
 }
 
 .container a {
