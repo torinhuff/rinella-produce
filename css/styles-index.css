@@ -53,7 +53,7 @@ p {
   width: 100%;
   display: block;
   margin: auto;
-  margin-left: -10%;
+  margin-left: -7%;
 }
 
 
@@ -162,7 +162,7 @@ ul li i {
   display: block;
   float: right;
   padding-right: 96px;
-  /* margin-right: 48px; */
+  margin-right: 48px;
 }
 
 .btn:hover {
