@@ -10,7 +10,7 @@ p {
 
 #whole-body {
   width: 90%;
-  margin-left: 2%;
+  margin-left: 5%;
 }
 
 #header-both {
@@ -26,7 +26,6 @@ p {
   display: block;
   width: 100%;
   margin: auto;
-  margin-left: 2%;
 }
 
 .container a {
@@ -55,22 +54,18 @@ nav a:hover {
   position: relative;
 }
 
-#about-us {
-  margin-left: 24px;
-}
-
-ul li {
+.navbar li {
   display: inline-block;
 }
 
-ul li a {
+.navbar a {
   color: white;
   text-decoration: none;
   display: block;
   padding: 15px;
 }
 
-ul li:hover {
+.navbar li:hover {
   background: #2e2f30;
   text-decoration: none;
 }
@@ -101,17 +96,17 @@ ul li:hover {
   margin-left: -94px;
 }
 
-ul ul li {
+.navbar ul li {
   display: block;
   background: #2e2f30;
   border-top: solid 0.4px white;
 }
 
-ul li:hover ul {
+.navbar li:hover ul {
   display: block;
 }
 
-ul li i {
+.navbar li i {
   color: white;
   float: right;
   padding-left: 20px;
@@ -120,8 +115,8 @@ ul li i {
 .search-top {
   display: block;
   float: right;
-  padding-right: 96px;
-  margin-right: 48px;
+  padding-right: 8%;
+  margin-right: 5%;
 }
 
 .btn:hover {
@@ -231,7 +226,7 @@ ul li i {
   width: 80%;
   margin: auto;
   border-top: 0.4px solid black;
-  margin-top: 48px;
+  margin-top: 2%;
 }
 
 .credit-application {
@@ -322,7 +317,7 @@ ul li i {
   width: 80%;
   margin: auto;
   border-top: 0.4px solid black;
-  margin-top: 48px;
+  margin-top: 2%;
 }
 
 .order-block {
@@ -402,6 +397,9 @@ ul li i {
 .mailing-picture:hover {
   opacity: 0.4;
 }
+
+/*MAILING LIST FORM*/
+
 /* .mailing-list-block {
   display: block;
   width: 40%;
@@ -445,7 +443,7 @@ ul li i {
   width: 80%;
   margin: auto;
   border-top: 0.4px solid black;
-  margin-top: 24px;
+  margin-top: 1%;
 }
 
 #border-bottom {
@@ -453,7 +451,7 @@ ul li i {
   width: 80%;
   margin: auto;
   border-top: 0.4px solid black;
-  margin-top: 96px;
+  margin-top: 2%;
 }
 
 #footer-block {
@@ -562,13 +560,28 @@ ul li i {
   margin-left: 140px;
 }
 
-/* @media screen and (min-width:1440px) {
+@media screen and (min-width:1441px) {
   .navbar {
     padding-left: 20%;
     padding-right: 20%;
   }
-  #header-content {
-    margin-left: 33%;
+  #header-both{
+    width: 80%;
+    margin-left: 12%;
+  }
+  .welcome-info {
+    margin-right: 12%;
+  }
+  .page-content {
+    width: 60%;
+    margin-left: 22%;
+    margin-top: 1%;
+  }
+  #mango-image {
+    width: 25%;
+  }
+  #border {
+    margin-top: 1%;
   }
   .bottom-follow {
     margin-top: -7%;
@@ -582,13 +595,11 @@ ul li i {
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
+
+@media screen and (min-width:1025px) and (max-width:1440px) {
   .navbar {
     padding-left: 12%;
     padding-right: 8%;
-  }
-  #header-content {
-    margin-left: 13%;
   }
   .bottom-follow {
     margin-top: -5%;
@@ -602,18 +613,15 @@ ul li i {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .navbar {
-    padding-left: 8%;
-    padding-right: 0.5%;
-  }
-  #header-content {
-    margin-left: 8%;
-  }
 
-  .page-content {
-    width: 90%;
-    margin-left: 5%;
+ @media screen and (min-width:768px) and (max-width:1024px) {
+  .navbar {
+    padding-left: 4%;
+    padding-right: 2%;
+    width: 120%;
+  }
+  #about-us {
+    margin-left: 24px;
   }
   .bottom-follow {
     margin-top: -2%;
@@ -625,4 +633,4 @@ ul li i {
   #icons-bottom-shift {
     margin-left: 25%;
   }
-} */
+}

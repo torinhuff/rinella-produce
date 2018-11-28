@@ -54,10 +54,6 @@ nav a:hover {
   position: relative;
 }
 
-#about-us {
-  margin-left: 24px;
-}
-
 ul li {
   display: inline-block;
 }
@@ -119,8 +115,8 @@ ul li i {
 .search-top {
   display: block;
   float: right;
-  padding-right: 96px;
-  margin-right: 48px;
+  padding-right: 8%;
+  margin-right: 5%;
 }
 
 .btn:hover {
@@ -185,7 +181,7 @@ ul li i {
   width: 80%;
   margin: auto;
   border-top: 0.4px solid black;
-  margin-top: 24px;
+  margin-top: 1%;
 }
 
 #block-quote {
@@ -232,7 +228,7 @@ ul li i {
   width: 80%;
   margin: auto;
   border-top: 0.4px solid black;
-  margin-top: 24px;
+  margin-top: 1%;
 }
 
 .col-sm-4 img {
@@ -458,7 +454,7 @@ ul li i {
 .bottom-follow h3 {
   color: #aa5147;
   text-align: center;
-  margin-top: 36px;
+  margin-top: 48px;
   font-family: 'Passion One', cursive;
   font-size: 32px;
 }

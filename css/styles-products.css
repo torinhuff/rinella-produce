@@ -535,13 +535,28 @@ ul li i {
   margin-left: 140px;
 }
 
-/* @media screen and (min-width:1440px) {
+@media screen and (min-width:1441px) {
   .navbar {
     padding-left: 20%;
     padding-right: 20%;
   }
-  #header-content {
-    margin-left: 33%;
+  #header-both{
+    width: 80%;
+    margin-left: 12%;
+  }
+  .welcome-info {
+    margin-right: 12%;
+  }
+  .page-content {
+    width: 60%;
+    margin-left: 22%;
+    margin-top: 1%;
+  }
+  #mango-image {
+    width: 25%;
+  }
+  #border {
+    margin-top: 1%;
   }
   .bottom-follow {
     margin-top: -7%;
@@ -555,13 +570,11 @@ ul li i {
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
+
+@media screen and (min-width:1025px) and (max-width:1440px) {
   .navbar {
     padding-left: 12%;
     padding-right: 8%;
-  }
-  #header-content {
-    margin-left: 13%;
   }
   .bottom-follow {
     margin-top: -5%;
@@ -575,18 +588,15 @@ ul li i {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .navbar {
-    padding-left: 8%;
-    padding-right: 0.5%;
-  }
-  #header-content {
-    margin-left: 8%;
-  }
 
-  .page-content {
-    width: 90%;
-    margin-left: 5%;
+ @media screen and (min-width:768px) and (max-width:1024px) {
+  .navbar {
+    padding-left: 4%;
+    padding-right: 2%;
+    width: 120%;
+  }
+  #about-us {
+    margin-left: 24px;
   }
   .bottom-follow {
     margin-top: -2%;
@@ -598,4 +608,4 @@ ul li i {
   #icons-bottom-shift {
     margin-left: 25%;
   }
-} */
+}
