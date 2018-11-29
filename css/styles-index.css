@@ -1,3 +1,50 @@
+/*MOBILE STYLING (HIDE)*/
+.search-top-mobile {
+  display: none;
+  margin: auto;
+  margin-left: 35%;
+}
+.mobile-row-1 {
+  display: none;
+  margin-top: 3%;
+}
+.mobile-row-2 {
+  display: none;
+  margin-top: 3%;
+}
+.mobile-pictures {
+  display: block;
+  margin: auto;
+  width: 80%;
+  border-radius: 4px;
+}
+.about-us-mobile {
+  display: none;
+  width: 40%;
+  margin: auto;
+  margin-left: 9%;
+}
+.products-mobile {
+  display: none;
+  width: 40%;
+  margin: auto;
+  margin-left: -36px;
+}
+.deliveries-ordering-mobile {
+  display:none;
+  width: 40%;
+  margin: auto;
+  margin-left: 9%;
+}
+.contact-employment-mobile {
+  display: none;
+  width: 40%;
+  margin: auto;
+  margin-left: -36px;
+}
+
+
+/*DESKTOP STYLING*/
 #mango-image {
   float: right;
   width: 40%;
@@ -199,7 +246,7 @@
   height: 600px;
 }
 
-#border {
+#border-above-footer {
   display: block;
   width: 80%;
   margin: auto;
@@ -250,6 +297,9 @@
   #border {
     margin-top: 1%;
   }
+  #border-above-footer {
+    margin-top: 1%;
+  }
   .bottom-follow {
     margin-top: -7%;
     margin-left: -2%;
@@ -280,7 +330,9 @@
   }
 }
 
+/*<-------SMALL SCREEN DESKTOP VERSION-------->*/
 
+/*
  @media screen and (min-width:768px) and (max-width:1024px) {
    #whole-body {
      margin-left: 15%;
@@ -311,5 +363,91 @@
   }
   #icons-bottom-shift {
     margin-left: 25%;
+  }
+}*/
+
+/*<--------MOBILE FRIENDLY--------*/
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+  #whole-body {
+    width: 95%;
+  }
+  #header-content {
+    width: 100%;
+    margin: auto;
+    margin-left: 0%;
+    margin-top: 12px;
+  }
+  .navbar {
+    display: none;
+  }
+  #header-both {
+    margin-top: 5%;
+    margin-left: 3%;
+  }
+  #content-header {
+    margin-left: 5%;
+  }
+  #border-top {
+    width: 60%;
+    margin-left: 17%;
+    margin-top: 3%;
+  }
+  .welcome-info {
+    margin-right: 15%;
+  }
+  .page-content {
+    display: none;
+  }
+  #border {
+    display: none;
+  }
+  #content-image-boxes {
+    display: none;
+  }
+  #border-above-map {
+    display: none;
+  }
+  .third-row {
+    display: none;
+  }
+  .search-top-mobile {
+    display: block;
+  }
+  .mobile-row-1 {
+    display: block;
+  }
+  .mobile-row-2 {
+    display: block;
+  }
+  .about-us-mobile {
+    display: block;
+  }
+  .products-mobile {
+    display: block;
+  }
+  .deliveries-ordering-mobile {
+    display: block;
+  }
+  .contact-employment-mobile {
+    display: block;
+  }
+  #border-above-footer {
+    width: 60%;
+    margin-left: 17%;
+    margin-top: -7%;
+  }
+  #footer-block {
+    margin-left: 0px;
+  }
+  .bottom-follow {
+    margin-top: -2%;
+    margin-left: 36px;
+  }
+  #icons-bottom {
+    width: 14%;
+  }
+  #icons-bottom-shift {
+    margin-left: 132px;
   }
 }
