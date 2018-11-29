@@ -38,13 +38,13 @@
   width: 80%;
   margin: auto;
   border-top: 0.4px solid black;
-  margin-top: 4%;
+  margin-top: 5%;
 }
 
 .about-body-text {
   display: block;
   width: 45%;
-  margin-left: 80px;
+  margin-left: 72px;
 }
 
 .about-body-text p {
@@ -95,6 +95,30 @@
 
 #forced-to-grow {
   margin-top: 96px;
+}
+
+#countup {
+  display: block;
+  margin-top: 96px;
+  text-align: center;
+}
+
+#countup h3 {
+  font-family: 'Passion One', cursive;
+  font-size: 32px;
+  color: black;
+  margin-top: 96px;
+  margin-right: -12px;
+}
+#countup p {
+  display: inline-block;
+  padding: 3px;
+  background: white;
+  margin: 0 0 20px;
+  border-radius: 3px;
+  color: #932322;
+  font-family: 'Passion One', cursive;
+  font-size: 32px;
 }
 
 
