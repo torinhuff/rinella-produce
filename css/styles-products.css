@@ -594,6 +594,12 @@ nav a:hover {
     padding-right: 2%;
     width: 120%;
   }
+  #about-us {
+    margin-left: 7%;
+  }
+  .search-top {
+    padding-right: 4%;
+  }
   #content-header {
     margin-left: 72px;
   }
