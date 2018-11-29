@@ -10,7 +10,7 @@
   display: block;
   width: 40%;
   margin: auto;
-  margin-left: 96px;
+  margin-left: 72px;
 }
 
 .products h3 {
@@ -48,10 +48,10 @@
   width: 80%;
   margin: auto;
   border-top: 0.4px solid black;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
-.produce-list {
+/* .produce-list {
   width: 30%;
   display: block;
   margin-left: 40px;
@@ -69,12 +69,12 @@
   border-radius: 4px;
   margin: auto;
   margin-top: 24px;
-}
+} */
 
 .canned-goods-list {
   width: 40%;
   display: block;
-  margin-left: 96px;
+  margin-left: 72px;
 }
 
 .canned-goods-list h6 {
@@ -116,13 +116,13 @@
   width: 80%;
   margin: auto;
   border-top: 0.4px solid black;
-  margin-top: 4%;
+  margin-top: 5%;
 }
 
 .price-block {
   width: 40%;
   display: block;
-  margin-left: 96px;
+  margin-left: 72px;
 }
 
 .price-block h3 {
@@ -185,7 +185,7 @@
   width: 80%;
   margin: auto;
   border-top: 0.4px solid black;
-  margin-top: 4%;
+  margin-top: 5%;
 }
 
 .specials-block {
@@ -218,6 +218,7 @@
   border-radius: 4px;
   margin: auto;
   margin-top: 24px;
+  border: 2px solid #aa5147;
 }
 
 .flyer-two-block {
@@ -232,6 +233,7 @@
   border-radius: 4px;
   margin: auto;
   margin-top: 24px;
+  border: 2px solid #aa5147;
 }
 
 .flyer-three-block {
@@ -246,6 +248,7 @@
   border-radius: 4px;
   margin: auto;
   margin-top: 24px;
+  border: 2px solid #aa5147;
 }
 
 .pics-hover:hover {
