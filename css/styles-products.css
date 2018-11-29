@@ -427,7 +427,7 @@ nav a:hover {
   width: 100%;
   padding-left: 3%;
   margin: auto;
-  margin-top: 2%;
+  margin-top: -2%;
 }
 
 .footer-links h5 {
@@ -508,7 +508,7 @@ nav a:hover {
 .bottom-follow h3 {
   color: #aa5147;
   text-align: center;
-  margin-top: 36px;
+  margin-top: 48px;
   font-family: 'Passion One', cursive;
   font-size: 32px;
 }
