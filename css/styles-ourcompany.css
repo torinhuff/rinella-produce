@@ -273,7 +273,7 @@ nav a:hover {
   width: 100%;
   padding-left: 3%;
   margin: auto;
-  margin-top: 2%;
+  margin-top: -2%;
 }
 
 .footer-links h5 {

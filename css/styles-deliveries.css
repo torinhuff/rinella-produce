@@ -194,14 +194,13 @@ nav a:hover {
   display: block;
   margin: auto;
   margin-left: 48px;
-  margin-top: 12px;
+  margin-top: 6%;
 }
 
 .deliveries-pic {
   width: 100%;
   display: block;
   margin: auto;
-  margin-top: 84px;
   border-radius: 4px;
 }
 
