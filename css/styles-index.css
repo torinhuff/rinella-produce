@@ -4,43 +4,80 @@
   margin: auto;
   margin-left: 35%;
 }
+
 .mobile-row-1 {
   display: none;
-  margin-top: 3%;
+  margin-top: 4%;
 }
+
 .mobile-row-2 {
   display: none;
-  margin-top: 3%;
+  margin-top: 4%;
 }
+
+.mobile-row-3 {
+  display: none;
+  margin-top: 5%;
+}
+
 .mobile-pictures {
   display: block;
   margin: auto;
-  width: 80%;
+  width: 90%;
   border-radius: 4px;
 }
+
+.mobile-pictures:hover {
+  opacity: 0.4;
+  text-decoration: none;
+}
+
+.mobile-paragraph {
+  display: none;
+  width: 40%;
+  margin: auto;
+  margin-left: 7%;
+  margin-top: -12px;
+}
+
+.mobile-paragraph p {
+  font-size: 18px;
+  font-family: 'Barlow', sans-serif;
+}
+
 .about-us-mobile {
   display: none;
   width: 40%;
   margin: auto;
-  margin-left: 9%;
+  margin-left: 36px;
 }
+
+.departments-mobile {
+  display: none;
+  width: 40%;
+  margin: auto;
+  margin-left: 7%;
+}
+
 .products-mobile {
   display: none;
   width: 40%;
   margin: auto;
-  margin-left: -36px;
+  margin-left: 36px;
 }
+
 .deliveries-ordering-mobile {
   display:none;
   width: 40%;
   margin: auto;
-  margin-left: 9%;
+  margin-left: 7%;
 }
+
 .contact-employment-mobile {
   display: none;
   width: 40%;
   margin: auto;
-  margin-left: -36px;
+  margin-left: 36px;
 }
 
 
@@ -106,7 +143,6 @@
 .mango-object:hover {
   text-decoration: none;
   opacity: 0.4;
-  z-index: 9998;
 }
 
 #border {
@@ -420,7 +456,16 @@
   .mobile-row-2 {
     display: block;
   }
+  .mobile-row-3 {
+    display: block;
+  }
+  .mobile-paragraph {
+    display: block;
+  }
   .about-us-mobile {
+    display: block;
+  }
+  .departments-mobile {
     display: block;
   }
   .products-mobile {
