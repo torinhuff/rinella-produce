@@ -54,18 +54,18 @@ nav a:hover {
   position: relative;
 }
 
-ul li {
+.navbar li {
   display: inline-block;
 }
 
-ul li a {
+.navbar a {
   color: white;
   text-decoration: none;
   display: block;
   padding: 15px;
 }
 
-ul li:hover {
+.navbar li:hover {
   background: #2e2f30;
   text-decoration: none;
 }
@@ -96,17 +96,17 @@ ul li:hover {
   margin-left: -94px;
 }
 
-ul ul li {
+.navbar ul li {
   display: block;
   background: #2e2f30;
   border-top: solid 0.4px white;
 }
 
-ul li:hover ul {
+.navbar li:hover ul {
   display: block;
 }
 
-ul li i {
+.navbar li i {
   color: white;
   float: right;
   padding-left: 20px;
@@ -372,7 +372,7 @@ ul li i {
   width: 100%;
   padding-left: 3%;
   margin: auto;
-  margin-top: 18px;
+  margin-top: 2%;
 }
 
 .footer-links h5 {
