@@ -459,19 +459,110 @@
 
 
 @media screen and (min-width:1025px) and (max-width:1440px) {
+  #header-image {
+    margin-top: 24px;
+    margin-left: 24px;
+  }
+  .welcome-info h6 {
+    font-size: 38px;
+  }
+  .welcome-info p {
+    font-size: 22px;
+    line-height: 0.9;
+  }
+  .welcome-info {
+    margin-top: -264px;
+    margin-right: -24px;
+  }
   .navbar {
-    padding-left: 12%;
+    font-size: 18px;
+    padding-left: 10%;
     padding-right: 8%;
   }
+  #content-header {
+    font-size: 132px;
+    margin-left: 56px;
+    margin-top: 24px;
+  }
+  .top-follow h3 {
+    font-size: 42px;
+  }
+  .top-follow {
+    margin-top: 18px;
+    margin-left: 224px;
+  }
+  #instagram-top {
+    margin-left: 108px
+  }
+  #whole-body {
+    margin-left: 9%;
+  }
+  .page-content p {
+    font-size: 18px;
+  }
+  #mango-image {
+    width: 45%;
+  }
+  #yelp-author {
+    font-size: 20px;
+  }
+  #content-image-boxes h6 {
+    font-size: 36px;
+  }
+  #content-image-boxes p {
+    font-size: 18px;
+  }
+  #content-image-boxes img {
+    margin-top: 24px;
+  }
+  .headers-maps-insta {
+    margin-top: -24px;
+    font-size: 36px;
+  }
+  #insta-text {
+    font-size: 18px;
+  }
+  #countup h3 {
+    font-size: 36px;
+  }
+  #countup p {
+    font-size: 36px;
+  }
+  #footer-block {
+    margin-top: 12px;
+    margin-left: 24px;
+  }
+  .footer-links h5 {
+    font-size: 36px;
+  }
+  .footer-links p {
+    font-size: 24px;
+  }
+  .rinella-footer-pic {
+    margin-left: 48px;
+  }
+  .footer-info {
+    margin-left: 48px;
+  }
+  .footer-info h6 {
+    font-size: 36px;
+  }
+  .footer-info p {
+    font-size: 22px;
+    line-height: 0.9;
+  }
+  .bottom-follow h3 {
+    font-size: 36px;
+  }
   .bottom-follow {
-    margin-top: -5%;
-    margin-left: 2%;
+    margin-top: 2%;
+    margin-left: 3%;
   }
   .icons-bottom {
     width: 11%;
   }
-  #icons-bottom-shift {
-    margin-left: 32%;
+  #instagram-bottom {
+    margin-left: 190px;
   }
 }
 
