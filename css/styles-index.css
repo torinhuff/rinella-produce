@@ -604,7 +604,7 @@
 
 /*<--------MOBILE FRIENDLY--------*/
 
-/* @media screen and (min-width:768px) and (max-width:1024px) {
+@media screen and (min-width:768px) and (max-width:1024px) {
   #whole-body {
     width: 95%;
   }
@@ -612,7 +612,13 @@
     width: 100%;
     margin: auto;
     margin-left: 0%;
-    margin-top: 12px;
+  }
+  #header-image {
+    margin-top: -24px;
+    margin-left: -48px;
+  }
+  .welcome-info {
+    margin-top: -192px;
   }
   .navbar {
     display: none;
@@ -622,15 +628,17 @@
     margin-left: 3%;
   }
   #content-header {
-    margin-left: 5%;
+    font-size: 116px;
+    margin-left: 6%;
+    margin-top: 24px;
+  }
+  #instagram-top {
+    margin-left: 84px;
   }
   #border-top {
     width: 60%;
     margin-left: 17%;
-    margin-top: 3%;
-  }
-  .welcome-info {
-    margin-right: 15%;
+    margin-top: 4%;
   }
   .page-content {
     display: none;
@@ -681,18 +689,35 @@
     width: 60%;
     margin-left: 17%;
     margin-top: -7%;
+    margin-bottom: 4%;
   }
   #footer-block {
     margin-left: 0px;
   }
+  #footer-image {
+    margin-top: 12px;
+  }
+  .footer-links h5 {
+    font-size: 32px;
+    margin-top: -12px;
+  }
+  .footer-links p {
+    font-size: 18px;
+  }
   .bottom-follow {
-    margin-top: -2%;
-    margin-left: 36px;
+    margin-top: 4%;
+    margin-left: 3%;
+  }
+  .footer-info h6 {
+    font-size: 32px;
+  }
+  .footer-info p {
+    font-size: 18px;
   }
   #icons-bottom {
     width: 14%;
   }
-  #icons-bottom-shift {
-    margin-left: 132px;
+  #instagram-bottom {
+    margin-left: 148px;
   }
-} */
+}
