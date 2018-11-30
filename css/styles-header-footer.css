@@ -129,10 +129,14 @@ nav a:hover {
     color: white;
 }
 
+#home {
+  margin-left: 48px;
+}
+
 #content-header {
   font-size: 104px;
-  margin-left: 24px;
-  margin-top: 24px;
+  margin-left: 64px;
+  margin-top: 36px;
   text-align: left;
   font-family: 'Passion One', cursive;
 }
@@ -182,15 +186,19 @@ nav a:hover {
   border: 2px solid #ddd;
   border-radius: 4px;
   padding: 4px;
-  width: 12%;
+  width: 14%;
 }
 
 .icons-top:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
-#twitter-icon {
-  margin-left: 84px;
+#instagram-top {
+  margin-left: 90px;
+}
+
+#yelp-icon {
+  padding: 1px;
 }
 
 #border-bottom {
@@ -280,28 +288,28 @@ nav a:hover {
 
 .bottom-follow {
   display: block;
-  margin-left: 48px;
+  margin-left: 36px;
 }
 
 .bottom-follow h3 {
   color: #aa5147;
   text-align: center;
-  margin-top: 24px;
+  margin-top: -36px;
   font-family: 'Passion One', cursive;
-  font-size: 28px;
+  font-size: 36px;
 }
 
 .icons-bottom {
   border: 2px solid #ddd;
   border-radius: 4px;
   padding: 4px;
-  width: 2%;
+  width: 9%;
 }
 
 .icons-bottom:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
-#twitter-icon-bottom {
-  margin-left: 138px;
+#instagram-bottom {
+  margin-left: 178px;
 }
