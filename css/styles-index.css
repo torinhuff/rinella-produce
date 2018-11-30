@@ -382,6 +382,7 @@
     width: 32%;
   }
   #content-image-boxes h6 {
+    margin-top: 4%;
     font-size: 48px;
   }
   #content-image-boxes p {
@@ -393,6 +394,9 @@
   }
   #public-image {
     margin-left: 108px;
+  }
+  #border-above-map {
+    margin-top: 4%;
   }
   .headers-maps-insta {
     font-size: 48px;
