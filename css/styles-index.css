@@ -568,43 +568,56 @@
 
 /*<-------SMALL SCREEN DESKTOP VERSION-------->*/
 
-/*
+
  @media screen and (min-width:768px) and (max-width:1024px) {
    #whole-body {
-     margin-left: 15%;
+     margin-left: 5%;
    }
-   #header-content {
-     margin-left: 10%;
+   .welcome-info {
+     margin-right: 36px;
+     margin-top: -196px;
    }
-  .navbar {
-    padding-left: 4%;
-    padding-right: 2%;
-    width: 120%;
-  }
-  #about-us {
-    margin-left: 7%;
-  }
+   #home {
+     margin-left: 12px;
+   }
   .search-top {
     padding-right: 4%;
   }
   #content-header {
-    margin-left: 72px;
+    font-size: 108px;
+    margin-left: 42px;
+    margin-top: 24px;
+  }
+  .top-follow {
+    margin-left: 156px;
+  }
+  #instagram-top {
+    margin-left: 76px;
+  }
+  #border-above-footer {
+    margin-bottom: 5%;
+  }
+  #footer-image {
+    margin-top:-12px;
+  }
+  .footer-links h5 {
+    margin-top: -24px;
   }
   .bottom-follow {
-    margin-top: -2%;
-    margin-left: 5%;
+    margin-top: 3%;
+    margin-left: 4%;
   }
   .icons-bottom {
     width: 14%;
   }
-  #icons-bottom-shift {
-    margin-left: 25%;
+  #instagram-bottom {
+    margin-left: 108px;
   }
-}*/
+}
 
 /*<--------MOBILE FRIENDLY--------*/
 
-@media screen and (min-width:768px) and (max-width:1024px) {
+/* @media screen and (min-width:768px) and (max-width:1024px) {
   #whole-body {
     width: 95%;
   }
@@ -720,4 +733,4 @@
   #instagram-bottom {
     margin-left: 148px;
   }
-}
+} */
