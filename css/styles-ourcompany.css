@@ -99,7 +99,7 @@
 
 #countup {
   display: block;
-  margin-top: 96px;
+  margin-top: 48px;
   text-align: center;
 }
 
@@ -107,7 +107,7 @@
   font-family: 'Passion One', cursive;
   font-size: 32px;
   color: black;
-  margin-top: 96px;
+  margin-top: 48px;
   margin-right: -12px;
 }
 #countup p {
