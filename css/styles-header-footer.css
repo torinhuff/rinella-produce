@@ -18,8 +18,10 @@ p {
 }
 
 #header-image {
-  width: 100%;
+  width: 70%;
+  float: left;
   display: block;
+  margin-top: 24px;
 }
 
 #header-content {
@@ -48,6 +50,7 @@ nav a:hover {
   font-size: 16px;
   margin: 0;
   padding: 0;
+  margin-top: 24px;
   border-radius: 0;
   list-style-type: none;
   background: #2e2f30;
@@ -126,7 +129,7 @@ nav a:hover {
 
 #content-header {
   font-size: 104px;
-  margin-left: 172px;
+  margin-left: 24px;
   margin-top: 48px;
   text-align: left;
   font-family: 'Passion One', cursive;
@@ -140,13 +143,14 @@ nav a:hover {
   text-align: center;
   line-height: 8px;
   color: black;
-  margin-top: -156px;
+  margin-top: -216px;
+  margin-bottom: 24px;
   margin-right: 96px;
 }
 
 .welcome-info h6 {
-  font-family: 'Barlow', sans-serif;
-  font-size: 28px;
+  font-family: 'Passion One', cursive;
+  font-size: 36px;
 }
 
 .welcome-info a {
@@ -159,6 +163,33 @@ nav a:hover {
   color: #77bfd2;
 }
 
+.top-follow {
+  display: block;
+  margin-left: 124px;
+}
+
+.top-follow h3 {
+  color: #aa5147;
+  text-align: center;
+  margin-top: 48px;
+  font-family: 'Passion One', cursive;
+  font-size: 36px;
+}
+
+.icons-top {
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  padding: 4px;
+  width: 12%;
+}
+
+.icons-top:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#twitter-icon {
+  margin-left: 84px;
+}
 
 #border-bottom {
   display: block;
@@ -177,8 +208,8 @@ nav a:hover {
 }
 
 .footer-links h5 {
-  font-family: 'Barlow', sans-serif;
-  font-size: 28px;
+  font-family: 'Passion One', cursive;
+  font-size: 36px;
 }
 
 .footer-links {
@@ -220,7 +251,7 @@ nav a:hover {
 
 .footer-info {
   margin: auto;
-  margin-top: 24px;
+  margin-top: 48px;
   display: block;
   font-family: 'Barlow', sans-serif;
   font-size: 16px;
@@ -231,8 +262,8 @@ nav a:hover {
 
 .footer-info h6 {
   color: black;
-  font-size: 28px;
-  font-family: 'Barlow', sans-serif;
+  font-size: 36px;
+  font-family: 'Passion One', cursive;
 }
 
 .footer-info a {
@@ -247,7 +278,6 @@ nav a:hover {
 
 .bottom-follow {
   display: block;
-  margin-top: -24px;
   margin-left: 48px;
 }
 
@@ -256,20 +286,20 @@ nav a:hover {
   text-align: center;
   margin-top: 48px;
   font-family: 'Passion One', cursive;
-  font-size: 32px;
+  font-size: 36px;
 }
 
 .icons-bottom {
   border: 2px solid #ddd;
   border-radius: 4px;
   padding: 4px;
-  width: 12%;
+  width: 2%;
 }
 
 .icons-bottom:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
-#icons-bottom-shift {
-  margin-left: 140px;
+#twitter-icon-bottom {
+  margin-left: 138px;
 }
