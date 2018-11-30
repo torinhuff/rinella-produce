@@ -32,8 +32,8 @@
   width: 40%;
   display: block;
   margin: auto;
-  margin-left: 48px;
-  margin-top: 6%;
+  margin-left: 72px;
+  margin-top: 8%;
 }
 
 .deliveries-pic {
@@ -55,8 +55,8 @@
 }
 
 .cities-list {
-  column-count: 3;
-  column-gap: 24px;
+  column-count: 2;
+  column-gap: 12px;
 }
 
 #border {
