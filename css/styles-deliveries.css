@@ -64,7 +64,7 @@
   width: 80%;
   margin: auto;
   border-top: 0.4px solid black;
-  margin-top: 1%;
+  margin-top: 3%;
 }
 
 #border-above-map {
@@ -138,7 +138,7 @@
 }
 
 
-@media screen and (min-width:1441px) {
+/* @media screen and (min-width:1441px) {
   .navbar {
     padding-left: 20%;
     padding-right: 20%;
@@ -223,4 +223,4 @@
   #icons-bottom-shift {
     margin-left: 25%;
   }
-}
+} */

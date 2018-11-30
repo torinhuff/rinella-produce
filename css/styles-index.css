@@ -104,7 +104,7 @@
   width: 80%;
   margin: auto;
   border-top: 0.4px solid black;
-  margin-top: 1%;
+  margin-top: 3%;
 }
 
 #block-quote {
@@ -310,7 +310,7 @@
   font-size: 32px;
 }
 
-@media screen and (min-width:1441px) {
+/* @media screen and (min-width:1441px) {
   .navbar {
     padding-left: 20%;
     padding-right: 20%;
@@ -364,7 +364,7 @@
   #icons-bottom-shift {
     margin-left: 32%;
   }
-}
+} */
 
 /*<-------SMALL SCREEN DESKTOP VERSION-------->*/
 
@@ -404,7 +404,7 @@
 
 /*<--------MOBILE FRIENDLY--------*/
 
-@media screen and (min-width:768px) and (max-width:1024px) {
+/* @media screen and (min-width:768px) and (max-width:1024px) {
   #whole-body {
     width: 95%;
   }
@@ -495,4 +495,4 @@
   #icons-bottom-shift {
     margin-left: 132px;
   }
-}
+} */
