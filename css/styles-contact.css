@@ -503,10 +503,11 @@
   }
   .top-follow h3 {
     font-size: 42px;
+
   }
   .top-follow {
-    margin-top: 18px;
-    margin-left: 224px;
+    margin-top: 0px;
+    margin-left: 96px;
   }
   #instagram-top {
     margin-left: 108px
@@ -514,36 +515,62 @@
   #whole-body {
     margin-left: 9%;
   }
-  .page-content p {
+  .top-paragraph {
+    margin-left: 144px;
+    width: 40%;
+  }
+  .top-paragraph p {
     font-size: 18px;
   }
-  #mango-image {
-    width: 45%;
+  .top-contact-info {
+    margin-left: 144px;
   }
-  #yelp-author {
-    font-size: 20px;
-  }
-  #content-image-boxes h6 {
+  .top-contact-info h3 {
     font-size: 36px;
   }
-  #content-image-boxes p {
+  .top-contact-info li {
     font-size: 18px;
   }
-  #content-image-boxes img {
-    margin-top: 24px;
+  .contact-image {
+    width: 55%;
+    margin-left: 186px;
+    margin-top: -72px;
   }
-  .headers-maps-insta {
-    margin-top: -24px;
+  .below-contact {
+    margin-left: 56px;
+  }
+  #credit-application h3 {
     font-size: 36px;
   }
-  #insta-text {
+  #credit-application p {
     font-size: 18px;
   }
-  #countup h3 {
+  #employment h3 {
     font-size: 36px;
   }
-  #countup p {
+  #employment li {
+    font-size: 18px;
+  }
+  #employment p {
+    font-size: 18px;
+  }
+  .order-block h3 {
     font-size: 36px;
+  }
+  .mailing-list-send h3 {
+    font-size: 36px;
+  }
+  .mailing-list-send p {
+    font-size: 18px;
+  }
+  #border {
+    margin-top: 1%;
+  }
+  .above-order-block {
+    margin-left: 56px;
+  }
+  #border-above-footer {
+    margin-top: 1%;
   }
   #footer-block {
     margin-top: 12px;
@@ -579,7 +606,7 @@
     width: 11%;
   }
   #instagram-bottom {
-    margin-left: 190px;
+    margin-left: 204px;
   }
 }
 
