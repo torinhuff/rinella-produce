@@ -569,7 +569,7 @@
 /*<-------SMALL SCREEN DESKTOP VERSION-------->*/
 
 
- @media screen and (min-width:768px) and (max-width:1024px) {
+ /* @media screen and (min-width:768px) and (max-width:1024px) {
    #whole-body {
      margin-left: 5%;
    }
@@ -613,11 +613,11 @@
   #instagram-bottom {
     margin-left: 108px;
   }
-}
+} */
 
 /*<--------MOBILE FRIENDLY--------*/
 
-/* @media screen and (min-width:768px) and (max-width:1024px) {
+@media screen and (min-width:768px) and (max-width:1024px) {
   #whole-body {
     width: 95%;
   }
@@ -733,4 +733,4 @@
   #instagram-bottom {
     margin-left: 148px;
   }
-} */
+}

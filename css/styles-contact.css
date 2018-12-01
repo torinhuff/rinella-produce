@@ -48,12 +48,20 @@
   margin-left: 30px;
 }
 
+#border-top {
+  display: block;
+  width: 80%;
+  margin: auto;
+  border-top: 0.4px solid black;
+  margin-top: 3%;
+}
+
 .below-contact {
   margin-top: 48px;
 }
 
 .contact-image {
-  width: 70%;
+  width: 60%;
   display: block;
   border-radius: 6px;
   margin-left: 48px;
@@ -287,89 +295,337 @@
 
 
 
-/* @media screen and (min-width:1441px) {
+@media screen and (min-width:1441px) {
+  #header-image{
+    width: 60%;
+    margin-top: 36px;
+    margin-left: 4%;
+  }
+  #header-both {
+    margin-left: 8%;
+  }
+  #border-top {
+
+  }
+  .welcome-info {
+    margin-right: 10%;
+    margin-top: -372px;
+    margin-bottom: 72px;
+  }
+  .welcome-info h6 {
+    font-size: 56px;
+  }
+  .welcome-info p {
+    font-size: 32px;
+    line-height: 0.9;
+  }
   .navbar {
     padding-left: 20%;
     padding-right: 20%;
   }
-  #header-both{
+  .navbar li {
+    font-size: 20px;
+  }
+  #home {
+    margin-left: -24px;
+  }
+  #content-header {
+    font-size: 172px;
+    margin-left: 144px;
+    margin-top: 48px;
+  }
+  .top-follow {
+    margin-top: 48px;
+    margin-left: 256px;
+  }
+  .top-follow h3 {
+    font-size: 56px;
+  }
+  .icons-top {
+    width: 10%;
+  }
+  #instagram-top {
+    margin-left: 256px;
+  }
+  #whole-body {
+    margin-left: 10%;
+  }
+  .top-paragraph {
+    width: 30%;
+    font-size: 24px;
+    margin-left: 13%;
+    margin-top: 3%;
+  }
+  .top-contact-info {
+    margin-left: 372px;
+  }
+  .top-contact-info h3 {
+    font-size: 48px;
+  }
+  .top-contact-info li {
+    font-size: 24px;
+  }
+  .contact-pic-block {
+    width: 40%;
+  }
+  .contact-image {
+    width: 70%;
+    margin-left: 72px;
+    margin-top: -182px;
+  }
+  .below-contact {
+    margin-left: 13%;
+  }
+  #credit-application {
+    width: 40%;
+  }
+  #credit-application h3 {
+    margin-top: 4%;
+    font-size: 48px;
+  }
+  #credit-application p {
+    margin-top: 2%;
+    font-size: 24px;
+  }
+  .credit-app-picture {
     width: 80%;
-    margin-left: 12%;
+    margin-top: 5%;
+    margin-left: 48px;
   }
-  .welcome-info {
-    margin-right: 12%;
+  #employment {
+    width: 40%;
   }
-  .page-content {
-    width: 60%;
-    margin-left: 22%;
-    margin-top: 1%;
+  #employment h3 {
+    margin-top: 4%;
+    font-size: 48px;
   }
-  #mango-image {
-    width: 25%;
+  #employment li {
+    font-size: 24px;
+  }
+  #employment p {
+    margin-top: 2%;
+    font-size: 24px;
+  }
+  .hiring-picture {
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 48px;
+  }
+  .above-order-block {
+    margin-left: 13%;
+  }
+  .order-block h3 {
+    font-size: 48px;
+  }
+  .order-picture {
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 48px;
+  }
+  .mailing-list-send h3 {
+    font-size: 48px;
+  }
+  .mailing-list-send p {
+    font-size: 24px;
+    margin-top: 2%;
+  }
+  .mailing-picture {
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 48px;
   }
   #border {
     margin-top: 1%;
   }
+  #border-above-footer {
+    margin-top: 1%;
+  }
+  #footer-block {
+    margin-left: 3%;
+    margin-top: 3%;
+  }
+  .footer-links h5 {
+    font-size: 48px;
+  }
+  .footer-links p {
+    font-size: 32px;
+  }
   .bottom-follow {
-    margin-top: -7%;
-    margin-left: -2%;
+    margin-top: -4%;
+  }
+  .bottom-follow h3 {
+    font-size: 48px;
   }
   .icons-bottom {
     width: 7%;
   }
-  #icons-bottom-shift {
-    margin-left: 40%;
+  #instagram-bottom {
+    margin-left: 436px;
+  }
+  .footer-info {
+    margin-top: 10%;
+  }
+  .footer-info h6 {
+    font-size: 48px;
+  }
+  .footer-info p {
+    font-size: 32px;
+    line-height: 0.9;
   }
 }
 
 
 @media screen and (min-width:1025px) and (max-width:1440px) {
+  #header-image {
+    margin-top: 24px;
+    margin-left: 24px;
+  }
+  .welcome-info h6 {
+    font-size: 38px;
+  }
+  .welcome-info p {
+    font-size: 22px;
+    line-height: 0.9;
+  }
+  .welcome-info {
+    margin-top: -264px;
+    margin-right: -24px;
+  }
   .navbar {
-    padding-left: 12%;
+    font-size: 18px;
+    padding-left: 10%;
     padding-right: 8%;
   }
+  #content-header {
+    font-size: 132px;
+    margin-left: 56px;
+    margin-top: 24px;
+  }
+  .top-follow h3 {
+    font-size: 42px;
+  }
+  .top-follow {
+    margin-top: 18px;
+    margin-left: 224px;
+  }
+  #instagram-top {
+    margin-left: 108px
+  }
+  #whole-body {
+    margin-left: 9%;
+  }
+  .page-content p {
+    font-size: 18px;
+  }
+  #mango-image {
+    width: 45%;
+  }
+  #yelp-author {
+    font-size: 20px;
+  }
+  #content-image-boxes h6 {
+    font-size: 36px;
+  }
+  #content-image-boxes p {
+    font-size: 18px;
+  }
+  #content-image-boxes img {
+    margin-top: 24px;
+  }
+  .headers-maps-insta {
+    margin-top: -24px;
+    font-size: 36px;
+  }
+  #insta-text {
+    font-size: 18px;
+  }
+  #countup h3 {
+    font-size: 36px;
+  }
+  #countup p {
+    font-size: 36px;
+  }
+  #footer-block {
+    margin-top: 12px;
+    margin-left: 24px;
+  }
+  .footer-links h5 {
+    font-size: 36px;
+  }
+  .footer-links p {
+    font-size: 24px;
+  }
+  .rinella-footer-pic {
+    margin-left: 48px;
+  }
+  .footer-info {
+    margin-left: 48px;
+  }
+  .footer-info h6 {
+    font-size: 36px;
+  }
+  .footer-info p {
+    font-size: 22px;
+    line-height: 0.9;
+  }
+  .bottom-follow h3 {
+    font-size: 36px;
+  }
   .bottom-follow {
-    margin-top: -5%;
-    margin-left: 2%;
+    margin-top: 2%;
+    margin-left: 3%;
   }
   .icons-bottom {
     width: 11%;
   }
-  #icons-bottom-shift {
-    margin-left: 32%;
+  #instagram-bottom {
+    margin-left: 190px;
   }
 }
 
 
- @media screen and (min-width:768px) and (max-width:1024px) {
-   #whole-body {
-     margin-left: 15%;
-   }
-   #header-content {
-     margin-left: 10%;
-   }
-  .navbar {
-    padding-left: 4%;
-    padding-right: 2%;
-    width: 120%;
-  }
-  #about-us {
-    margin-left: 7%;
-  }
-  .search-top {
-    padding-right: 4%;
-  }
-  #content-header {
-    margin-left: 72px;
-  }
-  .bottom-follow {
-    margin-top: -2%;
+@media screen and (min-width:768px) and (max-width:1024px) {
+  #whole-body {
     margin-left: 5%;
   }
-  .icons-bottom {
-    width: 14%;
+  .welcome-info {
+    margin-right: 36px;
+    margin-top: -196px;
   }
-  #icons-bottom-shift {
-    margin-left: 25%;
+  #home {
+    margin-left: 12px;
   }
-} */
+ .search-top {
+   padding-right: 4%;
+ }
+ #content-header {
+   font-size: 108px;
+   margin-left: 42px;
+   margin-top: 24px;
+ }
+ .top-follow {
+   margin-left: 156px;
+ }
+ #instagram-top {
+   margin-left: 76px;
+ }
+ #border-above-footer {
+   margin-bottom: 5%;
+ }
+ #footer-image {
+   margin-top:-12px;
+ }
+ .footer-links h5 {
+   margin-top: -24px;
+ }
+ .bottom-follow {
+   margin-top: 3%;
+   margin-left: 4%;
+ }
+ .icons-bottom {
+   width: 14%;
+ }
+ #instagram-bottom {
+   margin-left: 108px;
+ }
+}
