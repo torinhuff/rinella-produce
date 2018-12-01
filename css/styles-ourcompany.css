@@ -178,89 +178,17 @@
   #whole-body {
     margin-left: 10%;
   }
-  .top-paragraph {
-    width: 30%;
-    font-size: 24px;
-    margin-left: 13%;
+  #border-top {
     margin-top: 3%;
   }
-  .top-contact-info {
-    margin-left: 372px;
-  }
-  .top-contact-info h3 {
+  .departments-text h3 {
     font-size: 48px;
   }
-  .top-contact-info li {
+  .departments-text p {
     font-size: 24px;
   }
-  .contact-pic-block {
-    width: 40%;
-  }
-  .contact-image {
-    width: 70%;
-    margin-left: 72px;
-    margin-top: -182px;
-  }
-  .below-contact {
-    margin-left: 13%;
-  }
-  #credit-application {
-    width: 40%;
-  }
-  #credit-application h3 {
-    margin-top: 4%;
-    font-size: 48px;
-  }
-  #credit-application p {
-    margin-top: 2%;
-    font-size: 24px;
-  }
-  .credit-app-picture {
-    width: 80%;
-    margin-top: 5%;
-    margin-left: 48px;
-  }
-  #employment {
-    width: 40%;
-  }
-  #employment h3 {
-    margin-top: 4%;
-    font-size: 48px;
-  }
-  #employment li {
-    font-size: 24px;
-  }
-  #employment p {
-    margin-top: 2%;
-    font-size: 24px;
-  }
-  .hiring-picture {
-    width: 80%;
-    margin-top: 5%;
-    margin-left: 48px;
-  }
-  .above-order-block {
-    margin-left: 13%;
-  }
-  .order-block h3 {
-    font-size: 48px;
-  }
-  .order-picture {
-    width: 70%;
-    margin-top: 5%;
-    margin-left: 48px;
-  }
-  .mailing-list-send h3 {
-    font-size: 48px;
-  }
-  .mailing-list-send p {
-    font-size: 24px;
-    margin-top: 2%;
-  }
-  .mailing-picture {
-    width: 70%;
-    margin-top: 5%;
-    margin-left: 48px;
+  .departments-text {
+    margin-left: 15%;
   }
   #border {
     margin-top: 1%;
@@ -331,7 +259,6 @@
   }
   .top-follow h3 {
     font-size: 42px;
-
   }
   .top-follow {
     margin-top: 0px;
@@ -343,59 +270,17 @@
   #whole-body {
     margin-left: 9%;
   }
-  .top-paragraph {
-    margin-left: 144px;
-    width: 40%;
+  #border-top {
+    margin-top: 3%;
   }
-  .top-paragraph p {
-    font-size: 18px;
-  }
-  .top-contact-info {
-    margin-left: 144px;
-  }
-  .top-contact-info h3 {
+  .departments-text h3 {
     font-size: 36px;
   }
-  .top-contact-info li {
+  .departments-text p {
     font-size: 18px;
   }
-  .contact-image {
-    width: 55%;
-    margin-left: 186px;
-    margin-top: -72px;
-  }
-  .below-contact {
-    margin-left: 56px;
-  }
-  #credit-application h3 {
-    font-size: 36px;
-  }
-  #credit-application p {
-    font-size: 18px;
-  }
-  #employment h3 {
-    font-size: 36px;
-  }
-  #employment li {
-    font-size: 18px;
-  }
-  #employment p {
-    font-size: 18px;
-  }
-  .order-block h3 {
-    font-size: 36px;
-  }
-  .mailing-list-send h3 {
-    font-size: 36px;
-  }
-  .mailing-list-send p {
-    font-size: 18px;
-  }
-  #border {
-    margin-top: 1%;
-  }
-  .above-order-block {
-    margin-left: 56px;
+  .departments-text {
+    margin-left: 8%;
   }
   #border-above-footer {
     margin-top: 1%;
@@ -463,6 +348,12 @@
  }
  .top-follow {
    margin-top: -16px;
+ }
+ #border-top {
+   margin-top: 3%;
+ }
+ .departments-text {
+   margin-top: -24px;
  }
  #instagram-top {
    margin-left: 80px;
