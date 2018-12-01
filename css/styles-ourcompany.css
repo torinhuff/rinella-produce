@@ -132,9 +132,6 @@
   #header-both {
     margin-left: 8%;
   }
-  #border-top {
-
-  }
   .welcome-info {
     margin-right: 10%;
     margin-top: -372px;
@@ -181,14 +178,23 @@
   #border-top {
     margin-top: 3%;
   }
-  .departments-text h3 {
+  .about-us-block h3 {
     font-size: 48px;
   }
-  .departments-text p {
+  .about-body-text p {
     font-size: 24px;
   }
-  .departments-text {
-    margin-left: 15%;
+  #quote {
+    font-size: 28px;
+  }
+  #yelp-author {
+    font-size: 26px;
+  }
+  #countup h3 {
+    font-size: 48px;
+  }
+  #countup p {
+    font-size: 48px;
   }
   #border {
     margin-top: 1%;
