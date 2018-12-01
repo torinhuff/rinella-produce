@@ -312,92 +312,55 @@
   #whole-body {
     margin-left: 10%;
   }
-  .top-paragraph {
+  .products {
     width: 30%;
     font-size: 24px;
-    margin-left: 13%;
+    margin-left: 15%;
     margin-top: 3%;
   }
-  .top-contact-info {
-    margin-left: 372px;
-  }
-  .top-contact-info h3 {
-    font-size: 48px;
-  }
-  .top-contact-info li {
+  .products p {
     font-size: 24px;
   }
-  .contact-pic-block {
-    width: 40%;
+  .tomatoes-pic {
+    width: 75%;
+    margin-left: 15%;
+    margin-top: 48px;
   }
-  .contact-image {
-    width: 70%;
-    margin-left: 72px;
-    margin-top: -182px;
-  }
-  .below-contact {
-    margin-left: 13%;
-  }
-  #credit-application {
-    width: 40%;
-  }
-  #credit-application h3 {
-    margin-top: 4%;
+  .canned-goods-list h6 {
     font-size: 48px;
   }
-  #credit-application p {
-    margin-top: 2%;
-    font-size: 24px;
+  .canned-goods-list {
+    margin-left: 9%;
   }
-  .credit-app-picture {
-    width: 80%;
-    margin-top: 5%;
-    margin-left: 48px;
-  }
-  #employment {
-    width: 40%;
-  }
-  #employment h3 {
-    margin-top: 4%;
+  .frozen-list h6 {
     font-size: 48px;
   }
-  #employment li {
-    font-size: 24px;
-  }
-  #employment p {
-    margin-top: 2%;
-    font-size: 24px;
-  }
-  .hiring-picture {
-    width: 80%;
-    margin-top: 5%;
-    margin-left: 48px;
-  }
-  .above-order-block {
-    margin-left: 13%;
-  }
-  .order-block h3 {
+  .price-block h3 {
     font-size: 48px;
   }
-  .order-picture {
-    width: 70%;
-    margin-top: 5%;
-    margin-left: 48px;
+  .price-block p {
+    font-size: 32px;
   }
-  .mailing-list-send h3 {
+  .price-block {
+    margin-left: 9%;
+  }
+  .prep-block h3 {
     font-size: 48px;
   }
-  .mailing-list-send p {
-    font-size: 24px;
-    margin-top: 2%;
+  .prep-block p {
+    font-size: 32px;
   }
-  .mailing-picture {
-    width: 70%;
-    margin-top: 5%;
-    margin-left: 48px;
+  .specials-block h3 {
+    font-size: 48px;
+  }
+  .specials-block p {
+    font-size: 32px;
+  }
+  .flyer-one-block {
+    margin-left: 5%;
   }
   #border {
-    margin-top: 1%;
+    margin-top: 3%;
   }
   #border-above-footer {
     margin-top: 1%;
