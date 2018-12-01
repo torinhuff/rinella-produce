@@ -327,6 +327,12 @@
  .top-follow {
    margin-top: -16px;
  }
+ #border-top {
+   margin-top: 3%;
+ }
+ .departments-text {
+   margin-top: -24px;
+ }
  #instagram-top {
    margin-left: 80px;
  }
