@@ -465,7 +465,6 @@
   }
   .top-follow h3 {
     font-size: 42px;
-
   }
   .top-follow {
     margin-top: 0px;
@@ -477,59 +476,39 @@
   #whole-body {
     margin-left: 9%;
   }
-  .top-paragraph {
-    margin-left: 144px;
+  .products {
     width: 40%;
   }
-  .top-paragraph p {
+  .products p {
+    font-size: 18px;
+    margin-top: 24px;
+  }
+  .tomatoes-pic {
+    margin-top: 5%;
+  }
+  .frozen-list h6 {
+    font-size: 38px;
+  }
+  .canned-goods-list h6 {
+    font-size: 38px;
+  }
+  .price-block h3 {
+    font-size: 38px;
+  }
+  .prep-block h3 {
+    font-size: 38px;
+  }
+  .specials-block h3 {
+    font-size: 38px;
+  }
+  .price-block p {
     font-size: 18px;
   }
-  .top-contact-info {
-    margin-left: 144px;
-  }
-  .top-contact-info h3 {
-    font-size: 36px;
-  }
-  .top-contact-info li {
+  .prep-block p {
     font-size: 18px;
   }
-  .contact-image {
-    width: 55%;
-    margin-left: 186px;
-    margin-top: -72px;
-  }
-  .below-contact {
-    margin-left: 56px;
-  }
-  #credit-application h3 {
-    font-size: 36px;
-  }
-  #credit-application p {
+  .specials-block p {
     font-size: 18px;
-  }
-  #employment h3 {
-    font-size: 36px;
-  }
-  #employment li {
-    font-size: 18px;
-  }
-  #employment p {
-    font-size: 18px;
-  }
-  .order-block h3 {
-    font-size: 36px;
-  }
-  .mailing-list-send h3 {
-    font-size: 36px;
-  }
-  .mailing-list-send p {
-    font-size: 18px;
-  }
-  #border {
-    margin-top: 1%;
-  }
-  .above-order-block {
-    margin-left: 56px;
   }
   #border-above-footer {
     margin-top: 1%;
