@@ -279,14 +279,20 @@
   #border-top {
     margin-top: 3%;
   }
-  .departments-text h3 {
+  .about-us-block h3 {
     font-size: 36px;
   }
-  .departments-text p {
+  .about-body-text p {
     font-size: 18px;
   }
-  .departments-text {
-    margin-left: 8%;
+  #yelp-author {
+    font-size: 20px;
+  }
+  #countup h3 {
+    font-size: 36px;
+  }
+  #countup p {
+    font-size: 36px;
   }
   #border-above-footer {
     margin-top: 1%;
