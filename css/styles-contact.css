@@ -613,30 +613,33 @@
 
 @media screen and (min-width:768px) and (max-width:1024px) {
   #whole-body {
-    margin-left: 5%;
+    margin-left: 10%;
+  }
+  #header-image {
+    margin-left: 36px;
   }
   .welcome-info {
-    margin-right: 36px;
-    margin-top: -196px;
+    margin-right: 16px;
+    margin-top: -186px;
   }
   #home {
-    margin-left: 12px;
+    margin-left: 36px;
   }
  .search-top {
-   padding-right: 4%;
+   padding-right: 2px;
  }
  #content-header {
    font-size: 108px;
-   margin-left: 42px;
+   margin-left: 6px;
    margin-top: 24px;
  }
  .top-follow {
-   margin-left: 156px;
+   margin-top: -16px;
  }
  #instagram-top {
-   margin-left: 76px;
+   margin-left: 80px;
  }
- #border-above-footer {
+ #border-bottom {
    margin-bottom: 5%;
  }
  #footer-image {
