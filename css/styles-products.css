@@ -433,6 +433,9 @@
     margin-top: 0px;
     margin-left: 96px;
   }
+  #border {
+    margin-top: 3%;
+  }
   #instagram-top {
     margin-left: 108px
   }
@@ -544,7 +547,7 @@
    margin-left: 80px;
  }
  #border {
-   margin-top: 2%;
+   margin-top: 3%;
  }
  #border-bottom {
    margin-bottom: 5%;
