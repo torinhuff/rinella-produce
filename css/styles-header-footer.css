@@ -31,12 +31,12 @@ p {
   margin: auto;
 }
 
-.container a {
+.welcome-info a {
   text-decoration: none;
   color: black;
 }
 
-.container a:hover {
+.welcome-info a:hover {
   color: #77bfd2;
 }
 
