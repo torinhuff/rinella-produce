@@ -35,7 +35,7 @@
 
 .management {
   width: 50%;
-  margin-left: 12px;
+  margin-left: 30px;
 }
 
 .management h3 {
@@ -71,11 +71,11 @@
 }
 
 .other-department {
-  width: 40%;
+  width: 50%;
   display: block;
   margin: auto;
-  margin-left: 96px;
-  margin-top: 2%;
+  margin-left: 30px;
+  margin-top: 3%;
 }
 
 .other-department h3 {
