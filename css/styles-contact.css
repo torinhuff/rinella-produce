@@ -206,6 +206,10 @@
   opacity: 0.4;
 }
 
+.mailing-text p {
+  margin-top: 10%;
+}
+
 .mailing-list-send {
   display: block;
   width: 40%;
@@ -243,7 +247,7 @@
 
 /*MAILING LIST FORM*/
 
-/* .mailing-list-block {
+.mailing-list-block {
   display: block;
   width: 40%;
   margin-left: 72px;
@@ -260,6 +264,16 @@
   font-family: 'Barlow', sans-serif;
 }
 
+.mailing-list-block a {
+  text-decoration: none;
+  color: #aa5147;
+}
+
+.mailing-list-block a:hover {
+  text-decoration: none;
+  color: #77bfd2;
+}
+
 .mailing-list-block label {
   font-size: 16px;
   font-family: 'Barlow', sans-serif;
@@ -271,15 +285,16 @@
   margin-left: 24px;
 }
 
-#subscribe-button {
+#submit-button {
   border: solid 0.6px #a02c2c;
   font-family: 'Barlow', sans-serif;
   font-size: 16px;
+  margin-bottom: 5%;
 }
 
-#subscribe-button:hover {
+#submit-button:hover {
   border: solid 0.6px #12185b;
-} */
+}
 
 #border {
   display: block;
@@ -289,6 +304,13 @@
   margin-top: 3%;
 }
 
+#border-above-footer {
+  display: block;
+  width: 80%;
+  margin-top: 3%;
+  margin: auto;
+  border-top: 0.4px solid black;
+}
 
 
 @media screen and (min-width:1441px) {
@@ -418,10 +440,10 @@
     margin-top: 5%;
     margin-left: 48px;
   }
-  .mailing-list-send h3 {
+  .mailing-list-block h3 {
     font-size: 48px;
   }
-  .mailing-list-send p {
+  .mailing-list-block p {
     font-size: 24px;
     margin-top: 2%;
   }
@@ -553,10 +575,10 @@
   .order-block h3 {
     font-size: 36px;
   }
-  .mailing-list-send h3 {
+  .mailing-list-block h3 {
     font-size: 36px;
   }
-  .mailing-list-send p {
+  .mailing-list-block p {
     font-size: 18px;
   }
   #border-top {
@@ -635,7 +657,7 @@
  #instagram-top {
    margin-left: 80px;
  }
- #border-bottom {
+ #border-above-footer {
    margin-bottom: 5%;
  }
  #footer-image {

@@ -1,3 +1,5 @@
+
+
 // window.onload=function() {
 //   // Month,Day,Year,Hour,Minute,Second
 //   upTime('jan,01,1914,00:00:00');
