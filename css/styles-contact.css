@@ -60,12 +60,29 @@
   margin-top: 48px;
 }
 
+.contact-pic-block {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
 .contact-image {
   width: 60%;
   display: block;
   border-radius: 6px;
   margin-left: 48px;
-  margin-top: 24px;
+}
+
+#mr-rinella {
+  margin-top: 5%;
+}
+
+#chris-knight {
+  margin-top: 5%;
+}
+
+#sheree {
+  margin-top: 5%;
 }
 
 #border-above-credit {
@@ -198,12 +215,17 @@
   width: 75%;
   display: block;
   border-radius: 6px;
-  margin-top: 24px;
   margin-left: 24px;
 }
 
 .order-picture:hover {
   opacity: 0.4;
+}
+
+.order-download {
+  display: block;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .mailing-text p {
