@@ -4,7 +4,7 @@ body {
 }
 
 p {
-  font-size: 16px;
+  font-size: 1.4vw;
   font-family: 'Barlow', sans-serif;
 }
 
@@ -22,7 +22,7 @@ p {
   width: 60%;
   float: left;
   display: block;
-  margin-top: 24px;
+  margin-top: 3%;
 }
 
 #header-content {
@@ -45,13 +45,13 @@ nav a:hover {
   color: #77bfd2;
 }
 .navbar {
-  width: 110%;
+  width: 102%;
   display: inline-block;
   font-family: 'Barlow', sans-serif;
   font-size: 1.4vw;
   margin: 0;
   padding: 0;
-  margin-top: 24px;
+  margin-top: 1%;
   border-radius: 0;
   list-style-type: none;
   background: #2e2f30;
@@ -67,7 +67,7 @@ nav a:hover {
   color: white;
   text-decoration: none;
   display: block;
-  padding: 15px;
+  padding: 1.2vw;
 }
 
 .navbar li:hover {
@@ -86,19 +86,19 @@ nav a:hover {
 
 #about-dropdown {
   text-align: right;
-  margin-left: -12px;
+  margin-left: -1.0vw;
 }
 
 #products-dropdown {
-  margin-left: -6px;
+  margin-left: -0.5vw;
 }
 
 #delivery-dropdown {
-  margin-left: 70px;
+  margin-left: 6.5vw;
 }
 
 #contact-dropdown {
-  margin-left: -94px;
+  margin-left: -8.2vw;
 }
 
 .navbar ul li {
@@ -114,15 +114,15 @@ nav a:hover {
 .navbar li i {
   color: white;
   float: right;
-  padding-left: 20px;
+  padding-left: 1.8vw;
 }
 
-.search-top {
+/* .search-top {
   display: block;
   float: right;
   padding-right: 8%;
   margin-right: 5%;
-}
+} */
 
 .btn:hover {
     background: #77bfd2;
@@ -130,13 +130,13 @@ nav a:hover {
 }
 
 #home {
-  margin-left: 48px;
+  margin-left: 17%;
 }
 
 #content-header {
-  font-size: 104px;
-  margin-left: 64px;
-  margin-top: 36px;
+  font-size: 9.4vw;
+  margin-left: 10%;
+  margin-top: 3%;
   text-align: left;
   font-family: 'Passion One', cursive;
 }
@@ -146,18 +146,18 @@ nav a:hover {
   display: block;
   width: 30%;
   font-family: 'Barlow', sans-serif;
-  font-size: 16px;
+  font-size: 1.4vw;
   text-align: center;
-  line-height: 8px;
+  line-height: 75%;
   color: black;
-  margin-top: -184px;
-  margin-bottom: 12px;
-  margin-right: 96px;
+  margin-top: -18%;
+  margin-bottom: 1%;
+  margin-right: 5%;
 }
 
 .welcome-info h6 {
   font-family: 'Passion One', cursive;
-  font-size: 28px;
+  font-size: 32px;
 }
 
 .welcome-info a {
@@ -172,15 +172,15 @@ nav a:hover {
 
 .top-follow {
   display: block;
-  margin-left: 124px;
+  margin-left: 12%;
 }
 
 .top-follow h3 {
   color: #aa5147;
   text-align: center;
-  margin-top: 48px;
+  margin-top: 15%;
   font-family: 'Passion One', cursive;
-  font-size: 36px;
+  font-size: 3.0vw;
 }
 
 .icons-top {
@@ -194,8 +194,8 @@ nav a:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
-#instagram-top {
-  margin-left: 90px;
+#twitter-icon {
+  margin-left: 20%;
 }
 
 #yelp-icon {
