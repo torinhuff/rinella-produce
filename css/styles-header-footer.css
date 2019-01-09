@@ -213,22 +213,22 @@ nav a:hover {
 #footer-block {
   display: block;
   width: 100%;
-  padding-left: 3%;
+  padding-left: 2%;
   margin: auto;
-  margin-top: -2%;
+  margin-top: -1%;
 }
 
 .footer-links h5 {
   font-family: 'Passion One', cursive;
-  font-size: 28px;
+  font-size: 2.4vw;
 }
 
 .footer-links {
   font-family: 'Barlow', sans-serif;
-  font-size: 24px;
+  font-size: 1.8vw;
   float: left;
   display: block;
-  margin-top: 12px;
+  margin-top: 1%;
 }
 
 .footer-links a {
@@ -242,17 +242,17 @@ nav a:hover {
 }
 
 #footer-links-left {
-  margin-left: 48px;
+  margin-left: 4.8%;
 }
 
 #footer-links-right {
-  margin-left: -24px;
+  margin-left: -2.4%;
 }
 
 #footer-image {
   display: block;
   width: 100%;
-  margin-top: 36px;
+  margin-top: 3.6%;
   border-radius: 6px;
 }
 
@@ -262,18 +262,18 @@ nav a:hover {
 
 .footer-info {
   margin: auto;
-  margin-top: 48px;
+  margin-top: 4.8%;
   display: block;
   font-family: 'Barlow', sans-serif;
-  font-size: 16px;
+  font-size: 1.4vw;
   text-align: center;
-  line-height: 8px;
+  line-height: 90%;
   color: black;
 }
 
 .footer-info h6 {
   color: black;
-  font-size: 28px;
+  font-size: 2.4vw;
   font-family: 'Passion One', cursive;
 }
 
@@ -287,7 +287,13 @@ nav a:hover {
   color: #77bfd2;
 }
 
-.bottom-follow {
+#footer-links-right {
+  margin-left: 2%;
+}
+
+/*This is for social media icons if we put them on the bottom of the page*/
+
+/* .bottom-follow {
   display: block;
   margin-left: 36px;
 }
@@ -298,9 +304,9 @@ nav a:hover {
   margin-top: -36px;
   font-family: 'Passion One', cursive;
   font-size: 36px;
-}
+} */
 
-.icons-bottom {
+/* .icons-bottom {
   border: 2px solid #ddd;
   border-radius: 4px;
   padding: 4px;
@@ -309,8 +315,4 @@ nav a:hover {
 
 .icons-bottom:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-
-#instagram-bottom {
-  margin-left: 178px;
-}
+} */
