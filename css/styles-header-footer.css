@@ -48,7 +48,7 @@ nav a:hover {
   width: 110%;
   display: inline-block;
   font-family: 'Barlow', sans-serif;
-  font-size: 16px;
+  font-size: 1.4vw;
   margin: 0;
   padding: 0;
   margin-top: 24px;
@@ -144,6 +144,7 @@ nav a:hover {
 .welcome-info {
   float: right;
   display: block;
+  width: 30%;
   font-family: 'Barlow', sans-serif;
   font-size: 16px;
   text-align: center;
