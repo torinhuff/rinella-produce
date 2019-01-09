@@ -71,10 +71,30 @@
   margin-top: 24px;
 } */
 
-.canned-goods-list {
-  width: 40%;
+.produce-list {
+  width: 30%;
   display: block;
-  margin-left: 72px;
+  margin-left: 24px;
+}
+
+.produce-list h6 {
+  text-align: center;
+  font-size: 28px;
+  font-family: 'Passion One', cursive;
+}
+
+#produce-pic {
+  width: 70%;
+  display: block;
+  border-radius: 4px;
+  margin: auto;
+  margin-top: 24px;
+}
+
+.canned-goods-list {
+  width: 30%;
+  display: block;
+  margin-left: 24px;
 }
 
 .canned-goods-list h6 {
@@ -84,7 +104,7 @@
 }
 
 #canned-goods-pic {
-  width: 80%;
+  width: 70%;
   display: block;
   border-radius: 4px;
   margin: auto;
@@ -92,9 +112,9 @@
 }
 
 .frozen-list {
-  width: 40%;
+  width: 30%;
   display: block;
-  margin-left: 48px;
+  margin-left: 24px;
 }
 
 .frozen-list h6 {
@@ -104,7 +124,7 @@
 }
 
 #frozen-pic {
-  width: 80%;
+  width: 70%;
   display: block;
   border-radius: 4px;
   margin: auto;
