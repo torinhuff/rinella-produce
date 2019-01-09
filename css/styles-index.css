@@ -311,7 +311,7 @@
   font-size: 32px;
 }
 
-@media screen and (min-width:1441px) {
+/* @media screen and (min-width:1441px) {
   #header-image{
     width: 60%;
     margin-top: 36px;
@@ -562,7 +562,7 @@
   #instagram-bottom {
     margin-left: 190px;
   }
-}
+} */
 
 /*<-------SMALL SCREEN DESKTOP VERSION-------->*/
 
@@ -615,7 +615,7 @@
 
 /*<--------MOBILE FRIENDLY--------*/
 
-@media screen and (min-width:768px) and (max-width:1024px) {
+/* @media screen and (min-width:768px) and (max-width:1024px) {
   #whole-body {
     width: 95%;
   }
@@ -731,4 +731,4 @@
   #instagram-bottom {
     margin-left: 148px;
   }
-}
+} */

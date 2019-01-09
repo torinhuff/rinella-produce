@@ -19,7 +19,7 @@ p {
 }
 
 #header-image {
-  width: 70%;
+  width: 60%;
   float: left;
   display: block;
   margin-top: 24px;
@@ -149,8 +149,8 @@ nav a:hover {
   text-align: center;
   line-height: 8px;
   color: black;
-  margin-top: -216px;
-  margin-bottom: 24px;
+  margin-top: -184px;
+  margin-bottom: 12px;
   margin-right: 96px;
 }
 
