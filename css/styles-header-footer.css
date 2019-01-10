@@ -137,7 +137,7 @@ nav a:hover {
 #content-header {
   font-size: 9.4vw;
   margin-left: 10%;
-  margin-top: 3%;
+  margin-top: 10%;
   text-align: left;
   font-family: 'Passion One', cursive;
 }
@@ -207,7 +207,7 @@ nav a:hover {
   display: block;
   width: 80%;
   margin: auto;
-  border-top: 0.4px solid black;
+  border-top: 0.05vw solid black;
   margin-top: 4%;
 }
 

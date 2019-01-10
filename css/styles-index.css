@@ -104,7 +104,7 @@
   display: block;
   width: 80%;
   margin: auto;
-  border-top: 0.4px solid black;
+  border-top: 0.05vw solid black;
   margin-top: 3%;
 }
 
@@ -139,7 +139,7 @@
   display: block;
   width: 80%;
   margin: auto;
-  border-top: 0.4px solid black;
+  border-top: 0.05vw solid black;
   margin-top: 1%;
 }
 
@@ -155,26 +155,26 @@
 }
 
 .col-sm-4 h6 {
-  font-size: 24px;
+  font-size: 2.0vw;
   text-align: center;
   font-family: 'Passion One', cursive;
 }
 
 .col-sm-4 p {
-  font-size: 16px;
+  font-size: 1.4vw;
   font-family: 'Barlow', sans-serif;
   text-align: center;
-  margin-top: -4px;
+  margin-top: -1%;
 }
 
 #mailing-object {
   display: block;
   margin: auto;
-  margin-top: -12px;
+  margin-top: -1%;
 }
 
 #mailing-list {
-  margin-top: 12px;
+  margin-top: 2%;
   margin-left: 8%;
   display: block;
   margin: auto;
@@ -193,17 +193,17 @@
 #walk-in-object {
   display: block;
   margin: auto;
-  margin-top: -12px;
+  margin-top: -1%;
 }
 
 #hiring-object {
   display: block;
   margin: auto;
-  margin-top: -12px;
+  margin-top: -1%;
 }
 
 #were-hiring {
-  margin-top: 12px;
+  margin-top: 2%;
   display: block;
   margin: auto;
   width: 90%;
@@ -235,7 +235,7 @@
   width: 80%;
   margin: auto;
   border-top: 0.4px solid black;
-  margin-top: 48px;
+  margin-top: 3%;
 }
 
 .row col-sm-6 {
@@ -249,12 +249,12 @@
   width: 45%;
   margin-left: 3%;
   margin-right: 1%;
-  margin-top: 24px;
+  margin-top: -1%;
 }
 
 .headers-maps-insta {
   color: black;
-  font-size: 32px;
+  font-size: 2.4vw;
   font-family: 'Passion One', cursive;
 }
 
@@ -276,28 +276,28 @@
   display: block;
   width: 80%;
   margin: auto;
-  border-top: 0.4px solid black;
+  border-top: 0.05vw solid black;
 }
 
 #countup {
   text-align: center;
-  margin-top: 24px;
+  margin-top: 2.0vw;
 }
 
 #countup h3 {
   font-family: 'Passion One', cursive;
-  font-size: 32px;
+  font-size: 2.4vw;
   color: black;
 }
 #countup p {
   display: inline-block;
-  padding: 3px;
+  padding: 1%;
   background: white;
-  margin: 0 0 20px;
+  margin: 0 0 1.8%;
   border-radius: 3px;
   color: #932322;
   font-family: 'Passion One', cursive;
-  font-size: 32px;
+  font-size: 2.4vw;
 }
 
 /* @media screen and (min-width:1441px) {
