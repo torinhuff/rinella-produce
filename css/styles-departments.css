@@ -8,8 +8,8 @@
   display: block;
   width: 80%;
   margin: auto;
-  border-top: 0.4px solid black;
-  margin-top: 1%;
+  border-top: 0.05vw solid black;
+  margin-top: 3%;
 }
 
 .departments-picture {
@@ -17,15 +17,15 @@
   margin: auto;
   display: block;
   border-radius: 4px;
-  margin-top: 2%;
+  margin-top: 3%;
 }
 
 #border-below-pic {
   display: block;
   width: 80%;
   margin: auto;
-  border-top: 0.4px solid black;
-  margin-top: 4%;
+  border-top: 0.05vw solid black;
+  margin-top: 5%;
 }
 
 .departments-text a {
@@ -40,37 +40,37 @@
 
 .management {
   width: 50%;
-  margin-left: 30px;
+  margin-left: 12%;
 }
 
 .management h3 {
-  font-size: 36px;
+  font-size: 2.4vw;
   font-family: 'Passion One', cursive;
 }
 
 .management p {
-  font-size: 16px;
+  font-size: 1.4vw;
   font-family: 'Barlow', sans-serif;
   line-height: 80%;
 }
 
 .note {
-  font-size: 14px;
+  font-size: 1.2vw;
   color: #a02c2c;
 }
 
 .sales {
-  width: 40%;
-  margin-left: 48px;
+  width: 30%;
+  margin-left: 2%;
 }
 
 .sales h3 {
-  font-size: 36px;
+  font-size: 2.4vw;
   font-family: 'Passion One', cursive;
 }
 
 .sales p {
-  font-size: 16px;
+  font-size: 1.4vw;
   font-family: 'Barlow', sans-serif;
   line-height: 80%;
 }
@@ -79,17 +79,17 @@
   width: 50%;
   display: block;
   margin: auto;
-  margin-left: 30px;
+  margin-left: 12%;
   margin-top: 3%;
 }
 
 .other-department h3 {
-  font-size: 36px;
+  font-size: 2.4vw;
   font-family: 'Passion One', cursive;
 }
 
 .other-department p {
-  font-size: 16px;
+  font-size: 1.4vw;
   font-family: 'Barlow', sans-serif;
   line-height: 80%;
 }
@@ -99,13 +99,24 @@
   display: block;
 }
 
-.second-department-pic {
+/* .second-department-pic {
   width: 80%;
   border-radius: 4px;
-  margin-top: 48px;
-  margin-left: 58px;
-}
+  margin-top: 5%;
+  margin-left: 3%;
+} */
 
+@media screen and (min-width: 1441px) {
+  .management p {
+    line-height: 120%;
+  }
+  .sales p {
+    line-height: 120%;
+  }
+  .other-department p {
+    line-height: 120%;
+  }
+}
 
 /* @media screen and (min-width:1441px) {
   #header-image{
