@@ -88,9 +88,9 @@
 
 .mailing-list-send {
   display: block;
-  width: 40%;
-  margin-left: 8%;
-  margin-top: -4%;
+  width: 85%;
+  margin-left: 10%;
+  margin-top: -8%;
 }
 
 .mailing-list-send h3 {
@@ -104,13 +104,48 @@
   margin-top: -3%;
 }
 
-.mailing-picture {
-  width: 75%;
+.order-block {
   display: block;
-  border-radius: 4px;
-  margin-top: 7%;
-  margin-right: -4%;
+  width: 85%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.order-block h3 {
+  font-size: 2.4vw;
+  font-family: 'Passion One', cursive;
+}
+
+.order-block p {
+  font-size: 1.4vw;
+  font-family: 'Barlow', sans-serif;
+}
+
+.order-block a {
+  text-decoration: none;
+  color: #aa5147;
+}
+
+.order-block a:hover {
+  text-decoration: none;
+  color: #77bfd2;
+}
+
+.order-picture {
+  width: 65%;
+  display: block;
+  border-radius: 6px;
   margin-left: 9%;
+}
+
+.order-picture:hover {
+  opacity: 0.4;
+}
+
+.order-download {
+  display: block;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .hiring-block {
@@ -153,50 +188,6 @@
   margin-left: 5%;
 }
 
-.order-block {
-  display: block;
-  width: 40%;
-  margin-left: 8%;
-  margin-top: -1%;
-}
-
-.order-block h3 {
-  font-size: 2.4vw;
-  font-family: 'Passion One', cursive;
-}
-
-.order-block p {
-  font-size: 1.4vw;
-  font-family: 'Barlow', sans-serif;
-}
-
-.order-block a {
-  text-decoration: none;
-  color: #aa5147;
-}
-
-.order-block a:hover {
-  text-decoration: none;
-  color: #77bfd2;
-}
-
-.order-picture {
-  width: 75%;
-  display: block;
-  border-radius: 6px;
-  margin-left: 9%;
-}
-
-.order-picture:hover {
-  opacity: 0.4;
-}
-
-.order-download {
-  display: block;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
 .credit-application a {
   text-decoration: none;
   color: #aa5147;
@@ -208,11 +199,11 @@
 }
 
 .credit-app-picture {
-  width: 55%;
+  width: 40%;
   display: block;
   border-radius: 4px;
-  margin-top: 3%;
-  margin-left: 7%;
+  margin-top: 2%;
+  margin-left: 25%;
 }
 
 .credit-app-picture:hover {
@@ -222,7 +213,7 @@
 .credit-application {
   display: block;
   width: 40%;
-  margin-left: 5%;
+  margin-left: 10%;
   margin-top: -1%;
 }
 

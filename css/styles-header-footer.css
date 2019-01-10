@@ -6,6 +6,7 @@ body {
 p {
   font-size: 1.4vw;
   font-family: 'Barlow', sans-serif;
+  color: black;
 }
 
 #whole-body {
@@ -41,6 +42,10 @@ p {
   color: #77bfd2;
 }
 
+#payment-graphic {
+  width: 23vw;
+}
+
 nav a:hover {
   text-decoration: none;
   color: #77bfd2;
@@ -55,7 +60,7 @@ nav a:hover {
   margin-top: 1%;
   border-radius: 0;
   list-style-type: none;
-  background: white;
+  background: black;
   position: relative;
   z-index: 1;
 }
@@ -65,14 +70,14 @@ nav a:hover {
 }
 
 .navbar a {
-  color: black;
+  color: white;
   text-decoration: none;
   display: block;
   padding: 1.2vw;
 }
 
 .navbar li:hover {
-  background: white;
+  background: black;
   text-decoration: none;
 }
 
@@ -81,7 +86,7 @@ nav a:hover {
   margin-left: 0;
   padding: 0;
   text-align: right;
-  background: white;
+  background: black;
   display: none;
 }
 
@@ -95,17 +100,17 @@ nav a:hover {
 }
 
 #delivery-dropdown {
-  margin-left: 6.5vw;
+  margin-left: 6.8vw;
 }
 
 #contact-dropdown {
-  margin-left: -8.2vw;
+  margin-left: -9.2vw;
 }
 
 .navbar ul li {
   display: block;
-  background: #e1e7f2;
-  border-top: solid 0.4px white;
+  background: black;
+  border-top: solid 0.05vw white;
 }
 
 .navbar li:hover ul {
@@ -113,7 +118,7 @@ nav a:hover {
 }
 
 .navbar li i {
-  color: black;
+  color: white;
   float: right;
   padding-left: 1.8vw;
 }
