@@ -3,27 +3,23 @@
   margin-left: 15%;
 }
 
-#content-header {
-  margin-left: 12px;
-}
-
 .delivery-top-block {
   width: 40%;
   display: block;
   margin: auto;
-  margin-left: 72px;
-  margin-top: 12px;
+  margin-left: 9%;
+  margin-top: -1%;
 }
 
 .delivery-top-block h3 {
-  font-size: 36px;
+  font-size: 2.4vw;
   font-family: 'Passion One', cursive;
   text-align: center;
 }
 
 .delivery-top-block p {
-  margin-top: 12px;
-  font-size: 16px;
+  margin-top: 2%;
+  font-size: 1.4vw;
   font-family: 'Barlow', sans-serif;
 }
 
@@ -41,7 +37,7 @@
   width: 40%;
   display: block;
   margin: auto;
-  margin-left: 72px;
+  margin-left: 4%;
   margin-top: 8%;
 }
 
@@ -53,19 +49,19 @@
 }
 
 .major-cities {
-  margin-top: 24px;
-  font-size: 24px;
+  margin-top: 3%;
+  font-size: 1.8vw;
   font-family: 'Passion One', cursive;
 }
 
 .cities-list li {
-  font-size: 16px;
+  font-size: 1.4vw;
   font-family: 'Barlow', sans-serif;
 }
 
 .cities-list {
   column-count: 2;
-  column-gap: 12px;
+  column-gap: 2.4vw;
 }
 
 #border {
@@ -86,18 +82,18 @@
 
 .map-block {
   width: 40%;
-  margin-left: 76px;
+  margin-left: 9%;
   display: block;
 }
 
 .map-block h3 {
   text-align: center;
-  font-size: 36px;
+  font-size: 2.4vw;
   font-family: 'Passion One', cursive;
 }
 
 .map-block p {
-  font-size: 16px;
+  font-size: 1.4vw;
   font-family: 'Barlow', sans-serif;
 }
 
@@ -105,22 +101,22 @@
   width: 40%;
   display: block;
   margin: auto;
-  margin-left: 48px;
+  margin-left: 4%;
 }
 
 .walk-in-block h3 {
   text-align: center;
-  font-size: 36px;
+  font-size: 2.4vw;
   font-family: 'Passion One', cursive;
 }
 
 .walk-in-block h6 {
-  font-size: 24px;
+  font-size: 1.8vw;
   font-family: 'Passion One', cursive;
 }
 
 .walk-in-block p {
-  font-size: 16px;
+  font-size: 1.4vw;
   font-family: 'Barlow', sans-serif;
 }
 
@@ -142,7 +138,7 @@
   width: 90%;
   display: block;
   margin: auto;
-  margin-top: 24px;
+  margin-top: 3%;
   border-radius: 4px;
 }
 
