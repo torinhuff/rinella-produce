@@ -7,25 +7,25 @@
   display: block;
   width: 80%;
   margin: auto;
-  border-top: 0.4px solid black;
-  margin-top: 1%;
+  border-top: 0.05vw solid black;
+  margin-top: 3%;
 }
 
 .products {
   display: block;
   width: 40%;
   margin: auto;
-  margin-left: 72px;
+  margin-left: 10%;
 }
 
 .products h3 {
   text-align: center;
-  font-size: 36px;
+  font-size: 2.4vw;
   font-family: 'Passion One', cursive;
 }
 
 .products p {
-  font-size: 16px;
+  font-size: 1.4vw;
   font-family: 'Barlow', sans-serif;
 }
 
@@ -43,7 +43,7 @@
   width: 90%;
   display: block;
   margin: auto;
-  margin-left: 72px;
+  margin-left: 7%;
   margin-top: 3%;
   border-radius: 4px;
 }
@@ -53,38 +53,18 @@
   width: 80%;
   margin: auto;
   border-top: 0.4px solid black;
-  margin-top: 5%;
+  margin-top: 3%;
 }
-
-/* .produce-list {
-  width: 30%;
-  display: block;
-  margin-left: 40px;
-}
-
-.produce-list h6 {
-  text-align: center;
-  font-size: 28px;
-  font-family: 'Passion One', cursive;
-}
-
-#produce-pic {
-  width: 80%;
-  display: block;
-  border-radius: 4px;
-  margin: auto;
-  margin-top: 24px;
-} */
 
 .produce-list {
   width: 30%;
   display: block;
-  margin-left: 24px;
+  margin-left: 3%;
 }
 
 .produce-list h6 {
   text-align: center;
-  font-size: 28px;
+  font-size: 2.4vw;
   font-family: 'Passion One', cursive;
 }
 
@@ -93,18 +73,18 @@
   display: block;
   border-radius: 4px;
   margin: auto;
-  margin-top: 24px;
+  margin-top: 3%;
 }
 
 .canned-goods-list {
   width: 30%;
   display: block;
-  margin-left: 24px;
+  margin-left: 2%;
 }
 
 .canned-goods-list h6 {
   text-align: center;
-  font-size: 28px;
+  font-size: 2.4vw;
   font-family: 'Passion One', cursive;
 }
 
@@ -113,18 +93,18 @@
   display: block;
   border-radius: 4px;
   margin: auto;
-  margin-top: 24px;
+  margin-top: 3%;
 }
 
 .frozen-list {
   width: 30%;
   display: block;
-  margin-left: 24px;
+  margin-left: 2%;
 }
 
 .frozen-list h6 {
   text-align: center;
-  font-size: 28px;
+  font-size: 2.4vw;
   font-family: 'Passion One', cursive;
 }
 
@@ -133,7 +113,7 @@
   display: block;
   border-radius: 4px;
   margin: auto;
-  margin-top: 24px;
+  margin-top: 3%;
 }
 
 #border-above-prices {
@@ -147,18 +127,19 @@
 .prep-block {
   width: 40%;
   display: block;
-  margin-left: 72px;
+  margin-left: 10%;
+  margin-top: -1%;
 }
 
 .prep-block h3 {
   text-align: center;
-  font-size: 28px;
+  font-size: 2.4vw;
   font-family: 'Passion One', cursive;
 }
 
 .prep-block p {
   text-align: left;
-  font-size: 16px;
+  font-size: 1.4vw;
   font-family: 'Barlow', sans-serif;
 }
 
@@ -167,24 +148,25 @@
   display: block;
   border-radius: 4px;
   margin: auto;
-  margin-top: 24px;
+  margin-top: 7%;
 }
 
 .specials-block {
   width: 40%;
   display: block;
   margin: auto;
-  margin-left: 48px;
+  margin-left: 5%;
+  margin-top: -1%;
 }
 
 .specials-block h3 {
   text-align: center;
-  font-size: 28px;
+  font-size: 2.4vw;
   font-family: 'Passion One', cursive;
 }
 
 .specials-block p {
-  font-size: 16px;
+  font-size: 1.4vw;
   font-family: 'Barlow', sans-serif;
 }
 
@@ -192,7 +174,7 @@
   display: block;
   width: 30%;
   margin: auto;
-  margin-left: 48px;
+  margin-left: 5%;
 }
 
 #flyer-one-pic {
@@ -224,6 +206,12 @@
 
 .pics-hover:hover {
   opacity: 0.4;
+}
+
+@media screen and (max-width: 767px) {
+  .tomatoes-pic {
+    width: 20%;
+  }
 }
 
 
