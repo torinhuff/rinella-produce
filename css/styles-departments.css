@@ -118,6 +118,21 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .management {
+    margin-left: 25%;
+  }
+  .management h3 {
+    margin-left: 35%;
+  }
+  .sales {
+    margin-left: 35%;
+  }
+  .other-department {
+    margin-left: 25%;
+  }
+}
+
 /* @media screen and (min-width:1441px) {
   #header-image{
     width: 60%;
