@@ -299,6 +299,12 @@
   font-size: 2.4vw;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #mango-image {
+    width: 40%;
+  }
+}
+
 @media screen and (max-width: 767px) {
   p {
     font-size: 2.2vw;
@@ -307,10 +313,11 @@
     font-size: 2.2vw;
   }
   #yelp-author {
-    font-size: 2.4vw;
+    font-size: 2.2vw;
   }
   #mango-image {
     margin-top: 13%;
+    width: 50%;
   }
   #content-image-boxes {
     width: 100%;
@@ -322,17 +329,19 @@
   #content-image-boxes p {
     font-size: 2.2vw;
     margin-top: -1.2vw;
+    text-align: left;
+    line-height: 120%;
   }
   #mailing-object {
-    width: 50%;
+    width: 60%;
     margin-top: -5%;
   }
   #walk-in-object {
-    width: 50%;
+    width: 60%;
     margin-top: 5%;
   }
   #hiring-object {
-    width: 50%;
+    width: 60%;
     margin-top: 5%;
     margin-bottom: 5%;
   }

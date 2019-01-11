@@ -309,6 +309,63 @@ nav a:hover {
   display: none;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #header-image {
+    margin-top: 4%;
+    margin-bottom: -1%;
+  }
+  #address {
+    line-height: 120%;
+  }
+  .navbar {
+    display: none;
+  }
+  .navbar-mobile {
+    width: 102%;
+    display: inline-block;
+    font-family: 'Passion One', cursive;
+    font-size: 1.8vw;
+    margin: 0;
+    padding: 0;
+    margin-top: 1%;
+    border-radius: 0;
+    list-style-type: none;
+    background: black;
+    position: relative;
+    z-index: 1;
+  }
+
+  .navbar-mobile li {
+    display: inline-block;
+  }
+
+  .navbar-mobile a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 1.2vw;
+  }
+
+  .navbar-mobile li:hover {
+    background: black;
+    text-decoration: none;
+  }
+  .navbar-mobile ul li {
+    display: block;
+    background: black;
+    border-top: solid 0.05vw white;
+  }
+
+  .navbar-mobile li:hover ul {
+    display: block;
+  }
+
+  .navbar-mobile li i {
+    color: white;
+    float: right;
+    padding-left: 1.8vw;
+  }
+}
 
 @media screen and (max-width: 767px) {
   #header-image {
@@ -411,7 +468,7 @@ nav a:hover {
   }
   #mobile-logo {
     width: 100%;
-    margin-left: 12%;
+    margin-left: 13%;
   }
   #mobile-footer-links-left {
     margin-left: 3%;
