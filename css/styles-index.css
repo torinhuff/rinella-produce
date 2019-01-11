@@ -299,8 +299,33 @@
   font-size: 2.4vw;
 }
 
-@media screen and (min-width:1441px) {
-  .welcome-info p {
-    line-height: 160%;
+@media screen and (max-width: 767px) {
+  #content-image-boxes {
+    width: 100%;
+    display: block;
+  }
+  #mailing-object {
+    width: 50%;
+    margin-top: -5%;
+  }
+  #walk-in-object {
+    width: 50%;
+    margin-top: 5%;
+  }
+  #hiring-object {
+    width: 50%;
+    margin-top: 5%;
+  }
+  .third-row {
+    width: 100%;
+    display: block;
+  }
+  .insta-div {
+    width: 50%;
+    margin-left: 30%;
+  }
+  .map-div {
+    width: 50%;
+    margin-left: 30%;
   }
 }

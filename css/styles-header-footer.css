@@ -11,7 +11,7 @@ p {
 
 #whole-body {
   width: 90%;
-  margin-left: 5%;
+  margin-left: 4%;
 }
 
 #header-both {
@@ -20,7 +20,7 @@ p {
 }
 
 #header-image {
-  width: 70vw;
+  width: 70%;
   float: left;
   display: block;
   margin-top: 3%;
@@ -192,8 +192,8 @@ nav a:hover {
 .icons-top {
   border: 2px solid #ddd;
   border-radius: 4px;
-  padding: 4px;
-  width: 14%;
+  padding: .2vw;
+  width: 4vw;
 }
 
 .icons-top:hover {
@@ -295,6 +295,33 @@ nav a:hover {
 
 #footer-links-right {
   margin-left: 2%;
+}
+
+
+@media screen and (max-width: 767px) {
+  #header-image {
+    margin-top: 7%;
+    margin-left: 2%;
+    margin-bottom: -2%;
+  }
+  .welcome-info {
+    line-height: 0;
+  }
+  .navbar {
+    padding-top: 3%;
+    margin-top: 2%;
+  }
+  .top-follow {
+    margin-left: 50%;
+    margin-top: -16%;
+  }
+  .icons-top {
+    width: 12%;
+  }
+  #icons {
+    margin-top: -5%;
+  }
+
 }
 
 /*This is for social media icons if we put them on the bottom of the page*/
