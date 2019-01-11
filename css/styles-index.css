@@ -300,9 +300,28 @@
 }
 
 @media screen and (max-width: 767px) {
+  p {
+    font-size: 2.2vw;
+  }
+  #quote {
+    font-size: 2.2vw;
+  }
+  #yelp-author {
+    font-size: 2.4vw;
+  }
+  #mango-image {
+    margin-top: 13%;
+  }
   #content-image-boxes {
     width: 100%;
     display: block;
+  }
+  #content-image-boxes h6 {
+    font-size: 3.6vw;
+  }
+  #content-image-boxes p {
+    font-size: 2.2vw;
+    margin-top: -1.2vw;
   }
   #mailing-object {
     width: 50%;
@@ -315,17 +334,35 @@
   #hiring-object {
     width: 50%;
     margin-top: 5%;
+    margin-bottom: 5%;
   }
   .third-row {
     width: 100%;
     display: block;
   }
   .insta-div {
-    width: 50%;
-    margin-left: 30%;
+    width: 80%;
+    margin-left: 15%;
+  }
+  .headers-maps-insta {
+    font-size: 3.6vw;
+  }
+  #countup {
+    margin-left: 5%;
+    margin-top: -5%;
+  }
+  #countup h3 {
+    font-size: 3.6vw;
+    margin-bottom: -1%;
+  }
+  #countup p {
+    line-height: 70%;
+    font-size: 3.6vw;
   }
   .map-div {
-    width: 50%;
-    margin-left: 30%;
+    width: 80%;
+    margin-left: 15%;
+    margin-top: 8%;
+    margin-bottom: -5%;
   }
 }
