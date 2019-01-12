@@ -235,6 +235,9 @@
 }
 
 @media screen and (max-width: 767px) {
+  #content-header {
+    margin-top: 4%;
+  }
   .mailing-list-block {
     width: 50%;
   }
