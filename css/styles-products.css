@@ -1,3 +1,6 @@
+#header-content {
+  margin-left: 2%;
+}
 #content-header {
   margin-top: 7%;
   margin-left: 15%;
@@ -210,6 +213,9 @@
 
 @media screen and (max-width: 767px) {
   p {
+    font-size: 2.2vw;
+  }
+  .products p {
     font-size: 2.2vw;
   }
   .tomatoes-pic {
