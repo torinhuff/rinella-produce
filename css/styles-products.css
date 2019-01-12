@@ -212,21 +212,30 @@
 }
 
 @media screen and (max-width: 767px) {
+  #content-header {
+    margin-top: 4%;
+  }
   p {
     font-size: 2.2vw;
+  }
+  .products {
+    width: 80%;
   }
   .products p {
     font-size: 2.2vw;
   }
   .tomatoes-pic {
-    width: 35%;
-    margin-left: 53%;
-    margin-top: -43%;
-    margin-bottom: 17%;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 7%;
+    margin-bottom: 5%;
+  }
+  #lists {
+    margin-top: -2%;
   }
   .produce-list {
     width: 40%;
-    margin-left: -3%;
+    margin-left: 0%;
     margin-top: -2%;
   }
   .produce-list h6 {
@@ -234,7 +243,7 @@
   }
   .canned-goods-list {
     width: 40%;
-    margin-left: 28%;
+    margin-left: 30%;
     margin-top: -31%;
   }
   .canned-goods-list h6 {
@@ -253,12 +262,20 @@
     font-size: 3.2vw;
   }
   .prep-block {
-    margin-left: 10%;
+    width: 47%;
+    margin-left: 6%;
     margin-top: -5.5%;
   }
+  .prep-block p {
+    font-size: 2.2vw;
+  }
   .specials-block {
-    margin-left: 50%;
-    margin-top: -55%;
+    margin-left: 55%;
+    margin-top: -79%;
+    margin-bottom: 22%;
+  }
+  .specials-block p {
+    font-size: 2.2vw;
   }
   .flyer-pic-block {
     margin-top: -7%;
