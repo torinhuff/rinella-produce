@@ -450,6 +450,10 @@ nav a:hover {
 
   #home {
     margin-left: 12%;
+    margin-top: -1%;
+  }
+  #products {
+    margin-top: -1%;
   }
   #about-us {
     margin-top: 1%;
