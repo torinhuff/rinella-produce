@@ -6,14 +6,14 @@
     <link href="css/styles-products.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Great+Vibes|Notable|Oleo+Script|Pacifico|Passion+One|Patua+One|Playball|Ranga|Righteous|Timmana|Barlow|Abril+Fatface" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Great+Vibes|Notable|Oleo+Script|Pacifico|Passion+One|Patua+One|Playball|Ranga|Righteous|Timmana|Barlow|Abril+Fatface|Carter+One" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Rinella Produce</title>
   </head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <body>
-    <div class="row">
+    <div class="row" id="header-both">
       <div class="col-sm-7" id="header-content">
         <a href="index.html">
           <div class="header-pic">
@@ -23,18 +23,53 @@
       </div>
       <div class="col-med-5 welcome-info">
         <h6>Business Hours:</h6>
-        <br>
         <p>Mon-Fri: 6AM - 10PM</p>
         <p>Sat: 6AM - 1PM</p>
         <p>Sun: 2PM - 10PM</p>
-        <p><i class="fa fa-truck"></i> <a href="https://www.google.com/maps/place/Rinella+Produce+%26+Son/@45.5182949,-122.6650818,17z/data=!3m1!4b1!4m5!3m4!1s0x5495a0a77b41e635:0x24daf615814f52f9!8m2!3d45.5182949!4d-122.6628931">231 SE Alder St Portland, OR 97214</a></p>
+        <p id="address"><i class="fa fa-truck"></i> <a href="https://www.google.com/maps/place/Rinella+Produce+%26+Son/@45.5182949,-122.6650818,17z/data=!3m1!4b1!4m5!3m4!1s0x5495a0a77b41e635:0x24daf615814f52f9!8m2!3d45.5182949!4d-122.6628931">231 SE Alder St<br> Portland, OR 97214</a></p>
         <p><i class="fa fa-phone-square"></i> <a href="tel:5032381360">(503)238-1360</a></p>
         <p style="font-family: 'Passion One', cursive; font-size: 1.8vw; margin-top: 2vw">We accept:</p>
         <img src="http://atlasbackyardsheds.com/wp-content/uploads/2017/03/payment_methods.png" id="payment-graphic" alt="We accept cash, check, credit cards and debit cards.">
       </div>
+      <div class="col-med-3 welcome-info-mobile">
+        <h6>Business Hours:</h6>
+        <p>Mon-Fri: 6AM - 10PM</p>
+        <p>Sat: 6AM - 1PM</p>
+        <p>Sun: 2PM - 10PM</p>
+        <p style="line-height: 120%;"><i class="fa fa-truck"></i> <a href="https://www.google.com/maps/place/Rinella+Produce+%26+Son/@45.5182949,-122.6650818,17z/data=!3m1!4b1!4m5!3m4!1s0x5495a0a77b41e635:0x24daf615814f52f9!8m2!3d45.5182949!4d-122.6628931">231 SE Alder St Portland, OR 97214</a></p>
+        <p><i class="fa fa-phone-square"></i> <a href="tel:5032381360">(503)238-1360</a></p>
+        <!-- <p>We accept:</p>
+        <img src="http://atlasbackyardsheds.com/wp-content/uploads/2017/03/payment_methods.png" id="payment-graphic" alt="We accept cash, check, credit cards and debit cards."> -->
+      </div>
     </div>
     <nav>
       <ul class="navbar">
+        <li id="home"><a href="index.html">Home</a></li>
+        <li id="about-us"><a href="ourcompany.html">About Us<i class="fa fa-sort-desc"></i></a>
+          <ul class="dropdown" id="about-dropdown">
+            <li><a href="ourcompany.html">Our Company</a></li>
+            <li><a href="departments.html">Departments</a></li>
+          </ul>
+        </li>
+        <li><a href="products.html">Products</a>
+        </li>
+        <li><a href="deliveries.html">Deliveries/New Customers<i class="fa fa-sort-desc"></i></a>
+          <ul class="dropdown" id="delivery-dropdown">
+            <li><a href="deliveries.html">Delivery Locations </a></li>
+            <li><a href="deliveries.html#walk-ins">Walk-in Schedule</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact Us<i class="fa fa-sort-desc"></i></a>
+          <ul class="dropdown" id="contact-dropdown">
+            <li><a href="contact.html">Contact Info</a></li>
+            <li><a href="contact.html#credit-application">Credit Application</a></li>
+            <li><a href="contact.html#employment">Employment Opportunities</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <nav>
+      <ul class="navbar-mobile">
         <li id="home"><a href="index.html">Home</a></li>
         <li id="about-us"><a href="ourcompany.html">About Us<i class="fa fa-sort-desc"></i></a>
           <ul class="dropdown" id="about-dropdown">
@@ -171,7 +206,7 @@
               <p><a href="contact.html#employment">Employment Opportunities</a></p>
               <p><a href="contact.html#credit-application">Credit Application</a></p>
           </div>
-          <div class="col-sm-5">
+          <div class="col-sm-5 far-right">
             <div class="rinella-footer-pic">
               <a href="index.html"><img id="footer-image" src="pictures/logo-with-slogan.png" alt="Rinella Produce, established in 1914. Family-owned Service at Wholesale Prices"></a>
             </div>
@@ -188,6 +223,45 @@
           </div>
         </div>
       </div>
+      <div class="mobile-footer">
+        <div class="mobile-footer-image">
+          <a href="index.html">
+            <img id="mobile-logo" src="pictures/logo-with-slogan.png" alt="Rinella Produce, established in 1914. Family-owned Service at Wholesale Prices">
+          </a>
+        </div>
+        <div class="row mobile-footer-row">
+          <div id="mobile-footer-links-left" class="col-sm-3 footer-links">
+            <h5><a href="ourcompany.html">About Us</a></h5>
+              <p><a href="ourcompany.html">Our Company</a></p>
+              <p><a href="departments.html">Departments</a></p>
+              <br>
+            <h5><a href="products.html">Products & Specials</a></h5>
+              <p><a href="products.html#lists">Product List</a></p>
+              <p><a href="products.html#specials">Specials & Flyers</a></p>
+          </div>
+          <div id="mobile-footer-links-right" class="col-sm-3 footer-links">
+            <h5><a href="deliveries.html">Deliveries & Ordering</a></h5>
+              <p><a href="deliveries.html">Delivery Locations</a></p>
+              <p><a href="deliveries.html#walk-ins">Walk-in Schedule</a></p>
+              <br>
+            <h5><a href="contact.html">Contact Us</a></h5>
+              <p><a href="contact.html">Contact Info</a></p>
+              <p><a href="contact.html#employment">Employment Opportunities</a></p>
+              <p><a href="contact.html#credit-application">Credit Application</a></p>
+          </div>
+          <div class="col-sm-3 mobile-footer-info">
+            <h6>Business Hours:</h6>
+            <br>
+              <p style="margin-top:-5%;">Mon-Fri: 6AM - 10PM</p>
+              <p>Sat: 6AM - 1PM</p>
+              <p>Sun: 2PM - 10PM</p>
+              <br>
+              <p style="line-height: 120%; margin-top: -3%;"><i class="fa fa-truck"></i> <a href="https://www.google.com/maps/place/Rinella+Produce+%26+Son/@45.5182949,-122.6650818,17z/data=!3m1!4b1!4m5!3m4!1s0x5495a0a77b41e635:0x24daf615814f52f9!8m2!3d45.5182949!4d-122.6628931">231 SE Alder St <br>Portland, OR 97214</a></p>
+              <p><i class="fa fa-phone-square"></i> <a href="tel:5032381360">(503)238-1360</a></p>
+          </div>
+        </div>
+      </div>
+
       <!-- <div class="row">
         <div class="col-sm-6 bottom-follow">
           <h3>Find Us on Social Media!</h3>
@@ -206,7 +280,7 @@
             </a>
           </div>
         </div>
-      </div> -->
+      </div>-->
     </div>
   </body>
 </html>

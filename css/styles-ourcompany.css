@@ -106,3 +106,46 @@
   font-family: 'Passion One', cursive;
   font-size: 2.4vw;
 }
+
+@media screen and (max-width: 767px) {
+  p {
+    font-size: 2.2vw;
+  }
+  .about-us-block {
+    margin-top: -4%;
+  }
+  .about-body-text {
+    width: 80%;
+    margin-left: 10%;
+  }
+  #history {
+    margin-top: -4%;
+    font-size: 3.2vw;
+  }
+  #today {
+    margin-top: -4%;
+    font-size: 3.2vw;
+  }
+  #service {
+    margin-top: -1%;
+    font-size: 3.2vw;
+  }
+  .meeting-pic {
+    width: 50%;
+    margin-left: 25%;
+  }
+  #countup h3 {
+    font-size: 3.2vw;
+    margin-bottom: 0%;
+  }
+  #countup p {
+    font-size: 3.2vw;
+  }
+  .about-body-pics {
+    width: 100%;
+  }
+  .about-body-pics img {
+    width: 50%;
+    margin-left: 22.5%;
+  }
+}
