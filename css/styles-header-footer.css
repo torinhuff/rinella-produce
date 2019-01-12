@@ -367,6 +367,12 @@ nav a:hover {
   }
 }
 
+@media screen and (min-width: 768px) {
+  #address {
+    line-height: 120%;
+  }
+}
+
 @media screen and (max-width: 767px) {
   #header-image {
     margin-top: 5%;
