@@ -233,3 +233,95 @@
   margin-top: 4%;
   border-top: 0.4px solid black;
 }
+
+@media screen and (max-width: 767px) {
+  .mailing-list-block {
+    width: 50%;
+  }
+  .mailing-list-block h3 {
+    font-size: 3.2vw;
+    margin-top: 3%;
+  }
+  .mailing-list-block p {
+    font-size: 2.2vw;
+  }
+  .subscribe-form {
+    line-height: 50%;
+    width: 70%;
+  }
+  .subscribe-form label {
+    font-size: 2.2vw;
+  }
+  .subscribe-form input {
+    max-height: 2.4vw;
+  }
+  .contact-pic-block {
+    width: 60%;
+    margin-left: 43%;
+    margin-top: -120%;
+    margin-bottom: 45%;
+  }
+  #chris-knight {
+    margin-top: 25%;
+    margin-bottom: -15%;
+  }
+  .mailing-list-send {
+    width: 60%;
+    margin-left: 23%;
+  }
+  .mailing-list-send h3 {
+    font-size: 3.2vw;
+    margin-bottom: -2%;
+    margin-top: 12%;
+  }
+  .mailing-list-send p {
+    font-size: 2.2vw;
+  }
+  .order-block {
+    width: 60%;
+    margin-left: 23%;
+  }
+  .order-block h3 {
+    font-size: 3.2vw;
+    margin-top: -5%;
+  }
+  .order-picture {
+    margin-left: 15%;
+    margin-top: 15%;
+  }
+  .hiring-block {
+    width: 60%;
+    margin-left: 23%;
+  }
+  .hiring-block h3 {
+    font-size: 3.2vw;
+    margin-top: 21%;
+  }
+  .hiring-block p {
+    font-size: 2.2vw;
+  }
+  .hiring-block li {
+    font-size: 2.2vw;
+  }
+  .hiring-picture {
+    margin-left: 15%;
+    margin-top: 15%;
+    margin-bottom: 3%;
+  }
+  .credit-application {
+    width: 60%;
+    margin-left: 23%;
+  }
+  .credit-application h3 {
+    font-size: 3.2vw;
+  }
+  .credit-application p {
+    font-size: 2.2vw;
+  }
+  .credit-app-picture {
+    width: 35%;
+    margin-top: 5%;
+    margin-left: 33%;
+    margin-bottom: 3%;
+  }
+}
