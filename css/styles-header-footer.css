@@ -33,15 +33,6 @@ p {
   margin: auto;
 }
 
-.welcome-info a {
-  text-decoration: none;
-  color: black;
-}
-
-.welcome-info a:hover {
-  color: #77bfd2;
-}
-
 #payment-graphic {
   width: 23vw;
 }
