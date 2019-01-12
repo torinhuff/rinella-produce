@@ -325,3 +325,10 @@
     margin-bottom: 3%;
   }
 }
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .contact-pic-block {
+    margin-top: -135%;
+    margin-bottom: 60%;
+  }
+}
