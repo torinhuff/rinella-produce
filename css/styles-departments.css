@@ -133,4 +133,64 @@
   }
 }
 
-@media and (max-width: 767px)
+@media screen and (max-width: 767px) {
+  #content-header {
+    margin-left: 7%;
+    margin-top: 4%;
+  }
+  .management {
+    margin-left: 0%;
+    width: 100%;
+    text-align: center;
+    line-height: 50%;
+  }
+  .management h3 {
+    font-size: 3.2vw;
+    margin-left: 0%;
+    margin-top: 1%;
+
+  }
+  .management p {
+    font-size: 2.2vw;
+  }
+  .note {
+    font-size: 1.8vw;
+  }
+  .sales {
+    margin-left: 0%;
+    margin-top: 5%;
+    width: 100%;
+    text-align: center;
+    line-height: 50%;
+  }
+  .sales h3 {
+    font-size: 3.2vw;
+    margin-left: 0%;
+    margin-top: 1%;
+
+  }
+  .sales p {
+    font-size: 2.2vw;
+  }
+  .other-department {
+    margin-left: 0%;
+    margin-top: 4%;
+    width: 100%;
+    text-align: center;
+    line-height: 50%;
+  }
+  .other-department h3 {
+    font-size: 3.2vw;
+    margin-left: 0%;
+    margin-top: 1%;
+
+  }
+  .other-department p {
+    font-size: 2.2vw;
+  }
+  .fourth-block {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 3%;
+  }
+}
