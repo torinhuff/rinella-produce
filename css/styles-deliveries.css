@@ -170,6 +170,11 @@
   .deliveries-pic-block {
     width: 80%;
   }
+  .cities-list {
+    margin-left: -10%;
+    width: 110%;
+    column-gap: 20%;
+  }
   .deliveries-pic {
     width: 60%;
     margin-left: 30%;
