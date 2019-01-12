@@ -450,19 +450,10 @@ nav a:hover {
 
   #home {
     margin-left: 12%;
-    margin-top: -1%;
+    margin-top: -2%;
   }
   #products {
-    margin-top: -1%;
-  }
-  #about-us {
-    margin-top: 1%;
-  }
-  #deliveries {
-    margin-top: 1%;
-  }
-  #contact {
-    margin-top: 1%;
+    margin-top: -2%;
   }
 
   .top-follow {
