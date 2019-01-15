@@ -16,7 +16,7 @@ p {
 
 #header-both {
   display: block;
-  z-index: 9999;
+  z-index: 9998;
 }
 
 #header-image {
@@ -433,7 +433,7 @@ nav a:hover {
     text-decoration: none;
   }
   .navbar-mobile ul li {
-    display: block;
+    display: inline-block;
     background: black;
     border-top: solid 0.05vw white;
   }
